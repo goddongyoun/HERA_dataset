@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 type: software
 repository-code: "https://github.com/goddongyoun/HERA_dataset"
-title: "HERA v3: Code and Results for the main_001 Campaign"
+title: "HERA: Code and Results for the main_001 Campaign"
 message: "Draft software citation metadata; author approval and publication are pending. Add the registered software DOI after publication."
 authors:
   - family-names: Kim
@@ -10,7 +10,7 @@ authors:
   - family-names: Jung
     given-names: Hyunjun
     orcid: "https://orcid.org/0000-0002-6717-1395"
-abstract: "Frozen execution code, experimental manifests and descriptive result exports for a 1472-trial simulated-quadruped evaluation separating local fault response from language-model scheduling. The v3 raw evidence is not included and its public deposit is pending. Historical 360-trial data are not part of the current tree and are not pooled with these results."
+abstract: "Frozen execution code, experimental manifests and descriptive result exports for a 1472-trial simulated-quadruped evaluation separating local fault response from language-model scheduling. The raw evidence for main_001 is not included and its public deposit is pending. Historical 360-trial data are not part of the current tree and are not pooled with these results."
 keywords:
   - robotics
   - quadruped simulation

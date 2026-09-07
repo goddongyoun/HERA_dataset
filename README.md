@@ -1,14 +1,14 @@
-# HERA v3 — code and results for `main_001`
+# HERA
 
 Research code and descriptive results for **HERA: Bioinspired Separation of Local Fault Response and Language-Model Scheduling in Simulated Quadruped Control**.
 
-This package covers the fixed **1,472-trial** revision-3 campaign: 288 scheduler trials, 960 offline physics trials, 64 real-time physics audit trials, and 160 integrated trials. Earlier development/pilot and legacy 360-trial results are not pooled into this release.
+This package covers the fixed **1,472-trial** `main_001` campaign: 288 scheduler trials, 960 offline physics trials, 64 real-time physics audit trials, and 160 integrated trials. Earlier development/pilot and legacy 360-trial results are not pooled into this release.
 
 Repository: [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset).
 
-**Release status:** the v3 code and result package has been prepared for release; author metadata and licensing require author approval. No v3 release tag or DOI deposit is claimed by this preparation. The full **v3** raw-data archive is **not included or linked to a published deposit yet**. This checkout supports source inspection, regression tests and viewing result exports; full v3 saved-data reanalysis requires the separate evidence archive.
+**Release status:** the HERA code and result package is available in this repository; author metadata and licensing require author approval. No release tag or DOI deposit is claimed. The full raw-data archive for `main_001` is **not included or linked to a published deposit yet**. This checkout supports source inspection, regression tests and viewing result exports; full saved-data reanalysis requires the separate evidence archive.
 
-The current tree contains the v3 package only. The former 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree to avoid confusing the two studies. They remain recoverable from [earlier Git history](https://github.com/goddongyoun/HERA_dataset/tree/ccf0e78f9b577afbf44bc0fe34be796b86238ef2); no history rewrite was performed. Their historical terminology, tests and claims are not the current v3 conclusions.
+The current tree contains the HERA package for `main_001` only. The former 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree to avoid confusing the two studies. They remain recoverable from [earlier Git history](https://github.com/goddongyoun/HERA_dataset/tree/ccf0e78f9b577afbf44bc0fe34be796b86238ef2); no history rewrite was performed. Their historical terminology, tests and claims are not the current conclusions.
 
 ## Start here
 
@@ -74,4 +74,6 @@ Git attributes preserve code and manifest bytes. Do not rename `hera_v2`, add ne
 
 Report exports under `results/` replace historical workstation prefixes with `SOURCE_WORKSPACE`; numeric/boolean/null values and list ordering are unchanged. These are explicitly identified **public derivatives**, not byte-identical raw evidence or portable inputs for the report generators. Regenerate reports from the immutable evidence at its new location before generating tables. Source and public-copy hashes are recorded separately.
 
-`CITATION.cff` contains draft creator metadata and the existing repository URL for this v3 software package. No DOI, release version or publication date is invented. After author approval and archival release, link the specific software release and the matching v3 raw-data deposit in this README and in the manuscript. A DOI for the current code and result package must not be described as supplying the absent v3 raw evidence.
+The protocol heading and architecture figure metadata use the public project name HERA; their original and updated hashes are recorded in `release_manifest.json`. These naming-only changes do not alter the protocol's scientific conditions, figure content, execution source or results. Historical module names, archive paths and provenance identifiers are retained for reproducibility.
+
+`CITATION.cff` contains draft creator metadata and the existing repository URL for the HERA software package. No DOI, release version or publication date is invented. After author approval and archival release, link the specific software release and the matching raw-data deposit for `main_001` in this README and in the manuscript. A DOI for the current code and result package must not be described as supplying the absent raw evidence.

@@ -1,6 +1,6 @@
 # GitHub 업로드와 Zenodo DOI 안내
 
-이 문서는 [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset)의 v3 코드·결과와 별도 원시 데이터 공개 절차 안내입니다. clone과 로컬 commit, 원격 push, 공개 태그·Release 생성, Zenodo 게시 및 DOI 등록은 각각 다른 단계입니다. GitHub에 코드가 반영되었다고 해서 DOI가 발급되거나 원시 데이터까지 공개된 것은 아닙니다.
+이 문서는 [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset)의 HERA 코드·결과와 별도 원시 데이터 공개 절차 안내입니다. clone과 로컬 commit, 원격 push, 공개 태그·Release 생성, Zenodo 게시 및 DOI 등록은 각각 다른 단계입니다. GitHub에 코드가 반영되었다고 해서 DOI가 발급되거나 원시 데이터까지 공개된 것은 아닙니다.
 
 ## 1. 이번에 공개할 범위
 
@@ -27,10 +27,10 @@
 
 이 사본은 실제로 clone한 Git 저장소입니다. Git 명령은 이 저장소 루트에서 실행하고, 상위 연구 작업 폴더에서 `git add .`를 실행하지 마세요. `git rev-parse --show-toplevel`로 대상 루트를 먼저 확인합니다.
 
-1. `git status`와 커밋 내용을 확인하고, 현재 트리에 신규 v3 파일만 포함되어 있는지 검토합니다.
-2. `.gitignore`, `.gitattributes`, `results/`가 포함되고 원고·리뷰 답변·v3 raw·서버 로그·가중치는 추가되지 않았는지 확인합니다.
+1. `git status`와 커밋 내용을 확인하고, 현재 트리에 공개 대상 HERA 파일만 포함되어 있는지 검토합니다.
+2. `.gitignore`, `.gitattributes`, `results/`가 포함되고 원고·리뷰 답변·원시 실험 기록·서버 로그·가중치는 추가되지 않았는지 확인합니다.
 3. 로컬 commit은 PC에만 저장됩니다. 원격 반영이 승인된 뒤에만 `git push origin master`를 실행합니다. force push는 필요하지 않습니다.
-4. 원격 반영 후 해당 커밋의 README, 코드, 매니페스트, 결과와 그림을 확인합니다. v3 원시 데이터가 없다는 설명도 유지합니다.
+4. 원격 반영 후 해당 커밋의 README, 코드, 매니페스트, 결과와 그림을 확인합니다. `main_001`의 원시 데이터가 없다는 설명도 유지합니다.
 
 현재 트리에는 legacy 데이터가 없으므로 sparse checkout은 필요하지 않습니다. 다만 과거 커밋에는 대용량 데이터가 남아 있으므로, 새 clone은 README의 `--filter=blob:none` 방식을 사용할 수 있습니다. 파일을 현재 트리에서 삭제한 것과 Git 이력을 완전히 지운 것은 다릅니다.
 
@@ -41,7 +41,7 @@ GitHub 웹 업로드는 파일당 25 MiB, 일반 Git 저장소는 100 MiB를 넘
 GitHub 저장소 생성이나 커밋만으로 DOI가 생기지는 않습니다. 일반적인 흐름은 다음과 같습니다.
 
 1. Zenodo에서 GitHub 계정을 연결하고, 보관할 저장소를 **Enable** 합니다. 필요한 GitHub 권한과 조직 승인을 확인합니다. [저장소 연결·활성화](https://help.zenodo.org/docs/github/enable-repository/)
-2. 공개할 코드 상태를 확정한 뒤 GitHub에서 **새 Release**를 만듭니다. `v3.0.0`은 사용할 수 있는 태그 이름의 예시일 뿐, 현재 생성된 공개 태그가 아닙니다. Release 설명에 1,472회 main_001과 포함·제외 범위를 적습니다.
+2. 공개할 코드 상태를 확정한 뒤 GitHub에서 **새 Release**를 만듭니다. 프로젝트 이름은 **HERA**로 사용하고, 해당 공개 시점을 식별할 태그 이름은 별도로 정합니다. 이 작업에서는 공개 태그를 생성하지 않았습니다. Release 설명에 1,472회 main_001과 포함·제외 범위를 적습니다.
 3. 연결된 Zenodo가 해당 Release를 보관했는지 확인합니다. 실제 기록에서 파일, 저자·ORCID, 버전, 설명과 라이선스를 검토한 뒤 DOI와 접근 상태를 확인합니다. [GitHub Release 보관 절차](https://help.zenodo.org/docs/github/archive-software/github-upload/)
 4. 논문에는 실제 사용한 **특정 버전 DOI**를 인용합니다. 모든 버전을 묶는 DOI와 특정 버전 DOI를 혼동하지 않습니다. [Zenodo 버전 관리](https://zenodo.org/help/versioning)
 

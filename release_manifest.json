@@ -4,11 +4,11 @@
   "total_trials": 1472,
   "experiment_source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
   "experiment_source_file_count": 30,
-  "release_status": "V3 code and result package; legacy data removed from the current tree but retained in Git history; author metadata and licensing approval pending; no v3 DOI assigned.",
+  "release_status": "HERA code and result package; legacy data removed from the current tree but retained in Git history; author metadata and licensing approval pending; no DOI assigned.",
   "repository_url": "https://github.com/goddongyoun/HERA_dataset",
   "path_marker": "SOURCE_WORKSPACE denotes an intentionally removed historical workstation prefix. These report derivatives are previews, not immutable raw-evidence inputs.",
   "raw_evidence_included": false,
-  "scope": "Copied/exported v3 research payload only. Historical legacy data are absent from the current tree and retained only in earlier Git commits. Authored release documentation and tools have their own scope and are not covered by the experiment-source hash.",
+  "scope": "Copied/exported HERA research payload for main_001 only, with naming-only public derivatives identified per file. Historical legacy data are absent from the current tree and retained only in earlier Git commits. Authored release documentation and tools have their own scope and are not covered by the experiment-source hash.",
   "files": [
     {
       "path": "analyze_results.py",
@@ -134,9 +134,9 @@
       "path": "PROTOCOL.md",
       "source_path": "runs/main_001/source_snapshot/PROTOCOL.md",
       "source_sha256": "835335a332f85fcaa0d547e1e9d9a6d9830668ce8c6192f05069d33b1cae5a4e",
-      "sha256": "835335a332f85fcaa0d547e1e9d9a6d9830668ce8c6192f05069d33b1cae5a4e",
-      "bytes": 11608,
-      "transformation": "byte-identical copy"
+      "sha256": "217ebfd0e7db0052659b6fcfd8d6cd5694e6b0a7af335f01f366bb2086e113c9",
+      "bytes": 11597,
+      "transformation": "Public naming derivative; heading uses HERA without the development revision label; all scientific protocol text unchanged"
     },
     {
       "path": "requirements-core.txt",
@@ -430,9 +430,9 @@
       "path": "paper/build_architecture_figure.py",
       "source_path": "paper/build_architecture_figure.py",
       "source_sha256": "d183e38fb712390c47bb0bb734e77e7f17877d32615e8ced4aa3da7287f38692",
-      "sha256": "d183e38fb712390c47bb0bb734e77e7f17877d32615e8ced4aa3da7287f38692",
-      "bytes": 6909,
-      "transformation": "byte-identical copy"
+      "sha256": "b987af7891c7546a74256bb584e788356020a01db0310167851135e4a7606d74",
+      "bytes": 6903,
+      "transformation": "Public naming derivative; only PNG Software and SVG Creator metadata strings use HERA without the development version label; drawing code and SVG hash salt unchanged"
     },
     {
       "path": "paper/run_qualification_checks.py",
@@ -566,17 +566,17 @@
       "path": "figures/hera_architecture.png",
       "source_path": "paper/generated/architecture/hera_architecture.png",
       "source_sha256": "ca40cb2c7844f914e538687b090d28e14fb3d01251e9b95638d46ae2157015d1",
-      "sha256": "ca40cb2c7844f914e538687b090d28e14fb3d01251e9b95638d46ae2157015d1",
-      "bytes": 378376,
-      "transformation": "byte-identical copy"
+      "sha256": "1996302bd47a59593d48f1ad2a30f0b6d050ddf53fc2e5ba6a92506a50277fef",
+      "bytes": 378373,
+      "transformation": "Regenerated public naming derivative; Software metadata uses HERA without the development version label; pixel array, dimensions and DPI identical to the original"
     },
     {
       "path": "figures/hera_architecture.svg",
       "source_path": "paper/generated/architecture/hera_architecture.svg",
       "source_sha256": "b1f20453ea5677cb2540a2caff3dbeb05ecc849e04a3fe6874541e2d203d5777",
-      "sha256": "b1f20453ea5677cb2540a2caff3dbeb05ecc849e04a3fe6874541e2d203d5777",
-      "bytes": 18698,
-      "transformation": "byte-identical copy"
+      "sha256": "19608d813941c73a5b6a9603da6cdc734036df6b005ec6c903fbb77b445dbb4b",
+      "bytes": 18695,
+      "transformation": "Regenerated public naming derivative; only Creator metadata uses HERA without the development version label; all SVG drawing content unchanged"
     },
     {
       "path": "figures/scheduler_deadline_sensitivity.png",

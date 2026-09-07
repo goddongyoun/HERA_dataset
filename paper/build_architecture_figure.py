@@ -139,9 +139,9 @@ def main() -> None:
             color=MUTED, fontsize=8.1, va="center")
 
     fig.savefig(output / "hera_architecture.png", dpi=300, facecolor="white",
-                metadata={"Software": "Matplotlib; HERA v3 conceptual architecture"})
+                metadata={"Software": "Matplotlib; HERA conceptual architecture"})
     fig.savefig(output / "hera_architecture.svg", facecolor="white",
-                metadata={"Date": None, "Creator": "HERA v3 architecture figure generator",
+                metadata={"Date": None, "Creator": "HERA architecture figure generator",
                           "Description": "Conceptual architecture, not measured timing or experimental results."})
     plt.close(fig)
     print(output / "hera_architecture.png")

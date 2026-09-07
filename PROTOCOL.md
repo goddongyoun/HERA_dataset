@@ -1,4 +1,4 @@
-# HERA revision 3: frozen experimental protocol
+# HERA: frozen experimental protocol
 
 ## Scope and decision rules
 

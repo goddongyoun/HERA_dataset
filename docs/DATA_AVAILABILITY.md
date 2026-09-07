@@ -2,13 +2,13 @@
 
 ## Current status
 
-The `main_001` campaign completed all 1,472 manifested trials. Its full evidence exists locally, but **no public v3 raw-evidence URL or DOI is supplied by this repository**. The v3 addition to [HERA_dataset](https://github.com/goddongyoun/HERA_dataset) is code plus result exports, not a complete v3 raw-data deposit. A DOI for this repository alone must not be represented as providing data that are absent from it.
+The `main_001` campaign completed all 1,472 manifested trials. Its full evidence exists locally, but **no public raw-evidence URL or DOI for this campaign is supplied by this repository**. The HERA package in [HERA_dataset](https://github.com/goddongyoun/HERA_dataset) is code plus result exports, not a complete raw-data deposit. A DOI for this repository alone must not be represented as providing data that are absent from it.
 
 Included: frozen execution code, fixed manifests, report-generation tools, exported descriptive reports, table sources, PNG/SVG figures and hash provenance. Report exports replace workstation prefixes with `SOURCE_WORKSPACE`; their original and derived hashes are in `release_manifest.json`. Identifiers such as trial IDs, model names and hashes are retained. Numerical values are not filtered or recomputed during export.
 
-Excluded from the **v3 addition**: raw trial directories, event/trace JSONL, worker/adopted summaries, server-state/prefix logs, large archive files, model weights, Python environments, earlier campaigns, manuscript/MDPI template bundles and reviewer correspondence.
+Excluded from the **HERA package**: raw trial directories, event/trace JSONL, worker/adopted summaries, server-state/prefix logs, large archive files, model weights, Python environments, earlier campaigns, manuscript/MDPI template bundles and reviewer correspondence.
 
-The historical 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree. They remain in earlier Git commits; history has not been rewritten. An archive of the current tree contains the v3 package without those legacy files. The historical data are not the raw evidence for `main_001`, and their old claims must not be substituted for current v3 results.
+The historical 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree. They remain in earlier Git commits; history has not been rewritten. An archive of the current tree contains the HERA package without those legacy files. The historical data are not the raw evidence for `main_001`, and their old claims must not be substituted for current results.
 
 ## Evidence required for full reanalysis
 
@@ -26,4 +26,4 @@ The existing internal full-evidence ZIP also includes internal documents and wor
 
 ## After publication
 
-The repository URL is known; the v3 release tag/commit citation, software version DOI, v3 raw-data version DOI, archive filename, byte size and SHA-256 still need to be finalized for publication. Test unauthenticated downloading and full fresh-location reanalysis before claiming that all v3 data are publicly available. The paper should cite the exact versions used, not an unspecified latest state.
+The repository URL is known; the release tag/commit citation, software version DOI, raw-data version DOI for `main_001`, archive filename, byte size and SHA-256 still need to be finalized for publication. Test unauthenticated downloading and full fresh-location reanalysis before claiming that all campaign data are publicly available. The paper should cite the exact versions used, not an unspecified latest state.
