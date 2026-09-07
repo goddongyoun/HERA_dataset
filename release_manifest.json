@@ -4,11 +4,11 @@
   "total_trials": 1472,
   "experiment_source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
   "experiment_source_file_count": 30,
-  "release_status": "V3 addition prepared in the existing HERA_dataset repository; local commit preparation does not imply remote push or release; author metadata and licensing approval pending; no v3 DOI assigned.",
+  "release_status": "V3 code and result package; legacy data removed from the current tree but retained in Git history; author metadata and licensing approval pending; no v3 DOI assigned.",
   "repository_url": "https://github.com/goddongyoun/HERA_dataset",
   "path_marker": "SOURCE_WORKSPACE denotes an intentionally removed historical workstation prefix. These report derivatives are previews, not immutable raw-evidence inputs.",
   "raw_evidence_included": false,
-  "scope": "Copied/exported v3 research payload only. Existing legacy full/ and summary/ trees and their historical README are outside this manifest. Authored release documentation and tools have their own scope and are not covered by the experiment-source hash.",
+  "scope": "Copied/exported v3 research payload only. Historical legacy data are absent from the current tree and retained only in earlier Git commits. Authored release documentation and tools have their own scope and are not covered by the experiment-source hash.",
   "files": [
     {
       "path": "analyze_results.py",

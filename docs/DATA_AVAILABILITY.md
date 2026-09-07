@@ -8,7 +8,7 @@ Included: frozen execution code, fixed manifests, report-generation tools, expor
 
 Excluded from the **v3 addition**: raw trial directories, event/trace JSONL, worker/adopted summaries, server-state/prefix logs, large archive files, model weights, Python environments, earlier campaigns, manuscript/MDPI template bundles and reviewer correspondence.
 
-The repository's pre-existing Git history, `full/` and `summary/` are retained. Those directories contain the historical 360-trial study, not the raw evidence for `main_001`. Their contents and tree identities are unchanged by this addition. The legacy README is preserved separately; its historical claims are not current v3 results. A sparse local checkout may omit `full/`, but GitHub/Zenodo repository archives still include tracked legacy content unless the release scope is explicitly changed.
+The historical 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree. They remain in earlier Git commits; history has not been rewritten. An archive of the current tree contains the v3 package without those legacy files. The historical data are not the raw evidence for `main_001`, and their old claims must not be substituted for current v3 results.
 
 ## Evidence required for full reanalysis
 

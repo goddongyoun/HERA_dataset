@@ -8,7 +8,7 @@ Repository: [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_datas
 
 **Release status:** the v3 code and result package has been prepared for release; author metadata and licensing require author approval. No v3 release tag or DOI deposit is claimed by this preparation. The full **v3** raw-data archive is **not included or linked to a published deposit yet**. This checkout supports source inspection, regression tests and viewing result exports; full v3 saved-data reanalysis requires the separate evidence archive.
 
-The existing `full/` and `summary/` directories are retained unchanged as **legacy 360-trial evidence**, not as raw data for the new 1,472-trial campaign. Their historical documentation is preserved in [the legacy README](docs/LEGACY_DATASET_README.md). Its old terminology, statistical tests, figure numbers and claims describe the previous submission and are not the current v3 conclusions. Do not combine the legacy and v3 results.
+The current tree contains the v3 package only. The former 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree to avoid confusing the two studies. They remain recoverable from [earlier Git history](https://github.com/goddongyoun/HERA_dataset/tree/ccf0e78f9b577afbf44bc0fe34be796b86238ef2); no history rewrite was performed. Their historical terminology, tests and claims are not the current v3 conclusions.
 
 ## Start here
 
@@ -37,21 +37,17 @@ These are descriptive, single-platform simulation results, not hardware safety g
 | `figures/` | PNG/SVG architecture and result figures, including supplementary plots |
 | `tools/verify_package.py` | Local package and execution-source integrity check; no model inference |
 | `release_manifest.json` | Original and public-copy SHA-256 values, transformations and payload inventory |
-| `full/`, `summary/` | Preserved historical 360-trial data; outside the v3 payload manifest and not changed by the v3 addition |
 
 ## Lightweight checkout
 
-The existing legacy `full/` tree is large. To obtain the current code and result exports without downloading those historical raw files, use a partial clone and sparse checkout:
+The current files are small, but earlier commits contain a large legacy raw-data tree. A partial clone obtains the current package without downloading every historical file blob:
 
 ```powershell
-git clone --filter=blob:none --no-checkout https://github.com/goddongyoun/HERA_dataset.git
+git clone --filter=blob:none https://github.com/goddongyoun/HERA_dataset.git
 cd HERA_dataset
-git sparse-checkout init --cone
-git sparse-checkout set --skip-checks docs figures hera_v2 paper results runs tests tools summary
-git checkout master
 ```
 
-The v3 files must first be pushed to the remote before a fresh remote clone can retrieve them. Sparse checkout changes local materialization only: the legacy files remain tracked in Git and are still part of the repository tree. It does not remove them from a GitHub or Zenodo release archive.
+No sparse checkout is required for the current tree. Browsing or checking out an older commit can download its historical data on demand. Removing files from the current tree does not erase the old commits or reclaim all historical Git storage.
 
 ## Quick check
 
@@ -78,4 +74,4 @@ Git attributes preserve code and manifest bytes. Do not rename `hera_v2`, add ne
 
 Report exports under `results/` replace historical workstation prefixes with `SOURCE_WORKSPACE`; numeric/boolean/null values and list ordering are unchanged. These are explicitly identified **public derivatives**, not byte-identical raw evidence or portable inputs for the report generators. Regenerate reports from the immutable evidence at its new location before generating tables. Source and public-copy hashes are recorded separately.
 
-`CITATION.cff` contains draft creator metadata and the existing repository URL for this v3 software package. No DOI, release version or publication date is invented. After author approval and publication, link the specific software release and the matching v3 raw-data deposit in this README and in the manuscript. A repository snapshot can also contain the preserved legacy data; its DOI must not be described as supplying the absent v3 raw evidence.
+`CITATION.cff` contains draft creator metadata and the existing repository URL for this v3 software package. No DOI, release version or publication date is invented. After author approval and archival release, link the specific software release and the matching v3 raw-data deposit in this README and in the manuscript. A DOI for the current code and result package must not be described as supplying the absent v3 raw evidence.

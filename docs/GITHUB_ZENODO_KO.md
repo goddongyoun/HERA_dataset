@@ -1,10 +1,10 @@
 # GitHub 업로드와 Zenodo DOI 안내
 
-이 문서는 기존 [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset)에 v3 자료를 추가하는 절차 안내입니다. 저장소 clone과 로컬 commit은 원격 push, 공개 태그·Release 생성, Zenodo 게시 또는 DOI 등록과 별개입니다. 이 준비 단계에서 원격 push나 DOI 등록을 수행했다고 주장하지 않습니다.
+이 문서는 [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset)의 v3 코드·결과와 별도 원시 데이터 공개 절차 안내입니다. clone과 로컬 commit, 원격 push, 공개 태그·Release 생성, Zenodo 게시 및 DOI 등록은 각각 다른 단계입니다. GitHub에 코드가 반영되었다고 해서 DOI가 발급되거나 원시 데이터까지 공개된 것은 아닙니다.
 
 ## 1. 이번에 공개할 범위
 
-신규 **1,472회 `main_001` 실험**의 코드·매니페스트·요약 결과·그림을 저장소 루트에 추가했습니다. 기존 `full/`과 `summary/`의 legacy 360회 자료 및 커밋 이력은 보존합니다. 두 실험의 수치는 합치지 않으며, 기존 설명서는 `docs/LEGACY_DATASET_README.md`에 구분해 보관합니다. 아래 포함·제외 구분은 신규 v3 추가분에 대한 것입니다.
+현재 저장소 트리는 신규 **1,472회 `main_001` 실험**의 코드·매니페스트·요약 결과·그림으로 구성됩니다. 구버전 360회 자료인 `full/`, `summary/`와 별도 설명서는 현재 트리에서 삭제했습니다. 과거 커밋에는 남아 있어 복구할 수 있으며 이력 재작성은 하지 않았습니다. 두 실험의 수치는 합치지 않습니다.
 
 | 포함 | 제외 |
 |---|---|
@@ -27,12 +27,12 @@
 
 이 사본은 실제로 clone한 Git 저장소입니다. Git 명령은 이 저장소 루트에서 실행하고, 상위 연구 작업 폴더에서 `git add .`를 실행하지 마세요. `git rev-parse --show-toplevel`로 대상 루트를 먼저 확인합니다.
 
-1. `git status`와 커밋 내용을 확인하고, 신규 v3 파일과 기존 legacy 파일이 구분되어 있는지 검토합니다.
+1. `git status`와 커밋 내용을 확인하고, 현재 트리에 신규 v3 파일만 포함되어 있는지 검토합니다.
 2. `.gitignore`, `.gitattributes`, `results/`가 포함되고 원고·리뷰 답변·v3 raw·서버 로그·가중치는 추가되지 않았는지 확인합니다.
 3. 로컬 commit은 PC에만 저장됩니다. 원격 반영이 승인된 뒤에만 `git push origin master`를 실행합니다. force push는 필요하지 않습니다.
 4. 원격 반영 후 해당 커밋의 README, 코드, 매니페스트, 결과와 그림을 확인합니다. v3 원시 데이터가 없다는 설명도 유지합니다.
 
-이 clone은 대용량 legacy `full/`을 로컬에서 생략하는 sparse checkout을 사용합니다. 이는 삭제가 아니며 기존 Git 트리에는 파일이 보존됩니다. sparse checkout은 GitHub·Zenodo의 전체 저장소 아카이브 범위를 줄이지 않습니다. 필요한 경우 README의 경량 clone 절차를 참고합니다.
+현재 트리에는 legacy 데이터가 없으므로 sparse checkout은 필요하지 않습니다. 다만 과거 커밋에는 대용량 데이터가 남아 있으므로, 새 clone은 README의 `--filter=blob:none` 방식을 사용할 수 있습니다. 파일을 현재 트리에서 삭제한 것과 Git 이력을 완전히 지운 것은 다릅니다.
 
 GitHub 웹 업로드는 파일당 25 MiB, 일반 Git 저장소는 100 MiB를 넘는 파일을 차단합니다. 큰 원시 데이터는 이 저장소에 억지로 넣지 말고 별도 데이터 저장소를 사용합니다. [GitHub 공식 파일 크기 안내](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)
 
@@ -47,7 +47,7 @@ GitHub 저장소 생성이나 커밋만으로 DOI가 생기지는 않습니다. 
 
 이 DOI는 **해당 소프트웨어 Release와 그 안의 파일**을 식별합니다. 원시 데이터가 빠져 있다면 전체 원시 실험 데이터의 DOI라고 부를 수 없습니다. 출판사가 논문에 부여하는 DOI와도 별개입니다.
 
-현재 저장소를 그대로 연동하면 보존된 legacy `full/`과 `summary/`도 저장소 스냅샷에 포함될 수 있습니다. v3 코드만을 별도로 보관하려면 선택한 파일 묶음을 명확히 구분해 수동 deposit하는 등 공개 범위를 먼저 결정해야 합니다. 어떤 방식이든 기존 legacy raw를 새 1,472회 실험의 raw로 설명하면 안 됩니다.
+현재 정리된 커밋을 기준으로 만든 저장소 스냅샷에는 구버전 `full/`과 `summary/`가 포함되지 않습니다. Release는 이 정리 이후의 커밋을 선택하고, Zenodo에 실제 보관된 파일 목록도 확인합니다. 현재 코드·결과 패키지에는 새 1,472회 실험의 raw가 없으므로, 그 데이터 공개와 DOI는 별도로 진행해야 합니다.
 
 ## 5. 원시 데이터 DOI도 필요한 경우
 
