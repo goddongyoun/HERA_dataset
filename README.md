@@ -1,128 +1,81 @@
-# HERA Experiment Dataset
+# HERA v3 — code and results for `main_001`
 
-Dataset supporting the results reported in:
+Research code and descriptive results for **HERA: Bioinspired Separation of Local Fault Response and Language-Model Scheduling in Simulated Quadruped Control**.
 
-> Dongyeon Kim, Hyunjun Jung. "HERA: Hierarchical Event-driven Reflex Architecture
-> for Interrupt-Driven LLM Preemption in Quadruped Robot Control." Submitted to
-> *Biomimetics* (MDPI).
+This package covers the fixed **1,472-trial** revision-3 campaign: 288 scheduler trials, 960 offline physics trials, 64 real-time physics audit trials, and 160 integrated trials. Earlier development/pilot and legacy 360-trial results are not pooled into this release.
 
-This repository is split into two tiers:
+Repository: [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset).
 
-```
-HERA_dataset/
-├── README.md            (this file)
-├── summary/             Trial-level CSVs + code + verification script (~19 MB)
-└── full/                Complete per-simulation-step raw logs for every trial (~14 GB)
-```
+**Release status:** the v3 code and result package has been prepared for release; author metadata and licensing require author approval. No v3 release tag or DOI deposit is claimed by this preparation. The full **v3** raw-data archive is **not included or linked to a published deposit yet**. This checkout supports source inspection, regression tests and viewing result exports; full v3 saved-data reanalysis requires the separate evidence archive.
 
-Both tiers cover the same experiments and use the identical trial identifiers
-(`{method}_{fault_leg}_{timestamp}`), so a row in `summary/primary_experiment.csv`
-and the corresponding file in `full/table2_main_comparison/...` describe the
-same trial at different levels of detail.
+The existing `full/` and `summary/` directories are retained unchanged as **legacy 360-trial evidence**, not as raw data for the new 1,472-trial campaign. Their historical documentation is preserved in [the legacy README](docs/LEGACY_DATASET_README.md). Its old terminology, statistical tests, figure numbers and claims describe the previous submission and are not the current v3 conclusions. Do not combine the legacy and v3 results.
 
-## `summary/` — start here
+## Start here
 
-Trial-level (one row per trial) CSVs covering every number reported in
-**Table 2**, **Table 3**, **Figure 5**, the **Cross-Model Evaluation**
-(Figure 6), and the **Latency Robustness** sweep (Figure 7), plus the full
-per-step trace for the three representative trials plotted in **Figure 4**.
-Includes `verify_results.py`, which recomputes every statistic (including
-Welch's t-test and Fisher's exact test) directly from these CSVs and was used
-to confirm they reproduce the manuscript's numbers exactly.
+- [Reproduction instructions](docs/REPRODUCE.md)
+- [Data availability and excluded files](docs/DATA_AVAILABILITY.md)
+- [GitHub upload and Zenodo DOI guide — 한국어](docs/GITHUB_ZENODO_KO.md)
+- [Frozen protocol](PROTOCOL.md) and [deviations](docs/DEVIATIONS.md)
+- [Licensing status](LICENSING.md)
 
-```
-summary/
-├── primary_experiment.csv      Table 2 + Figure 5 (36 rows: 3 methods x 12 trials)
-├── ablation.csv                 Table 3 (36 rows: 3 variants x 12 trials)
-├── cross_model.csv              Figure 6 (108 rows: 3 models x 3 methods x 12 trials)
-├── latency_robustness.csv       Figure 7 (180 rows: 5 latency levels x 3 methods x 12 trials)
-├── figure4_trials.csv           Figure 4 (3 full per-step traces)
-├── verify_results.py            recomputes all statistics above; run `python verify_results.py`
-├── requirements.txt              pandas, scipy
-└── code/                         experiment source code (see below)
-```
+## What the results support
 
-See `summary/`'s column definitions below.
+HERA preemption reduced fully validated supervisory-command acceptance time relative to FIFO on the tested host and backend. Across the three workload caps, mean times were about 0.486–0.512 s for HERA, 1.476–11.101 s for FIFO, and 0.543–0.575 s for the parallel-slot baseline. The parallel-slot baseline had earlier dispatch/first-frame endpoints in the audited comparison; this is not superiority at every endpoint.
 
-### Column definitions (`primary_experiment.csv` / `ablation.csv` / `cross_model.csv` / `latency_robustness.csv`)
+Local reflex actions reduced mean upright-deficit integral under full-strength-loss faults, with adverse cases retained, but reduced movement speed. All 1,184 physical/integrated trials met the tested fixed-horizon safety criterion, so this endpoint does not separate methods. Half-strength faults were missed in the tested partial-fault profile. Integrated supervisory commands reaffirmed the same action as the local reflex and showed **no additional physical benefit** in these trials.
 
-- `method` / `variant`: condition name (HERA, Baseline C, Baseline Fair, HERA Full, HERA-NoCancel, HERA-NoSuppress)
-- `fault_leg`: which leg (FL/FR/BL/BR) the simulated fault was injected on
-- `trial_timestamp`: identifies the corresponding raw log in `full/` (`{method}_{leg}_{timestamp}.json`)
-- `success`: 1 if a valid recovery preset was generated and loaded within the 30 s episode, 0 otherwise
-- `response_time_s`: emergency preset response time in seconds, directly measured via `time.time()` timestamps (blank if `success=0`)
-- `response_steps`: the same interval in simulation steps, shown for reference only (blank if `success=0`)
-- `pre_fault_speed_ms` / `during_fault_speed_ms` / `post_recovery_speed_ms` (primary_experiment.csv only): mean locomotion speed (m/s) in each of the three phases used in Figure 5 — pre-fault (steps 0-500), during-fault (step 500 to recovery), and post-recovery (recovery to trial end)
-- `llm_model` (cross_model.csv only) / `added_latency_s` (latency_robustness.csv only): the swept condition
-- `llm_calls`: number of LLM calls issued by the emergency-recovery path during the trial
+These are descriptive, single-platform simulation results, not hardware safety guarantees, broad statistical generalization, autonomous LLM-discovered recovery, or restored locomotion. See the protocol and full report exports for definitions and limitations.
 
-### `figure4_trials.csv`
+## Contents
 
-Full per-simulation-step trace (`method`, `step`, `speed`, `upright`,
-`fault_active`, `reconnect_active`) for the one representative trial per
-method plotted in Figure 4 (HERA: `ours_interrupt_FL_20260808_012716`;
-Baseline C: `baseline_c_BR_20260808_013834`; Baseline Fair:
-`baseline_fair_BL_20260808_055220`). Wall-clock time in the figure is
-reconstructed from `step` assuming locally uniform simulation throughput, as
-described in the Figure 4 caption.
+| Location | Contents |
+|---|---|
+| Root Python/PowerShell files, `hera_v2/`, `tests/` | Byte-identical execution source from the final campaign snapshot; the historical module name is preserved |
+| `runs/manifests/main_001/` | Fixed matrix and 11 original ordered manifests |
+| `paper/` | Eight analysis, audit, table and figure-generation tools |
+| `results/` | Report JSON/Markdown exports, four LaTeX tables, historical qualification/reanalysis records and provenance previews |
+| `figures/` | PNG/SVG architecture and result figures, including supplementary plots |
+| `tools/verify_package.py` | Local package and execution-source integrity check; no model inference |
+| `release_manifest.json` | Original and public-copy SHA-256 values, transformations and payload inventory |
+| `full/`, `summary/` | Preserved historical 360-trial data; outside the v3 payload manifest and not changed by the v3 addition |
 
-### `summary/code/`
+## Lightweight checkout
 
-The original experiment scripts:
+The existing legacy `full/` tree is large. To obtain the current code and result exports without downloading those historical raw files, use a partial clone and sparse checkout:
 
-- `dispatcher.py`: CPG layer + LLM preset request/validation, shared by all methods
-- `poc_interrupt.py`: HERA (Ours) — interrupt-driven preemption
-- `baseline_c.py`: Baseline C (no-interrupt, cooldown-polled)
-- `baseline_fair.py`: Baseline Fair (immediate dispatch, no preemption)
-
-### Reproducing the statistics
-
-```
-cd summary
-pip install -r requirements.txt
-python verify_results.py
+```powershell
+git clone --filter=blob:none --no-checkout https://github.com/goddongyoun/HERA_dataset.git
+cd HERA_dataset
+git sparse-checkout init --cone
+git sparse-checkout set --skip-checks docs figures hera_v2 paper results runs tests tools summary
+git checkout master
 ```
 
-## `full/` — complete raw logs
+The v3 files must first be pushed to the remote before a fresh remote clone can retrieve them. Sparse checkout changes local materialization only: the legacy files remain tracked in Git and are still part of the repository tree. It does not remove them from a GitHub or Zenodo release archive.
 
-The complete per-simulation-step telemetry (locomotion speed, upright state,
-active skill, fault/reconnect flags at every simulation step) for all 360
-trials, as a matching pair of `.json` (structured, with a `summary` block plus
-a `steps` array) and `.csv` (the same per-step data, tabular) per trial.
-Organized identically to the experiment groupings in `summary/`:
+## Quick check
 
-```
-full/
-├── table2_main_comparison/{hera,baseline_c,baseline_fair}/
-├── table3_ablation/{hera_full,hera_nocancel,hera_nosuppress}/
-├── cross_model/{qwen3.5_9b,qwen3.5_4b,llama3.2_3b}/{hera,baseline_c,baseline_fair}/
-└── latency_robustness/{lat_0s,lat_1s,lat_3s,lat_5s,lat_10s}/{hera,baseline_c,baseline_fair}/
+Run from this folder using CPython 3.12. Creating a virtual environment is recommended.
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-analysis.txt
+.\.venv\Scripts\python.exe -B tools/verify_package.py
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
 ```
 
-Field names differ slightly by method because each script's summary was
-written independently (e.g., HERA/Baseline Fair use `total_recovery_sec`;
-Baseline C uses `fault_duration_sec` and `fault_cleared_step`; a `None`/absent
-value indicates the trial did not recover within the 30 s episode, i.e., a
-failed trial).
+The package verifier uses only the Python standard library. The tests additionally need the experiment dependencies; they do not require an Ollama server or the full saved-data archive. Installing packages requires network access. This package was validated on Windows; other platforms are not certified by that validation.
 
-## Environment
+Experiment source fingerprint (30 execution files):
 
-- OS: Windows 11 Pro
-- Python 3.12.0
-- dm_control 1.0.37, MuJoCo 3.5.0
-- LLM backend: Ollama 0.32.5, models Qwen3.5 9B / Qwen3.5 4B / LLaMA 3.2 3B
-- CPU: Intel Core i9-13900K; GPU: NVIDIA RTX A6000; RAM: 56 GB
+```text
+73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5
+```
 
-## Notes
+Git attributes preserve code and manifest bytes. Do not rename `hera_v2`, add new root-level Python/PowerShell files, or format the frozen execution files if you need to preserve this fingerprint. Put new utilities under `tools/`.
 
-- All trials use a fixed 30 s wall-clock episode budget and a simulated
-  single-leg actuator fault injected at simulation step 500 (Sections 4.1-4.2
-  of the manuscript).
-- Every timestamp range used to select trials for this dataset was verified
-  by recomputing the mean/SD/success rate from the raw files and confirming
-  it reproduces the exact number printed in the manuscript.
-- Superseded/invalidated experiment runs from earlier stages of this study
-  (see the manuscript's Limitations section for the implementation issues
-  that necessitated re-running the experiments) are intentionally **not**
-  included; every trial in this dataset is from the final corrected
-  implementation.
+## Report provenance and citation
+
+Report exports under `results/` replace historical workstation prefixes with `SOURCE_WORKSPACE`; numeric/boolean/null values and list ordering are unchanged. These are explicitly identified **public derivatives**, not byte-identical raw evidence or portable inputs for the report generators. Regenerate reports from the immutable evidence at its new location before generating tables. Source and public-copy hashes are recorded separately.
+
+`CITATION.cff` contains draft creator metadata and the existing repository URL for this v3 software package. No DOI, release version or publication date is invented. After author approval and publication, link the specific software release and the matching v3 raw-data deposit in this README and in the manuscript. A repository snapshot can also contain the preserved legacy data; its DOI must not be described as supplying the absent v3 raw evidence.

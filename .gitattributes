@@ -1,0 +1,11 @@
+# Preserve byte identity for frozen source, manifests and scientific exports.
+*.py -text
+*.ps1 -text
+*.json -text
+*.jsonl -text
+*.tex -text
+*.svg -text
+*.md -text
+*.txt -text
+*.cff -text
+*.png binary

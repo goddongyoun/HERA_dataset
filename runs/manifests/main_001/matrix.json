@@ -1,0 +1,65 @@
+{
+  "version": 3,
+  "pilot": false,
+  "master_seed": 20260908,
+  "total_trials": 1472,
+  "manifests": [
+    {
+      "name": "scheduler_t256",
+      "trials": 96,
+      "sha256": "cb36b6ee137c58ca596d1a1dc87e7671b11afae3751d59117ec9173b99f5bea7"
+    },
+    {
+      "name": "scheduler_t1024",
+      "trials": 96,
+      "sha256": "511e1aaf83212fd7e3e57aa2d7a523912f9395cb30a6d87add503bb899b89c87"
+    },
+    {
+      "name": "scheduler_t2048",
+      "trials": 96,
+      "sha256": "22ee285cd6178d5bbf3a8df20d3663215fd51993d329eabc1cb6ef35f20d239c"
+    },
+    {
+      "name": "physics_full_clean",
+      "trials": 160,
+      "sha256": "926567d4cd7a9ad5c01e2e09db4d63559a51f5564911a7248201a9d9fff852ea"
+    },
+    {
+      "name": "physics_partial_clean",
+      "trials": 160,
+      "sha256": "15054828d72795e5425c04566b37f99c21b58e435656044b3800bc56d4d20a52"
+    },
+    {
+      "name": "physics_healthy_clean",
+      "trials": 160,
+      "sha256": "3facb711aac860c8e318693a25d730802ddbe4c00d1bd635965c7f54ef4bdf10"
+    },
+    {
+      "name": "physics_full_noisy",
+      "trials": 160,
+      "sha256": "433675d36bcdac21db24263142c10819b8c917dc25e51633af43c348a1e720e7"
+    },
+    {
+      "name": "physics_healthy_noisy",
+      "trials": 160,
+      "sha256": "3c6bb689fae53fc62329211848012c736b01f57e204708c46b5e21df88363337"
+    },
+    {
+      "name": "physics_healthy_push",
+      "trials": 160,
+      "sha256": "ddc7b14baa0b9f7a227df8125064f2f6de19d5d39d6de9aa0e5e12a30dfbb4ee"
+    },
+    {
+      "name": "physics_realtime",
+      "trials": 64,
+      "sha256": "632cdfb79fd0565eae366fb4c22e3a9522f910ec8102d818347013dfde403a39"
+    },
+    {
+      "name": "integrated",
+      "trials": 160,
+      "sha256": "d010275ad1152cbbc71bdd2e11f85f609089b65a31eeaeb675a9e5cffa490e14"
+    }
+  ],
+  "no_optional_stopping": true,
+  "descriptive_not_confirmatory": true
+}

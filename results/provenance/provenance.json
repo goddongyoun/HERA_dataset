@@ -1,0 +1,196 @@
+{
+  "captured_utc": "2026-09-07T12:11:10.721563Z",
+  "source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
+  "source_files": [
+    {
+      "file": "analyze_results.py",
+      "sha256": "e83f0e844733329cb894820b136655bfcfd81f1be4e262b1ec53b30f7f1123d5"
+    },
+    {
+      "file": "hera_v2/__init__.py",
+      "sha256": "fb49d1143df0cd0d88a7878d2fcc041a55671f8876521aafe2516c664e3ae5d5"
+    },
+    {
+      "file": "hera_v2/analysis.py",
+      "sha256": "ad80642d94e034171006ca9484f36c32a2747c394d054fbf76a5cf3e5e260454"
+    },
+    {
+      "file": "hera_v2/batch_lifecycle.py",
+      "sha256": "f26dff61ad79071a67a0768e3be4088793b028b2f29fc52432c36285bcb9e77b"
+    },
+    {
+      "file": "hera_v2/events.py",
+      "sha256": "707909c1694127e6c30168e0d0129ae58a4ed747aa8d7f30e258b6c34b666d44"
+    },
+    {
+      "file": "hera_v2/integrated.py",
+      "sha256": "8155f00a16822aff2c699c63b5b73bf25151879328e0077ae0a950988d51e69c"
+    },
+    {
+      "file": "hera_v2/manifest.py",
+      "sha256": "85ca6140e2454f1b51c227f4b4cfd0ee62fc1f1e9fff4c58d05f93652ad74c1e"
+    },
+    {
+      "file": "hera_v2/ollama_backend.py",
+      "sha256": "45afb9297c452440b46690808a55fef53ac1f8b490b253a2ec94df40fb69362c"
+    },
+    {
+      "file": "hera_v2/physics.py",
+      "sha256": "4fa3b3e296fc1cf0ea5e360a4d54a2180f8283f5f80d3cfb328ce4c28294a76b"
+    },
+    {
+      "file": "hera_v2/presets.py",
+      "sha256": "940191717f9e2ba9b9d8ab0f0cae5c27ae46cef8fea55b7ac2e1fa56ee4629c3"
+    },
+    {
+      "file": "hera_v2/provenance.py",
+      "sha256": "737d22b135dd9a46df5d0819ca3572ac8bf6c89ba7d2a75235362fc78f7d1352"
+    },
+    {
+      "file": "hera_v2/scheduler.py",
+      "sha256": "cfbea9ac0247c3ec6abc6b65b2d6b6393214b94a2128cc51d3ed138b50f0b8e6"
+    },
+    {
+      "file": "hera_v2/schema.py",
+      "sha256": "2264bf87b2f75a42bacbd5c893a3cef6960bb50a04cae864654fa05d9c283e35"
+    },
+    {
+      "file": "make_manifests.py",
+      "sha256": "39dc58b0ccc7b06c044e738d132e4e4387bf50a815ead274686936c21db1805d"
+    },
+    {
+      "file": "make_paper_manifests.py",
+      "sha256": "804e2c99f16006929a193a3a541110a70f688ebd26663a0f138a1fbab28bba23"
+    },
+    {
+      "file": "run_campaign.py",
+      "sha256": "4db330c78c70156373d3f603bfaebb71aaf65993598fbc2a690b3e4c1e9dfed7"
+    },
+    {
+      "file": "start_dedicated_servers.ps1",
+      "sha256": "ca4dbebadf973250e48df2d9abcc5be734f43e5cd9142e8a7ef1593625119871"
+    },
+    {
+      "file": "tests/test_analysis.py",
+      "sha256": "2e560639120b817da97f1d6a7840800fbdffaf1e33cdc792d9fd1718bcbcecc3"
+    },
+    {
+      "file": "tests/test_events.py",
+      "sha256": "8b8063163410f17b9f9e06cc797df9a704ccf7e1200ac006eba0d9d49cc2f49e"
+    },
+    {
+      "file": "tests/test_integrated.py",
+      "sha256": "9e45e521adabab1a00cdd4c1337d82aa33f7ac7ed4c96596f1361c85a0c871b1"
+    },
+    {
+      "file": "tests/test_manifest.py",
+      "sha256": "ef560724ba83ad8bd4976eb2097ce30fc10498bee68c88bb897cf0d712d8f7d9"
+    },
+    {
+      "file": "tests/test_ollama_backend.py",
+      "sha256": "95b0e8ad77bcd684f71551ebd5b47400a8fc626135880cc9c8e39aed3d444ad9"
+    },
+    {
+      "file": "tests/test_paper_matrix.py",
+      "sha256": "2a1df1dad5e0b3a8a00d79fcb84d3fb34d65055ceb2bc8a4ebdaa632f2691cdc"
+    },
+    {
+      "file": "tests/test_physics.py",
+      "sha256": "d00aad4aecf860521c059845711e53e7bb74e93d83a25f9fdcd4aa1cbc009f10"
+    },
+    {
+      "file": "tests/test_presets.py",
+      "sha256": "eebbb92f9c30844c1c38a602985fd8a05cf003a8e2c807a0b2851d7788ee767a"
+    },
+    {
+      "file": "tests/test_runner_integrity.py",
+      "sha256": "e6e25070cbd2703cabd4169b3e07e1ccc8f424abdae97e4fe5b1ae8b4fdd41c3"
+    },
+    {
+      "file": "tests/test_scheduler.py",
+      "sha256": "913744f131e86b54e947542fc380bf5a538c4b3483b4cf9e6ae603eaf3a25e32"
+    },
+    {
+      "file": "trial_worker.py",
+      "sha256": "161922ee5a22a437a7830d3fa515d58a20e653f30d28cf6c56700cf7b8851754"
+    },
+    {
+      "file": "verify_servers.py",
+      "sha256": "5c8471240a36712ab46f2e32cb1524d1948660e843d85650f84c3140865b5e5a"
+    },
+    {
+      "file": "warmup_servers.py",
+      "sha256": "f1d90097a4969eaef5e3b9f0dfa8a3aa4bb43c958eae72d7168ccadd183b36cb"
+    }
+  ],
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "latency_clock": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "gpu": "NVIDIA RTX A6000, GPU-15c7d3fb-c6c9-9535-4fc9-87b1ec08836a, 595.95, 49140 MiB",
+  "packages": [
+    "Farama-Notifications==0.0.4",
+    "ImageIO==2.37.2",
+    "PyOpenGL==3.1.10",
+    "absl-py==2.4.0",
+    "annotated-types==0.7.0",
+    "anyio==4.12.1",
+    "attrs==25.4.0",
+    "certifi==2026.2.25",
+    "cffi==2.0.0",
+    "charset-normalizer==3.4.4",
+    "cloudpickle==3.1.2",
+    "colorama==0.4.6",
+    "contourpy==1.3.3",
+    "cryptography==46.0.5",
+    "cycler==0.12.1",
+    "dm-env==1.6",
+    "dm-tree==0.1.9",
+    "dm_control==1.0.37",
+    "etils==1.14.0",
+    "fonttools==4.61.1",
+    "fsspec==2026.2.0",
+    "glfw==2.10.0",
+    "gymnasium==1.2.3",
+    "h11==0.16.0",
+    "httpcore==1.0.9",
+    "httpx==0.28.1",
+    "idna==3.11",
+    "imageio-ffmpeg==0.6.0",
+    "kiwisolver==1.4.9",
+    "labmaze==1.0.6",
+    "lxml==6.0.2",
+    "matplotlib==3.10.8",
+    "mujoco==3.5.0",
+    "numpy==2.4.2",
+    "ollama==0.6.1",
+    "packaging==26.0",
+    "pandas==3.0.5",
+    "pdfminer.six==20251230",
+    "pdfplumber==0.11.9",
+    "pillow==12.1.1",
+    "pip==23.2.1",
+    "protobuf==7.34.0",
+    "pycparser==3.0",
+    "pydantic==2.12.5",
+    "pydantic_core==2.41.5",
+    "pyparsing==3.3.2",
+    "pypdfium2==5.6.0",
+    "python-dateutil==2.9.0.post0",
+    "requests==2.32.5",
+    "scipy==1.17.1",
+    "setuptools==82.0.0",
+    "six==1.17.0",
+    "tqdm==4.67.3",
+    "typing-inspection==0.4.2",
+    "typing_extensions==4.15.0",
+    "tzdata==2026.3",
+    "urllib3==2.6.3",
+    "wrapt==2.1.1",
+    "zipp==3.23.0"
+  ]
+}

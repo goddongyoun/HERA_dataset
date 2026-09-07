@@ -1,0 +1,219 @@
+{
+  "created_utc": "2026-09-07T13:48:21.645751+00:00",
+  "campaign": "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001",
+  "source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
+  "script_sha256": "4d8450c1bdcae0b161d0bc0910a70919eb14ccafacd218a750c31e7b9d5e9717",
+  "all_match": true,
+  "manifests": [
+    {
+      "manifest": "manifests/001_scheduler_t256.jsonl",
+      "manifest_sha256": "cb36b6ee137c58ca596d1a1dc87e7671b11afae3751d59117ec9173b99f5bea7",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "04bce4297ed05e6ed95cbe043dfc0d6e4026d22324035ca81884919344ed6524",
+      "recalculated_analysis_sha256": "04bce4297ed05e6ed95cbe043dfc0d6e4026d22324035ca81884919344ed6524",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\001_scheduler_t256.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\001_scheduler_t256"
+      ]
+    },
+    {
+      "manifest": "manifests/002_scheduler_t1024.jsonl",
+      "manifest_sha256": "511e1aaf83212fd7e3e57aa2d7a523912f9395cb30a6d87add503bb899b89c87",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "063c3eacd33d0dac44fe9a5830a83f0cb5f10aef45e9b60cac8ccd82ee2fc194",
+      "recalculated_analysis_sha256": "063c3eacd33d0dac44fe9a5830a83f0cb5f10aef45e9b60cac8ccd82ee2fc194",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\002_scheduler_t1024.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\002_scheduler_t1024"
+      ]
+    },
+    {
+      "manifest": "manifests/003_scheduler_t2048.jsonl",
+      "manifest_sha256": "22ee285cd6178d5bbf3a8df20d3663215fd51993d329eabc1cb6ef35f20d239c",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "91e00b1d75f3dae3accff2611675e423ff39333af39e4f5699ef230919164d8d",
+      "recalculated_analysis_sha256": "91e00b1d75f3dae3accff2611675e423ff39333af39e4f5699ef230919164d8d",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\003_scheduler_t2048.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\003_scheduler_t2048"
+      ]
+    },
+    {
+      "manifest": "manifests/004_physics_full_clean.jsonl",
+      "manifest_sha256": "926567d4cd7a9ad5c01e2e09db4d63559a51f5564911a7248201a9d9fff852ea",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "c5aaba8f76e59ce6569e1543fda85c48b314a207ac1ca47d7f5b6dee4dec7b42",
+      "recalculated_analysis_sha256": "c5aaba8f76e59ce6569e1543fda85c48b314a207ac1ca47d7f5b6dee4dec7b42",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\004_physics_full_clean.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\004_physics_full_clean"
+      ]
+    },
+    {
+      "manifest": "manifests/005_physics_partial_clean.jsonl",
+      "manifest_sha256": "15054828d72795e5425c04566b37f99c21b58e435656044b3800bc56d4d20a52",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "0517a3bee1272fbe53e66cbac8862e784917aeb68b9ee050787073cb1840cc63",
+      "recalculated_analysis_sha256": "0517a3bee1272fbe53e66cbac8862e784917aeb68b9ee050787073cb1840cc63",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\005_physics_partial_clean.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\005_physics_partial_clean"
+      ]
+    },
+    {
+      "manifest": "manifests/006_physics_healthy_clean.jsonl",
+      "manifest_sha256": "3facb711aac860c8e318693a25d730802ddbe4c00d1bd635965c7f54ef4bdf10",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "0af8e997c1286fb021d8c2d56e82d27e5da19f79752117e61e75dcb8b7ca5204",
+      "recalculated_analysis_sha256": "0af8e997c1286fb021d8c2d56e82d27e5da19f79752117e61e75dcb8b7ca5204",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\006_physics_healthy_clean.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\006_physics_healthy_clean"
+      ]
+    },
+    {
+      "manifest": "manifests/007_physics_full_noisy.jsonl",
+      "manifest_sha256": "433675d36bcdac21db24263142c10819b8c917dc25e51633af43c348a1e720e7",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "33d4fcdcaa5a10cdb04b94a4ea5d8baeced6b8249861ba8945e0b56a0c23e3d2",
+      "recalculated_analysis_sha256": "33d4fcdcaa5a10cdb04b94a4ea5d8baeced6b8249861ba8945e0b56a0c23e3d2",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\007_physics_full_noisy.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\007_physics_full_noisy"
+      ]
+    },
+    {
+      "manifest": "manifests/008_physics_healthy_noisy.jsonl",
+      "manifest_sha256": "3c6bb689fae53fc62329211848012c736b01f57e204708c46b5e21df88363337",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "8434c6ad3f1aae8e2ff6fc4ac465f607c8b40ce39bbcecb06c1a25966434f2a8",
+      "recalculated_analysis_sha256": "8434c6ad3f1aae8e2ff6fc4ac465f607c8b40ce39bbcecb06c1a25966434f2a8",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\008_physics_healthy_noisy.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\008_physics_healthy_noisy"
+      ]
+    },
+    {
+      "manifest": "manifests/009_physics_healthy_push.jsonl",
+      "manifest_sha256": "ddc7b14baa0b9f7a227df8125064f2f6de19d5d39d6de9aa0e5e12a30dfbb4ee",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "e723d0899ffde8d08cab6ffdce94c7ccc126b2e175d13ad63bc9643294097049",
+      "recalculated_analysis_sha256": "e723d0899ffde8d08cab6ffdce94c7ccc126b2e175d13ad63bc9643294097049",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\009_physics_healthy_push.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\009_physics_healthy_push"
+      ]
+    },
+    {
+      "manifest": "manifests/010_physics_realtime.jsonl",
+      "manifest_sha256": "632cdfb79fd0565eae366fb4c22e3a9522f910ec8102d818347013dfde403a39",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "7ceb3796b7e65e42ae067a60f1763f2126e2251ac8e1138c37b20c852f4f336a",
+      "recalculated_analysis_sha256": "7ceb3796b7e65e42ae067a60f1763f2126e2251ac8e1138c37b20c852f4f336a",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\010_physics_realtime.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\010_physics_realtime"
+      ]
+    },
+    {
+      "manifest": "manifests/011_integrated.jsonl",
+      "manifest_sha256": "d010275ad1152cbbc71bdd2e11f85f609089b65a31eeaeb675a9e5cffa490e14",
+      "returncode": 0,
+      "exact_json_match": true,
+      "saved_analysis_sha256": "b101fca6ff716ef3f1809bfb02b97832c537153807fd9de589f54c325744a6a8",
+      "recalculated_analysis_sha256": "b101fca6ff716ef3f1809bfb02b97832c537153807fd9de589f54c325744a6a8",
+      "command": [
+        "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+        "-B",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\source_snapshot\\analyze_results.py",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\011_integrated.jsonl",
+        "--results-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\trials",
+        "--require-all",
+        "--output-dir",
+        "SOURCE_WORKSPACE\\revision_v3\\paper\\generated\\reanalysis_main\\011_integrated"
+      ]
+    }
+  ],
+  "scope": "Exact recomputation using archived source, distinct from independent physical endpoint audit."
+}

@@ -1,0 +1,34 @@
+# Local environments, credentials and editor state
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Regenerated outputs and separate raw evidence are not Git payloads
+/evidence/
+/output/
+/paper/generated/
+/paper/reproduced/
+/runs/*
+!/runs/manifests/
+/runs/manifests/*
+!/runs/manifests/main_001/
+*.log
+*.zip
+*.7z
+*.tar
+*.gz
+*.gguf
+*.safetensors
+*.pt
+*.pth

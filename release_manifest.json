@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "campaign_id": "main_001",
+  "total_trials": 1472,
+  "experiment_source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
+  "experiment_source_file_count": 30,
+  "release_status": "V3 addition prepared in the existing HERA_dataset repository; local commit preparation does not imply remote push or release; author metadata and licensing approval pending; no v3 DOI assigned.",
+  "repository_url": "https://github.com/goddongyoun/HERA_dataset",
+  "path_marker": "SOURCE_WORKSPACE denotes an intentionally removed historical workstation prefix. These report derivatives are previews, not immutable raw-evidence inputs.",
+  "raw_evidence_included": false,
+  "scope": "Copied/exported v3 research payload only. Existing legacy full/ and summary/ trees and their historical README are outside this manifest. Authored release documentation and tools have their own scope and are not covered by the experiment-source hash.",
+  "files": [
+    {
+      "path": "analyze_results.py",
+      "source_path": "runs/main_001/source_snapshot/analyze_results.py",
+      "source_sha256": "e83f0e844733329cb894820b136655bfcfd81f1be4e262b1ec53b30f7f1123d5",
+      "sha256": "e83f0e844733329cb894820b136655bfcfd81f1be4e262b1ec53b30f7f1123d5",
+      "bytes": 1295,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/__init__.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/__init__.py",
+      "source_sha256": "fb49d1143df0cd0d88a7878d2fcc041a55671f8876521aafe2516c664e3ae5d5",
+      "sha256": "fb49d1143df0cd0d88a7878d2fcc041a55671f8876521aafe2516c664e3ae5d5",
+      "bytes": 646,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/analysis.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/analysis.py",
+      "source_sha256": "ad80642d94e034171006ca9484f36c32a2747c394d054fbf76a5cf3e5e260454",
+      "sha256": "ad80642d94e034171006ca9484f36c32a2747c394d054fbf76a5cf3e5e260454",
+      "bytes": 21022,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/batch_lifecycle.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/batch_lifecycle.py",
+      "source_sha256": "f26dff61ad79071a67a0768e3be4088793b028b2f29fc52432c36285bcb9e77b",
+      "sha256": "f26dff61ad79071a67a0768e3be4088793b028b2f29fc52432c36285bcb9e77b",
+      "bytes": 2209,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/events.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/events.py",
+      "source_sha256": "707909c1694127e6c30168e0d0129ae58a4ed747aa8d7f30e258b6c34b666d44",
+      "sha256": "707909c1694127e6c30168e0d0129ae58a4ed747aa8d7f30e258b6c34b666d44",
+      "bytes": 6014,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/integrated.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/integrated.py",
+      "source_sha256": "8155f00a16822aff2c699c63b5b73bf25151879328e0077ae0a950988d51e69c",
+      "sha256": "8155f00a16822aff2c699c63b5b73bf25151879328e0077ae0a950988d51e69c",
+      "bytes": 9407,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/manifest.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/manifest.py",
+      "source_sha256": "85ca6140e2454f1b51c227f4b4cfd0ee62fc1f1e9fff4c58d05f93652ad74c1e",
+      "sha256": "85ca6140e2454f1b51c227f4b4cfd0ee62fc1f1e9fff4c58d05f93652ad74c1e",
+      "bytes": 8638,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/ollama_backend.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/ollama_backend.py",
+      "source_sha256": "45afb9297c452440b46690808a55fef53ac1f8b490b253a2ec94df40fb69362c",
+      "sha256": "45afb9297c452440b46690808a55fef53ac1f8b490b253a2ec94df40fb69362c",
+      "bytes": 6813,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/physics.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/physics.py",
+      "source_sha256": "4fa3b3e296fc1cf0ea5e360a4d54a2180f8283f5f80d3cfb328ce4c28294a76b",
+      "sha256": "4fa3b3e296fc1cf0ea5e360a4d54a2180f8283f5f80d3cfb328ce4c28294a76b",
+      "bytes": 82554,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/presets.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/presets.py",
+      "source_sha256": "940191717f9e2ba9b9d8ab0f0cae5c27ae46cef8fea55b7ac2e1fa56ee4629c3",
+      "sha256": "940191717f9e2ba9b9d8ab0f0cae5c27ae46cef8fea55b7ac2e1fa56ee4629c3",
+      "bytes": 5360,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/provenance.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/provenance.py",
+      "source_sha256": "737d22b135dd9a46df5d0819ca3572ac8bf6c89ba7d2a75235362fc78f7d1352",
+      "sha256": "737d22b135dd9a46df5d0819ca3572ac8bf6c89ba7d2a75235362fc78f7d1352",
+      "bytes": 3120,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/scheduler.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/scheduler.py",
+      "source_sha256": "cfbea9ac0247c3ec6abc6b65b2d6b6393214b94a2128cc51d3ed138b50f0b8e6",
+      "sha256": "cfbea9ac0247c3ec6abc6b65b2d6b6393214b94a2128cc51d3ed138b50f0b8e6",
+      "bytes": 42009,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "hera_v2/schema.py",
+      "source_path": "runs/main_001/source_snapshot/hera_v2/schema.py",
+      "source_sha256": "2264bf87b2f75a42bacbd5c893a3cef6960bb50a04cae864654fa05d9c283e35",
+      "sha256": "2264bf87b2f75a42bacbd5c893a3cef6960bb50a04cae864654fa05d9c283e35",
+      "bytes": 3220,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "make_manifests.py",
+      "source_path": "runs/main_001/source_snapshot/make_manifests.py",
+      "source_sha256": "39dc58b0ccc7b06c044e738d132e4e4387bf50a815ead274686936c21db1805d",
+      "sha256": "39dc58b0ccc7b06c044e738d132e4e4387bf50a815ead274686936c21db1805d",
+      "bytes": 3942,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "make_paper_manifests.py",
+      "source_path": "runs/main_001/source_snapshot/make_paper_manifests.py",
+      "source_sha256": "804e2c99f16006929a193a3a541110a70f688ebd26663a0f138a1fbab28bba23",
+      "sha256": "804e2c99f16006929a193a3a541110a70f688ebd26663a0f138a1fbab28bba23",
+      "bytes": 5434,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "source_path": "runs/main_001/source_snapshot/PROTOCOL.md",
+      "source_sha256": "835335a332f85fcaa0d547e1e9d9a6d9830668ce8c6192f05069d33b1cae5a4e",
+      "sha256": "835335a332f85fcaa0d547e1e9d9a6d9830668ce8c6192f05069d33b1cae5a4e",
+      "bytes": 11608,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "requirements-core.txt",
+      "source_path": "runs/main_001/source_snapshot/requirements-core.txt",
+      "source_sha256": "d60789f2e7160f64bdfeb12d99a681fa37a1f584825bab210cabefe21cb9e30a",
+      "sha256": "d60789f2e7160f64bdfeb12d99a681fa37a1f584825bab210cabefe21cb9e30a",
+      "bytes": 219,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "requirements-environment.txt",
+      "source_path": "runs/main_001/source_snapshot/requirements-environment.txt",
+      "source_sha256": "835e0d4d1dd91e36ade5b91b1a22864b980df95d67632eb1fa786f1d5cf60118",
+      "sha256": "835e0d4d1dd91e36ade5b91b1a22864b980df95d67632eb1fa786f1d5cf60118",
+      "bytes": 1051,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "run_campaign.py",
+      "source_path": "runs/main_001/source_snapshot/run_campaign.py",
+      "source_sha256": "4db330c78c70156373d3f603bfaebb71aaf65993598fbc2a690b3e4c1e9dfed7",
+      "sha256": "4db330c78c70156373d3f603bfaebb71aaf65993598fbc2a690b3e4c1e9dfed7",
+      "bytes": 37608,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "start_dedicated_servers.ps1",
+      "source_path": "runs/main_001/source_snapshot/start_dedicated_servers.ps1",
+      "source_sha256": "ca4dbebadf973250e48df2d9abcc5be734f43e5cd9142e8a7ef1593625119871",
+      "sha256": "ca4dbebadf973250e48df2d9abcc5be734f43e5cd9142e8a7ef1593625119871",
+      "bytes": 3991,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_analysis.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_analysis.py",
+      "source_sha256": "2e560639120b817da97f1d6a7840800fbdffaf1e33cdc792d9fd1718bcbcecc3",
+      "sha256": "2e560639120b817da97f1d6a7840800fbdffaf1e33cdc792d9fd1718bcbcecc3",
+      "bytes": 4388,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_events.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_events.py",
+      "source_sha256": "8b8063163410f17b9f9e06cc797df9a704ccf7e1200ac006eba0d9d49cc2f49e",
+      "sha256": "8b8063163410f17b9f9e06cc797df9a704ccf7e1200ac006eba0d9d49cc2f49e",
+      "bytes": 2131,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_integrated.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_integrated.py",
+      "source_sha256": "9e45e521adabab1a00cdd4c1337d82aa33f7ac7ed4c96596f1361c85a0c871b1",
+      "sha256": "9e45e521adabab1a00cdd4c1337d82aa33f7ac7ed4c96596f1361c85a0c871b1",
+      "bytes": 16815,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_manifest.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_manifest.py",
+      "source_sha256": "ef560724ba83ad8bd4976eb2097ce30fc10498bee68c88bb897cf0d712d8f7d9",
+      "sha256": "ef560724ba83ad8bd4976eb2097ce30fc10498bee68c88bb897cf0d712d8f7d9",
+      "bytes": 2790,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_ollama_backend.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_ollama_backend.py",
+      "source_sha256": "95b0e8ad77bcd684f71551ebd5b47400a8fc626135880cc9c8e39aed3d444ad9",
+      "sha256": "95b0e8ad77bcd684f71551ebd5b47400a8fc626135880cc9c8e39aed3d444ad9",
+      "bytes": 3530,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_paper_matrix.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_paper_matrix.py",
+      "source_sha256": "2a1df1dad5e0b3a8a00d79fcb84d3fb34d65055ceb2bc8a4ebdaa632f2691cdc",
+      "sha256": "2a1df1dad5e0b3a8a00d79fcb84d3fb34d65055ceb2bc8a4ebdaa632f2691cdc",
+      "bytes": 2125,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_physics.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_physics.py",
+      "source_sha256": "d00aad4aecf860521c059845711e53e7bb74e93d83a25f9fdcd4aa1cbc009f10",
+      "sha256": "d00aad4aecf860521c059845711e53e7bb74e93d83a25f9fdcd4aa1cbc009f10",
+      "bytes": 29227,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_presets.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_presets.py",
+      "source_sha256": "eebbb92f9c30844c1c38a602985fd8a05cf003a8e2c807a0b2851d7788ee767a",
+      "sha256": "eebbb92f9c30844c1c38a602985fd8a05cf003a8e2c807a0b2851d7788ee767a",
+      "bytes": 1884,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_runner_integrity.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_runner_integrity.py",
+      "source_sha256": "e6e25070cbd2703cabd4169b3e07e1ccc8f424abdae97e4fe5b1ae8b4fdd41c3",
+      "sha256": "e6e25070cbd2703cabd4169b3e07e1ccc8f424abdae97e4fe5b1ae8b4fdd41c3",
+      "bytes": 13036,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "tests/test_scheduler.py",
+      "source_path": "runs/main_001/source_snapshot/tests/test_scheduler.py",
+      "source_sha256": "913744f131e86b54e947542fc380bf5a538c4b3483b4cf9e6ae603eaf3a25e32",
+      "sha256": "913744f131e86b54e947542fc380bf5a538c4b3483b4cf9e6ae603eaf3a25e32",
+      "bytes": 27576,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "trial_worker.py",
+      "source_path": "runs/main_001/source_snapshot/trial_worker.py",
+      "source_sha256": "161922ee5a22a437a7830d3fa515d58a20e653f30d28cf6c56700cf7b8851754",
+      "sha256": "161922ee5a22a437a7830d3fa515d58a20e653f30d28cf6c56700cf7b8851754",
+      "bytes": 15447,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "verify_servers.py",
+      "source_path": "runs/main_001/source_snapshot/verify_servers.py",
+      "source_sha256": "5c8471240a36712ab46f2e32cb1524d1948660e843d85650f84c3140865b5e5a",
+      "sha256": "5c8471240a36712ab46f2e32cb1524d1948660e843d85650f84c3140865b5e5a",
+      "bytes": 3740,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "warmup_servers.py",
+      "source_path": "runs/main_001/source_snapshot/warmup_servers.py",
+      "source_sha256": "f1d90097a4969eaef5e3b9f0dfa8a3aa4bb43c958eae72d7168ccadd183b36cb",
+      "sha256": "f1d90097a4969eaef5e3b9f0dfa8a3aa4bb43c958eae72d7168ccadd183b36cb",
+      "bytes": 4405,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/integrated.jsonl",
+      "source_path": "runs/manifests/main_001/integrated.jsonl",
+      "source_sha256": "d010275ad1152cbbc71bdd2e11f85f609089b65a31eeaeb675a9e5cffa490e14",
+      "sha256": "d010275ad1152cbbc71bdd2e11f85f609089b65a31eeaeb675a9e5cffa490e14",
+      "bytes": 106204,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/matrix.json",
+      "source_path": "runs/manifests/main_001/matrix.json",
+      "source_sha256": "4e4da292c9e45e6ea6d6bab61c40ad23562f9e294a4cdadc9c612f811b37e9c8",
+      "sha256": "4e4da292c9e45e6ea6d6bab61c40ad23562f9e294a4cdadc9c612f811b37e9c8",
+      "bytes": 1914,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_full_clean.jsonl",
+      "source_path": "runs/manifests/main_001/physics_full_clean.jsonl",
+      "source_sha256": "926567d4cd7a9ad5c01e2e09db4d63559a51f5564911a7248201a9d9fff852ea",
+      "sha256": "926567d4cd7a9ad5c01e2e09db4d63559a51f5564911a7248201a9d9fff852ea",
+      "bytes": 102144,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_full_noisy.jsonl",
+      "source_path": "runs/manifests/main_001/physics_full_noisy.jsonl",
+      "source_sha256": "433675d36bcdac21db24263142c10819b8c917dc25e51633af43c348a1e720e7",
+      "sha256": "433675d36bcdac21db24263142c10819b8c917dc25e51633af43c348a1e720e7",
+      "bytes": 129652,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_healthy_clean.jsonl",
+      "source_path": "runs/manifests/main_001/physics_healthy_clean.jsonl",
+      "source_sha256": "3facb711aac860c8e318693a25d730802ddbe4c00d1bd635965c7f54ef4bdf10",
+      "sha256": "3facb711aac860c8e318693a25d730802ddbe4c00d1bd635965c7f54ef4bdf10",
+      "bytes": 104202,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_healthy_noisy.jsonl",
+      "source_path": "runs/manifests/main_001/physics_healthy_noisy.jsonl",
+      "source_sha256": "3c6bb689fae53fc62329211848012c736b01f57e204708c46b5e21df88363337",
+      "sha256": "3c6bb689fae53fc62329211848012c736b01f57e204708c46b5e21df88363337",
+      "bytes": 131742,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_healthy_push.jsonl",
+      "source_path": "runs/manifests/main_001/physics_healthy_push.jsonl",
+      "source_sha256": "ddc7b14baa0b9f7a227df8125064f2f6de19d5d39d6de9aa0e5e12a30dfbb4ee",
+      "sha256": "ddc7b14baa0b9f7a227df8125064f2f6de19d5d39d6de9aa0e5e12a30dfbb4ee",
+      "bytes": 118132,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_partial_clean.jsonl",
+      "source_path": "runs/manifests/main_001/physics_partial_clean.jsonl",
+      "source_sha256": "15054828d72795e5425c04566b37f99c21b58e435656044b3800bc56d4d20a52",
+      "sha256": "15054828d72795e5425c04566b37f99c21b58e435656044b3800bc56d4d20a52",
+      "bytes": 104050,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/physics_realtime.jsonl",
+      "source_path": "runs/manifests/main_001/physics_realtime.jsonl",
+      "source_sha256": "632cdfb79fd0565eae366fb4c22e3a9522f910ec8102d818347013dfde403a39",
+      "sha256": "632cdfb79fd0565eae366fb4c22e3a9522f910ec8102d818347013dfde403a39",
+      "bytes": 34792,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/scheduler_t1024.jsonl",
+      "source_path": "runs/manifests/main_001/scheduler_t1024.jsonl",
+      "source_sha256": "511e1aaf83212fd7e3e57aa2d7a523912f9395cb30a6d87add503bb899b89c87",
+      "sha256": "511e1aaf83212fd7e3e57aa2d7a523912f9395cb30a6d87add503bb899b89c87",
+      "bytes": 58874,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/scheduler_t2048.jsonl",
+      "source_path": "runs/manifests/main_001/scheduler_t2048.jsonl",
+      "source_sha256": "22ee285cd6178d5bbf3a8df20d3663215fd51993d329eabc1cb6ef35f20d239c",
+      "sha256": "22ee285cd6178d5bbf3a8df20d3663215fd51993d329eabc1cb6ef35f20d239c",
+      "bytes": 58895,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "runs/manifests/main_001/scheduler_t256.jsonl",
+      "source_path": "runs/manifests/main_001/scheduler_t256.jsonl",
+      "source_sha256": "cb36b6ee137c58ca596d1a1dc87e7671b11afae3751d59117ec9173b99f5bea7",
+      "sha256": "cb36b6ee137c58ca596d1a1dc87e7671b11afae3751d59117ec9173b99f5bea7",
+      "bytes": 58391,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "docs/DEVIATIONS.md",
+      "source_path": "DEVIATIONS.md",
+      "source_sha256": "01c6aa40c901af50172f1e4c9eeca66fa294feaef71b96ae1f3b2d0b75d7d504",
+      "sha256": "01c6aa40c901af50172f1e4c9eeca66fa294feaef71b96ae1f3b2d0b75d7d504",
+      "bytes": 5144,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/verify_saved_analysis.py",
+      "source_path": "paper/verify_saved_analysis.py",
+      "source_sha256": "4d8450c1bdcae0b161d0bc0910a70919eb14ccafacd218a750c31e7b9d5e9717",
+      "sha256": "4d8450c1bdcae0b161d0bc0910a70919eb14ccafacd218a750c31e7b9d5e9717",
+      "bytes": 3859,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/build_scheduler_report.py",
+      "source_path": "paper/build_scheduler_report.py",
+      "source_sha256": "3c8cd5f29e1ffc6915b2ff3feb83662947d7f917f82c1b9508fdddb26b15ef36",
+      "sha256": "3c8cd5f29e1ffc6915b2ff3feb83662947d7f917f82c1b9508fdddb26b15ef36",
+      "bytes": 11337,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/build_physics_report.py",
+      "source_path": "paper/build_physics_report.py",
+      "source_sha256": "4808829dc631d546605bf2d77810c14ade699100a6bd41bfdb822312a85ea5d7",
+      "sha256": "4808829dc631d546605bf2d77810c14ade699100a6bd41bfdb822312a85ea5d7",
+      "bytes": 67146,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/build_integrated_audit.py",
+      "source_path": "paper/build_integrated_audit.py",
+      "source_sha256": "a1149cc0ce1d0df97d12410fb505b19331f19f49961d44da0feca19a9c4fcb45",
+      "sha256": "a1149cc0ce1d0df97d12410fb505b19331f19f49961d44da0feca19a9c4fcb45",
+      "bytes": 20061,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/audit_scheduler_independent.py",
+      "source_path": "paper/audit_scheduler_independent.py",
+      "source_sha256": "09902fdceb21ebe07e203b007eb1e14f11877cc60ef838877f92805f305d1db1",
+      "sha256": "09902fdceb21ebe07e203b007eb1e14f11877cc60ef838877f92805f305d1db1",
+      "bytes": 19991,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/build_result_tables.py",
+      "source_path": "paper/build_result_tables.py",
+      "source_sha256": "8eddd6166dffe4afc4ac237856ea54f3946ade3973a1f11e5b9bb4b9972e7285",
+      "sha256": "8eddd6166dffe4afc4ac237856ea54f3946ade3973a1f11e5b9bb4b9972e7285",
+      "bytes": 26465,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/build_architecture_figure.py",
+      "source_path": "paper/build_architecture_figure.py",
+      "source_sha256": "d183e38fb712390c47bb0bb734e77e7f17877d32615e8ced4aa3da7287f38692",
+      "sha256": "d183e38fb712390c47bb0bb734e77e7f17877d32615e8ced4aa3da7287f38692",
+      "bytes": 6909,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "paper/run_qualification_checks.py",
+      "source_path": "paper/run_qualification_checks.py",
+      "source_sha256": "4a40ae16a2992461424dea636ad85315572804de1189c06ab6a7d4601681ebd6",
+      "sha256": "4a40ae16a2992461424dea636ad85315572804de1189c06ab6a7d4601681ebd6",
+      "bytes": 1909,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "results/scheduler_main/scheduler_report.json",
+      "source_path": "paper/generated/scheduler_main/scheduler_report.json",
+      "source_sha256": "93d427ad28b2fd97e263e49ff95c6b00f75d4cf4ef0bcf7fa0b8c9d9b1a3f5b4",
+      "sha256": "10f5ca71cbe88bf818d5eed3d91fad5975698313b57289d2335f3e17936e1742",
+      "bytes": 121904,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/scheduler_main/scheduler_results.md",
+      "source_path": "paper/generated/scheduler_main/scheduler_results.md",
+      "source_sha256": "3e2187c74c92fca44e78d8f26765b1b91fef91ce7acd9c7baf5fdfc31810a214",
+      "sha256": "3e2187c74c92fca44e78d8f26765b1b91fef91ce7acd9c7baf5fdfc31810a214",
+      "bytes": 2044,
+      "transformation": "text public derivative; workspace prefix replaced; newline normalization possible"
+    },
+    {
+      "path": "results/scheduler_main_independent/scheduler_independent_audit.json",
+      "source_path": "paper/generated/scheduler_main_independent/scheduler_independent_audit.json",
+      "source_sha256": "46ccbcb68a3b23c00ef44e4d46b349b91c6b50d8a59f252ded84a82794cd6dd5",
+      "sha256": "733c04c35904e19ca8230fb43931a8cf47f946512ccc9a1b09406b8876eb0e3a",
+      "bytes": 416448,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/scheduler_main_independent/scheduler_independent_audit.md",
+      "source_path": "paper/generated/scheduler_main_independent/scheduler_independent_audit.md",
+      "source_sha256": "c8f0b1045d7850c64178955fba57ee2f4645fae025f0f0d5b537030f3bc4928b",
+      "sha256": "c8f0b1045d7850c64178955fba57ee2f4645fae025f0f0d5b537030f3bc4928b",
+      "bytes": 2993,
+      "transformation": "text public derivative; workspace prefix replaced; newline normalization possible"
+    },
+    {
+      "path": "results/physics_main/report.json",
+      "source_path": "paper/generated/physics_main/report.json",
+      "source_sha256": "5fc7790946065bb37bb777e9809c3e783abf92f3d65a1b2c2e599656770c6708",
+      "sha256": "bdffce7cba86dae89e9dcf604ce63b6f7da8b7ce38a122c3c9a18f772ae9ea5b",
+      "bytes": 7514701,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/physics_main/report.md",
+      "source_path": "paper/generated/physics_main/report.md",
+      "source_sha256": "1133dbf3b269919b550d6772a357b8e2ffea4bbf3a0de2b21a62022191de5b92",
+      "sha256": "1133dbf3b269919b550d6772a357b8e2ffea4bbf3a0de2b21a62022191de5b92",
+      "bytes": 8134,
+      "transformation": "text public derivative; workspace prefix replaced; newline normalization possible"
+    },
+    {
+      "path": "results/integrated_main/integrated_audit.json",
+      "source_path": "paper/generated/integrated_main/integrated_audit.json",
+      "source_sha256": "2d376e70dec85e77873b27abd8c3f5f6b3bf941ab8992339eb479dbd6f3e823e",
+      "sha256": "accd9258a82a1aa27da1fe9530de6faaac2403a070f18a0fab9e229ea596f3fb",
+      "bytes": 303930,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/integrated_main/integrated_audit.md",
+      "source_path": "paper/generated/integrated_main/integrated_audit.md",
+      "source_sha256": "ad7a5a81bc9bac12dd0abd359548466e1ebf35b72f4810e93e90b00fa6ba923d",
+      "sha256": "ad7a5a81bc9bac12dd0abd359548466e1ebf35b72f4810e93e90b00fa6ba923d",
+      "bytes": 1870,
+      "transformation": "text public derivative; workspace prefix replaced; newline normalization possible"
+    },
+    {
+      "path": "results/tables_main/numeric_claims.json",
+      "source_path": "paper/generated/tables_main/numeric_claims.json",
+      "source_sha256": "e6e0ae59f005a951415545ecc0aa9c9b01ae29584b080bc8180a3d7884efc304",
+      "sha256": "cb504608b8fb4bc7a8233c7fe8bdf26154583b5bd7c570a8cce4efe99d5bbe2e",
+      "bytes": 233606,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/tables_main/table_scheduler.tex",
+      "source_path": "paper/generated/tables_main/table_scheduler.tex",
+      "source_sha256": "83a847b729e994509d4ebe4a897f17e91117ba8dbd8bd90da297009772d4912d",
+      "sha256": "83a847b729e994509d4ebe4a897f17e91117ba8dbd8bd90da297009772d4912d",
+      "bytes": 1348,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "results/tables_main/table_physics.tex",
+      "source_path": "paper/generated/tables_main/table_physics.tex",
+      "source_sha256": "1c216ec1c055b9512341a873bb59dd39a1f51b9312a32ac3b080c0b44d7e85b2",
+      "sha256": "1c216ec1c055b9512341a873bb59dd39a1f51b9312a32ac3b080c0b44d7e85b2",
+      "bytes": 1628,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "results/tables_main/table_realtime.tex",
+      "source_path": "paper/generated/tables_main/table_realtime.tex",
+      "source_sha256": "d7e697fe0b7dcb74dd5988a274f206034351827b077e62d6c8646415b65b98a6",
+      "sha256": "d7e697fe0b7dcb74dd5988a274f206034351827b077e62d6c8646415b65b98a6",
+      "bytes": 1036,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "results/tables_main/table_integrated.tex",
+      "source_path": "paper/generated/tables_main/table_integrated.tex",
+      "source_sha256": "a277d28fe5ea978e420dfb461fa0cbdb847d01cada4f3a4d4c70b99109ec81b4",
+      "sha256": "a277d28fe5ea978e420dfb461fa0cbdb847d01cada4f3a4d4c70b99109ec81b4",
+      "bytes": 1308,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "results/reanalysis_main/verification.json",
+      "source_path": "paper/generated/reanalysis_main/verification.json",
+      "source_sha256": "e4de2e8fd6be5bd19ed7565c19cdfc2ca563dc704e18518c9a7f7801d0fac73a",
+      "sha256": "3b66560c4162a96c56c644a1d6ff13c9dee4aa5ec96e99c5487efc5f48d62ae0",
+      "bytes": 11107,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/qualification/qualification.json",
+      "source_path": "paper/generated/qualification/qualification.json",
+      "source_sha256": "59844d177d4697b42315c2fb583e918af853efab6b44f5bda841350af55a89ad",
+      "sha256": "8ab9fd95cef837ef0b3bb40ccb904ad498df89924ec3704c2ac213b6a94f0dd7",
+      "bytes": 573,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "figures/hera_architecture.png",
+      "source_path": "paper/generated/architecture/hera_architecture.png",
+      "source_sha256": "ca40cb2c7844f914e538687b090d28e14fb3d01251e9b95638d46ae2157015d1",
+      "sha256": "ca40cb2c7844f914e538687b090d28e14fb3d01251e9b95638d46ae2157015d1",
+      "bytes": 378376,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/hera_architecture.svg",
+      "source_path": "paper/generated/architecture/hera_architecture.svg",
+      "source_sha256": "b1f20453ea5677cb2540a2caff3dbeb05ecc849e04a3fe6874541e2d203d5777",
+      "sha256": "b1f20453ea5677cb2540a2caff3dbeb05ecc849e04a3fe6874541e2d203d5777",
+      "bytes": 18698,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/scheduler_deadline_sensitivity.png",
+      "source_path": "paper/generated/scheduler_main/scheduler_deadline_sensitivity.png",
+      "source_sha256": "d4e4deb0c80ac820f5a32cbb8f2321f9e129bd54f5492b911a44445f9bce9c5f",
+      "sha256": "d4e4deb0c80ac820f5a32cbb8f2321f9e129bd54f5492b911a44445f9bce9c5f",
+      "bytes": 132963,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/scheduler_deadline_sensitivity.svg",
+      "source_path": "paper/generated/scheduler_main/scheduler_deadline_sensitivity.svg",
+      "source_sha256": "0ce44b6fc133174b876bfc1cf6d700eda15632f6d7ae32e8fe24eb8fcdd158dd",
+      "sha256": "0ce44b6fc133174b876bfc1cf6d700eda15632f6d7ae32e8fe24eb8fcdd158dd",
+      "bytes": 43118,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/scheduler_latency.png",
+      "source_path": "paper/generated/scheduler_main/scheduler_latency.png",
+      "source_sha256": "b5d4892bda1fe416eb9f6a1bca223301234fff323b59e5da9c1eff3bf56e2a13",
+      "sha256": "b5d4892bda1fe416eb9f6a1bca223301234fff323b59e5da9c1eff3bf56e2a13",
+      "bytes": 154994,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/scheduler_latency.svg",
+      "source_path": "paper/generated/scheduler_main/scheduler_latency.svg",
+      "source_sha256": "36cbbf4dfdde2e5d236462e2a7bd80d37f2de4d108f5472831f4e92b4cd2cded",
+      "sha256": "36cbbf4dfdde2e5d236462e2a7bd80d37f2de4d108f5472831f4e92b4cd2cded",
+      "bytes": 75833,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/integrated_application_timeline.png",
+      "source_path": "paper/generated/physics_main/integrated_application_timeline.png",
+      "source_sha256": "d5ac3243ae6911cb51e6a936610ccfd73162cd898d3a0595c22fdaae63c8cffd",
+      "sha256": "d5ac3243ae6911cb51e6a936610ccfd73162cd898d3a0595c22fdaae63c8cffd",
+      "bytes": 121784,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/integrated_application_timeline.svg",
+      "source_path": "paper/generated/physics_main/integrated_application_timeline.svg",
+      "source_sha256": "90eda37ccb383ce5ca0a309354082a14339a825d44cf09e5e645001439405c9c",
+      "sha256": "90eda37ccb383ce5ca0a309354082a14339a825d44cf09e5e645001439405c9c",
+      "bytes": 89726,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/physics_paired_phase_grid.png",
+      "source_path": "paper/generated/physics_main/physics_paired_phase_grid.png",
+      "source_sha256": "0e6f51ade53c04b8b49a8e7e0fd23a3432dfa839a949b9cde848cb3a56e9700f",
+      "sha256": "0e6f51ade53c04b8b49a8e7e0fd23a3432dfa839a949b9cde848cb3a56e9700f",
+      "bytes": 236090,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/physics_paired_phase_grid.svg",
+      "source_path": "paper/generated/physics_main/physics_paired_phase_grid.svg",
+      "source_sha256": "0bd3d202a5d0e74c39635bdf3e31488ff881a40afa70c6f27670832f4ce1d63e",
+      "sha256": "0bd3d202a5d0e74c39635bdf3e31488ff881a40afa70c6f27670832f4ce1d63e",
+      "bytes": 106628,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/physics_profile_outcomes.png",
+      "source_path": "paper/generated/physics_main/physics_profile_outcomes.png",
+      "source_sha256": "5b62608a977e95ba4afe85a7304c2e10c32b9a3a22be31c8764cbfd402805714",
+      "sha256": "5b62608a977e95ba4afe85a7304c2e10c32b9a3a22be31c8764cbfd402805714",
+      "bytes": 70294,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/physics_profile_outcomes.svg",
+      "source_path": "paper/generated/physics_main/physics_profile_outcomes.svg",
+      "source_sha256": "79176be8f3c15dc4ba6aaca1dd3d5cc9cd445793160db3eb6b3cd44424785a3b",
+      "sha256": "79176be8f3c15dc4ba6aaca1dd3d5cc9cd445793160db3eb6b3cd44424785a3b",
+      "bytes": 28580,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/physics_realtime_latency.png",
+      "source_path": "paper/generated/physics_main/physics_realtime_latency.png",
+      "source_sha256": "f78a8de589f4d6a34e70bfc0576bb045eacc01bd9f9d7677a78d63aeaaf4460b",
+      "sha256": "f78a8de589f4d6a34e70bfc0576bb045eacc01bd9f9d7677a78d63aeaaf4460b",
+      "bytes": 162759,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "figures/physics_realtime_latency.svg",
+      "source_path": "paper/generated/physics_main/physics_realtime_latency.svg",
+      "source_sha256": "917310ccb3e16870f51fee62af407e74f9f4cc7f18427403f665f108d9203da8",
+      "sha256": "917310ccb3e16870f51fee62af407e74f9f4cc7f18427403f665f108d9203da8",
+      "bytes": 100032,
+      "transformation": "byte-identical copy"
+    },
+    {
+      "path": "results/provenance/campaign.json",
+      "source_path": "runs/main_001/campaign.json",
+      "source_sha256": "5e85ec8b9b4c5517d71d858f3fd7cae78d065bbfc41cd2b3caa91a3eb84697c4",
+      "sha256": "ee7aac55d748851f63485a4e5e8169fb3ad11b1bd3a252ab3eecbf81268d8ae3",
+      "bytes": 4794,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    },
+    {
+      "path": "results/provenance/provenance.json",
+      "source_path": "runs/main_001/provenance.json",
+      "source_sha256": "9006e5f7083090c1f7bd3937346829f991f8f18c30ba1348c0b95950f151b4e2",
+      "sha256": "f7a36ec004737cee2b009a53babd947e0fe103d09750897ebe0131caa8c440a9",
+      "bytes": 6208,
+      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-07T12:10:20.448324+00:00",
+  "command": [
+    "SOURCE_WORKSPACE\\venv\\Scripts\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
+  "source_unchanged": true,
+  "returncode": 0,
+  "tests_run": 76,
+  "passed": true,
+  "log_sha256": "bbaab2f4fd02451155996001608bcf549fd4728147fe3f380e23a46de64cfb21",
+  "script_sha256": "4a40ae16a2992461424dea636ad85315572804de1189c06ab6a7d4601681ebd6"
+}

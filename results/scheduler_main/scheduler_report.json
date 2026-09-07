@@ -1,0 +1,2582 @@
+{
+  "campaign": "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001",
+  "script_sha256": "3c8cd5f29e1ffc6915b2ff3feb83662947d7f917f82c1b9508fdddb26b15ef36",
+  "manifest_provenance": [
+    {
+      "manifest": "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\001_scheduler_t256.jsonl",
+      "sha256": "cb36b6ee137c58ca596d1a1dc87e7671b11afae3751d59117ec9173b99f5bea7"
+    },
+    {
+      "manifest": "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\002_scheduler_t1024.jsonl",
+      "sha256": "511e1aaf83212fd7e3e57aa2d7a523912f9395cb30a6d87add503bb899b89c87"
+    },
+    {
+      "manifest": "SOURCE_WORKSPACE\\revision_v3\\runs\\main_001\\manifests\\003_scheduler_t2048.jsonl",
+      "sha256": "22ee285cd6178d5bbf3a8df20d3663215fd51993d329eabc1cb6ef35f20d239c"
+    }
+  ],
+  "canonical_and_raw_timing_audit_errors": [],
+  "trial_artifacts": [
+    {
+      "trial_id": "scheduler_t256-b001-o01-hera_preempt-BL-s2126568267",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8fcd75dad90a36be41a13e881d059ed5131623d54aae5ca49284d2f831ab2756",
+      "worker_summary_sha256": "35bb58a30828133212a8308df8313e96ca885b702b36015eb3dd305a1754913f"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o02-reserved_slot-BL-s2126568267",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d636756d865eb6c1f1af4d706b0412e12927cb4c85f3f17a781b53b271cd0830",
+      "worker_summary_sha256": "d0b538ed49386ea1fe843ae0d6ae3106e6133e4df1b710ca51bb70aae5fcbdb6"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o03-hera_preempt-BR-s2056205878",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "57bd319f34c133a70902aed4d8d96e11f58e9a2fe4ed2ff777c9932fa70384d7",
+      "worker_summary_sha256": "da1f05826e179152e32e986fe6a3b41ad90838f43347f01b3189fda49510ec7f"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o04-fifo_single-FR-s0035878359",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "dd531bfacc693311a16a9e3b3b5a0d8916e0c8ce6625e9cecbae47365abdb764",
+      "worker_summary_sha256": "2a803bd9c43b62cf1aa43fdd4cb3fe6e594c1ad113811d9db8f35896a7b6950e"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o05-fifo_single-BR-s2056205878",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d9c155ca857e24375e7f7d0d11d1d2cbb72cb42897275463169d8f3fe8e7f1db",
+      "worker_summary_sha256": "22e357048bac8b282a4d79790dece99cfcff3e38e291dba56672e2430ad6648e"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o06-reserved_slot-BR-s2056205878",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d52989c82e1cad4ffdd8631d6e5e96a9fc63bcc7d7261b9523e9751bf8b2a023",
+      "worker_summary_sha256": "e53e613bde36e2dd92c0343f6efd8df62cd62a62c89da20e9d8ebac0ea8036bc"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o07-hera_preempt-FR-s0035878359",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e78befc480e88258c2914a02e9aab94a7db3a23e69b779a496a2684a1ce3e6d1",
+      "worker_summary_sha256": "8ac000f1792d271baa2d6436a0ea51ca7013acbc8dbb488150df750edfa4e031"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o08-fifo_single-FL-s0945467968",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e97c33f6fb50f08e4f17aa8fe3a05ebe00fc3929b2546160f731d0f9b471274f",
+      "worker_summary_sha256": "7f425837a9758ccca65dfcbb23c7ae1ec88eedce5eb13f88d4cd8f7ac629f8db"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o09-fifo_single-BL-s2126568267",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "531746cc7defdd7d6efab95647dd6eb40ffbf9c39e7786634a7553b0e883f2ca",
+      "worker_summary_sha256": "ef9f4229d3c41e79c2d0d1441a96c16b6665b68052eb376a29760a11bf5b6d40"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o10-reserved_slot-FR-s0035878359",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4d04233456bb39cf2d7f375a66a8fed1f478d8a884556b46b3f6ce337670d9f1",
+      "worker_summary_sha256": "aeec9daeefd03da333972af1e94d8b8ae1c42ddc080c3eaade875794983545d5"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o11-hera_preempt-FL-s0945467968",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3d901426b4319cf9da7eb311fea819c7c430708e4a1fe35c9ee369ab762f9bd3",
+      "worker_summary_sha256": "b0e55400f01f48ca0725e63f0ccb505edebd0bd7415a7746772ba70dad9ec3ac"
+    },
+    {
+      "trial_id": "scheduler_t256-b001-o12-reserved_slot-FL-s0945467968",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "df38ace29017aef7f5e4b0ae3d238eda000a4725982ba08e9e3e84270d886d54",
+      "worker_summary_sha256": "32bfd55f968b0d22cfe1e4815ad92d097771d93ed808707116e05911a9998175"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o01-hera_preempt-FL-s1890171331",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5b95977ae2643aacdd8d7a8dc0ad9c4f54f0f66e6d09ec6f4119de9398e3ec71",
+      "worker_summary_sha256": "9cff90fee65058a4b0331584b96cd6b55cb0a33d58da0cfeaaf6b2a666ad58bc"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o02-hera_preempt-BR-s1682340753",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "71f9224e06ab2dc2aa35ef580e74d687951a31fefaea4bb50e9d2e3dd098f78d",
+      "worker_summary_sha256": "1804c76382221b9e2cb79af9af5b0dae30b490fd14f96afcea4d63a12787e2ec"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o03-fifo_single-BR-s1682340753",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d7065f0d4f52d2420cbb8c679472837e6af2890de7036349a55c9f58e999a6a0",
+      "worker_summary_sha256": "7f8eb47ce913350b5d90f570cadd917ada7fbc77f8a35f8c5fc7c20f5aadb4c5"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o04-hera_preempt-FR-s1644301122",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1846b774870f95a5108895d53197c90fa18cb82dd069761cd2569ad3306ad91e",
+      "worker_summary_sha256": "6391b5c13533d2aa0487bdcbc9eea44036b332667ea21109370edc10e7fdd7f3"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o05-fifo_single-FL-s1890171331",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c0e2d896ea8c38ecfdbbb15085973a2a4b635dbb1c1b7687d8b3d577c568e6a4",
+      "worker_summary_sha256": "3e622e3fec1f4a18717cb303d75bd506498a14b62fbcfad934193e1b8c04cdc7"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o06-fifo_single-BL-s1980637616",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "61b1095856ef944b3980f732fd38d66bc1711df9c1120c311295135d63bafa8e",
+      "worker_summary_sha256": "ac06bd9b808a11b1ce15806ba7d6645611b53be92c0fa5e56d5889afc70d7a0d"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o07-reserved_slot-BL-s1980637616",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1d729e7d6bb99e2cdab08c221cea2f051d88021d7af990a61e6571514efb7e5c",
+      "worker_summary_sha256": "2476d17c7abdc05992d7910386c4a4a9b3640bad5d983eb97c5111e138db6820"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o08-reserved_slot-BR-s1682340753",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d36ac3891eb5e7b43b4316fb1f57815cc5123805a8b14d421c464a64ed25107f",
+      "worker_summary_sha256": "736cb1b10f1dfe01734dd24fba176b5b388bbb2964a2347232876cbb7dd14623"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o09-reserved_slot-FL-s1890171331",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "36117907145d193fa62782cd6a69d8938013834c9a1e4d40986136609b791827",
+      "worker_summary_sha256": "9c5f5a877f97fe2888626f40f3ba57ea20063d12a90e58aa409a7fa016a69fed"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o10-hera_preempt-BL-s1980637616",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d9420dd746587525949620a76c69034989022d1fa8e0f7baa84e77cd9dd68506",
+      "worker_summary_sha256": "a4415ce870504bdcebd8dd1caeb7de17441fc6c83bc04c3dfa8e2bf35dca6581"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o11-reserved_slot-FR-s1644301122",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5472522e69bd2b876f5258fbf6e5fdd2dbc2547f40f439ca98457de806029484",
+      "worker_summary_sha256": "b224f8d96354890f18bd61adc87d5e90c485a9d363d55d137408d9ad4fcdda3f"
+    },
+    {
+      "trial_id": "scheduler_t256-b002-o12-fifo_single-FR-s1644301122",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "27c898b2cd51f09460331adda66096ea41679fe4924cb0609496869cadd3b71f",
+      "worker_summary_sha256": "ff70dc8840d7f31a4c36ab1c7ea556ab9f1b07ec7f153b59f7951040123546d4"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o01-hera_preempt-BR-s0977948792",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "862ea65c1a0f43c6535c2597fd22c1404558dcd91006667abc90f0e9a1537903",
+      "worker_summary_sha256": "de3955db44bb244cb94e193d4c63b21941a2220f2b417d80a11c6010a2c0816d"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o02-reserved_slot-FR-s0936991289",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e6b4d58133c808211b36c770b1da351ce4f9eac9cd82bf5e12a110e47a5fc153",
+      "worker_summary_sha256": "6fd32d2784f53e74ba5a81eefb9097e4416ca494438833fdb889d284096be04c"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o03-fifo_single-BL-s0413162359",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5cd4d0d8e9a2598387397024c3b064fe6df18178b5ad840ed2eef083692cedc2",
+      "worker_summary_sha256": "0bbd8cf15892b15cdd868b951c4a4052f02abedbca24844d5f20d7cdd2a28e77"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o04-hera_preempt-BL-s0413162359",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "33a1c7923eb5dbfa60c86fda032e3a27df6cdfe639afd097136f11c48ca51aef",
+      "worker_summary_sha256": "f025fd7a0a1e92a58e6c85936c0e7a0af13dfb746d19f358fb811c8754ff053d"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o05-hera_preempt-FL-s0239933871",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c686af292ad918475a684349ca1e3ab28986bab4473979a7b34b36f138654e6c",
+      "worker_summary_sha256": "db6ef7eca7a11c2406acd54a83830ca17ae63af2e381907a010314d9c6a4249b"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o06-reserved_slot-BR-s0977948792",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "52adbe2468922db40e50160b2fc726bf6c70a9eaccde66ea8f0f5d2493aaaa35",
+      "worker_summary_sha256": "926e1caed6d6609cf1fbe1bcbc0786b47d0a41151707593332cc4f179f47fc7a"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o07-reserved_slot-FL-s0239933871",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a7f9e86cb91bfb4b1de2f052eeca774d5fe406aad9ebe6e86f946a7a6e106800",
+      "worker_summary_sha256": "69d95480270a92e7dc144ae8086d6c652a1f4702c550ac1efbaf27b66a1da0fa"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o08-fifo_single-FR-s0936991289",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "88fa1545d9f9a64837af6cd5f7e596d6449bc34d96177bac9f7e267eaac456eb",
+      "worker_summary_sha256": "e02cb33237b627a7724ff672cba43d277875ccbe91c57d3722f0f3e369ef434f"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o09-fifo_single-FL-s0239933871",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "2e625dcb239423afd393f8ec65267fc85c357d56611ff0f257927278d5ba9ddd",
+      "worker_summary_sha256": "6d84fca860135db0a51fa6356433450a4693cae86be241462bdc55d0916418df"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o10-fifo_single-BR-s0977948792",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "97e0d78f1b17b6d4487608f3925b6aeb57378ba208ca150f28a8ea934e72abc1",
+      "worker_summary_sha256": "96421bd40d1bf9af21dec1759343bc52f5a0cc5930da1fe3561f9a1f41c42d42"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o11-hera_preempt-FR-s0936991289",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "905d2ac42e10e72605c6d19b9a95d819bfc9215e543ecc2ef06aa40d62d75824",
+      "worker_summary_sha256": "6d0a0d470d90a36fd89977ba5986f5c4c5023218bbd5b1bae48a8830c56d7019"
+    },
+    {
+      "trial_id": "scheduler_t256-b003-o12-reserved_slot-BL-s0413162359",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "34fb713aaa2c3e96a6c6c25328896105b21f24c5c23aa57820ab6d9b12144871",
+      "worker_summary_sha256": "16b993395982fffff1f05d8ff00882f44d2f512a782e22930e0803d6abb500c3"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o01-reserved_slot-FL-s1346061562",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "85bac5c0f4577f771b84e7ef1b0ab106fa450a5d056631e6232494a1d54bcbba",
+      "worker_summary_sha256": "4d548e542da6154edf5bdef1afe2cc8c9bd5c3019a2f517d8c513e53daf28cbf"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o02-fifo_single-FL-s1346061562",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f25761f965f4fd96e5fb9f021730e0885d18d3f9e70924c35a7736477acbb60a",
+      "worker_summary_sha256": "2edb8dae58ab8948506ca881b5f78de5912b4df5a62f116444d0f4521a0e7843"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o03-reserved_slot-FR-s0608774493",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4e68da31fefdc236c282c9e04175f592705b9d515cc7c67c5a779f2adf90ccf5",
+      "worker_summary_sha256": "90f86e6c18dcfbc1093695b07d4d14f3b2aa184874803e9649d7230c00194aeb"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o04-reserved_slot-BR-s2026231823",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "86a604ae496a0b83954221b2adff68782a9436cb1342e43759aa842e5be850ca",
+      "worker_summary_sha256": "cf5066acc29755c45832433dec67c6edd46135b45a0bd8094427cd572a5aec88"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o05-fifo_single-BR-s2026231823",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "419a24e99ae021c143038d68a44ad864ab75647cb788a36ad15ffbc64e4015b0",
+      "worker_summary_sha256": "7f2faaa074d2355860634e3e2a7bd59e417597bf0a561562d90874464bd81d81"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o06-reserved_slot-BL-s0680183012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "369925801b354f1bb89f0d7cd18e9c142b24005d0c56e65d2bdef3f0fc8b5cb0",
+      "worker_summary_sha256": "e4d2447cead31f2382c43ccf352c9c26cbcbf525372982dd3a0b61bf4301521b"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o07-hera_preempt-BL-s0680183012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "635f25afe00d21c22df743059b86e9032a7b65efe04945454830dddff27343de",
+      "worker_summary_sha256": "a4411d315c806e95b4443cb635ad17e4ff77e2dba0171918e4e5cadc1471de2b"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o08-hera_preempt-FR-s0608774493",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "064c569fab5e6f8da49c1de936ebf6def92b8dee2e6135cc067794f7a2338ab8",
+      "worker_summary_sha256": "c07e41ab2f076a5aa2ffeb5a340224c220a2ab4886121dd1e9dd3ed1de4acbbb"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o09-fifo_single-BL-s0680183012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "48dd02113adec78905ac18f00578b96213cfc470a49a3b877c8c1c3e063c69b0",
+      "worker_summary_sha256": "e4138927743d1aaddf58bc8c6c40e5a612b86be32db8247573e6ff0633826ee7"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o10-hera_preempt-BR-s2026231823",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4da698f9caa7299f2fdc37975c0f77ca941df76318e609303adf186e47d1d715",
+      "worker_summary_sha256": "465ad05b96c44c759388aa1d6edb3992d685dd8dbcc25055525044228d087448"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o11-hera_preempt-FL-s1346061562",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c36cb3f5981f5516a163ee866f8876b54631d346de90d05df3e8c3f0a9372850",
+      "worker_summary_sha256": "1f420b8f1a0a9f16be4e2bf051f04814727f738c7e4bb7d1492509c7ca7ca8cf"
+    },
+    {
+      "trial_id": "scheduler_t256-b004-o12-fifo_single-FR-s0608774493",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "dfe7ac664422cdc962aaf496214ba23e5ce5ae7f9b8492a9a231b0b92a8a6c4a",
+      "worker_summary_sha256": "143823644f84c61b5567cd1466512f5e67962183917dc9bcae80d7d6b9115950"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o01-fifo_single-FR-s0519092641",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "371b67a1e4d6371cac94481aae4a296dcfd3a820538a8bd65345fa116d6980d7",
+      "worker_summary_sha256": "2ffb5e50e8d2485444718226700c8ecd1090c271572f7ed33f7a97c4f31ab94e"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o02-fifo_single-FL-s0477780198",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c809eb2b2c8697496c67c2f41e42f05989a1e2c3fdcbfdd8fae2dd12ce2f521a",
+      "worker_summary_sha256": "316e5dc680a0f9eebb52af9639d12f5bb87529d1d137cb6547a5c93bae80fd1c"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o03-fifo_single-BR-s0448467152",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c0b78583b24864a35fc5c55afd10e907f7ef1f92650e11232452864a7cd4db85",
+      "worker_summary_sha256": "1ff95d2bea0081d97b5640bf4b465217426e21190a3939c293dc02b30aed0360"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o04-reserved_slot-FR-s0519092641",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c5618fef12d7a697ba7453148203635d38db0b8537e15fcddf2bca6abbe7c75f",
+      "worker_summary_sha256": "35436b9152e4d09828e1be68812527f6964853a5c659752acc98f5e8b1289c19"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o05-reserved_slot-FL-s0477780198",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3bff1c7139818cd5a57370752e9afbe66c7f2cc5d0244bab4707c6a3bf1fc0cf",
+      "worker_summary_sha256": "8604290fce15462043303fdd0b1645c9e1d381b5db6ea3762b2a7d74184a8641"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o06-hera_preempt-FR-s0519092641",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e5c17c65c91a01d99ecfd8f5fd995cca2043b7f20f4f50764f161360ea3d42f0",
+      "worker_summary_sha256": "e4105e90f60d0baf2d0cf18d1709690992fb750a94374a44aa807c597b58e4f6"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o07-fifo_single-BL-s0380227845",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8a68e9c7265974924e6a90c8dba04ba476b48ccd13daf01e408e28f34b186c3d",
+      "worker_summary_sha256": "323620f5c91a8d1cd99458b5d6197f241dded1d64450e9aedf7daf852feaac71"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o08-reserved_slot-BR-s0448467152",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6cce2f01e2ba1cc73d1df36bc0a85b1a61f029e4ad4f8a2ab7406238fd81954a",
+      "worker_summary_sha256": "bf2495227b74d0260d60fec312f7b09001ecdfc976aa63078b97798d750552f3"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o09-hera_preempt-BL-s0380227845",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c041295e06ccfbe3a9da0fe8c43ca31d3b8207b12f0388d24567c9a7668b70cc",
+      "worker_summary_sha256": "754b73063071af3237f395219d23cac8d9650d7f267ee70f9e3433610d00e33d"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o10-hera_preempt-FL-s0477780198",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "532d06ac7bd4c9c60fa150dad5a1337b8816a70f64070e835cccc4778a731581",
+      "worker_summary_sha256": "b3ae56bbf1d9fdd614392c4a1c32da4477ffe02438fc7f1b4fb8bd8e275f8e4a"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o11-reserved_slot-BL-s0380227845",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "84da0417948d9d17417b8c9e9abafb4052974ad8996bbb5c6fc531b146fd0341",
+      "worker_summary_sha256": "1b60b480c907617b3257463821c1da7353dc674492b4bd105d218c29ef8674e1"
+    },
+    {
+      "trial_id": "scheduler_t256-b005-o12-hera_preempt-BR-s0448467152",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b0afe5d6782a0bc7f5c31e7f6374e208f5ba275f0966fe9b07158fc8bf13dcd9",
+      "worker_summary_sha256": "c9327cad02d67eff06565c3a6cd44ba5f52626add6b2f34476d6f249ab79809e"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o01-fifo_single-FR-s1951216971",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "47b745a4e5819b06e519ccd2d7a7d10136326112e225e283fefd8e213c7c4463",
+      "worker_summary_sha256": "2657f47f66d461a32cc65258fb7d884c698a4a5a9dd7bbe58731b85af5b1a691"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o02-hera_preempt-FR-s1951216971",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "337dbd99f84725d622e50056d038e43a9581fba19e10b00f7da8bd80ee22eb44",
+      "worker_summary_sha256": "dbafb89d73fc3591d4121c16d5fb7960f87790d64e0ae68aabfd73343e263981"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o03-fifo_single-FL-s0861066432",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "adf8b4f1c8aba8303dd58e91eec3477b02eb67ba66beb750d05bf355228105d0",
+      "worker_summary_sha256": "97fd85e8f406bd74ff43498a1d4ab304966ee023e0a8ba7a330254c89359f662"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o04-hera_preempt-BR-s2073613474",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "42fb9e07967892d4522d494f53387dae6cbc5c93c967f9ef9629721569eec211",
+      "worker_summary_sha256": "f1f6cbd2c810fb051ae7c34521ffd8cc37cd3b06bc5066e7de791a663f0c4fd9"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o05-hera_preempt-FL-s0861066432",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b5af4220d2f172220b4b763e3d91654abb0b69df7b692aadf80cce01554fd724",
+      "worker_summary_sha256": "c4552fd882137bed85f1d4a664973e2664a267829889b6798427fc86ccbc8944"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o06-reserved_slot-BL-s1371730383",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8439368c214c926fe634d63f0900dc3f751afca07f0eb746e2d1a77fb8957a3c",
+      "worker_summary_sha256": "80ae3a84c5c1037a510c3fdfaa0daa0b7319e3b8eb9f1b32144ce4984d0f9e7d"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o07-fifo_single-BR-s2073613474",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3d07bbdc4d2ef22f9a99ed6478da8d4183f1b3c2454c12fd1b33852546f2baf7",
+      "worker_summary_sha256": "08864309aac304df831d879cd59cf5a36d38c742c986c4c2a1728bf30c2eef4c"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o08-reserved_slot-FL-s0861066432",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "be9d85874ae28bf11eac9585e34de5bd33549a29e75536647f6bf58c03b887c9",
+      "worker_summary_sha256": "fd783fd509e2a2ac67e2c9992b0bf50d7315f856457ed60a5a26d0f398d95ae0"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o09-hera_preempt-BL-s1371730383",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "0bfc486cf439e99d10517390cc81b3de64c990a0da1c2fdad7a3e370bc44dfda",
+      "worker_summary_sha256": "8d06020943d88c406c59af7e60162d3904d22a1f5bd08d40d5838301dba9a3fb"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o10-fifo_single-BL-s1371730383",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "48ddc2cfbdb6c85d913d5b84cc713635f78736c3ca1c03894072061ec1e05152",
+      "worker_summary_sha256": "30bf10948f401ad027801e4b354ca11cc43b3c71d902ace14246c367f6df52fc"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o11-reserved_slot-FR-s1951216971",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "744fc42f154ec0c2007ee97cd3a6ee63a4d6f1a2d51b0ee4ec3b54d20321e30e",
+      "worker_summary_sha256": "e6438539e4b7dc2665e7170a4e1f46f8d410c5221ce53953558145f11e71f350"
+    },
+    {
+      "trial_id": "scheduler_t256-b006-o12-reserved_slot-BR-s2073613474",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1249edcf4366c1ab11d7ba06f13fbbbdfb332dd89c8611c31ebd8fdbb66a7fc1",
+      "worker_summary_sha256": "f73a9111dbe948f5c866303b77a4bdc351e53da582d1681b52c32e18b25bf013"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o01-reserved_slot-FR-s0097825923",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5397ea333d1121913f66b2ee9f30e1eabb94d178779547ec62380600b1f86934",
+      "worker_summary_sha256": "ac04e7a9b0228e64a7e6d2ed9592df00806a7670512ef13a52a8c5338d597368"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o02-hera_preempt-FL-s0106891957",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a6f06308f951c855b67d9262b5065de2ec2596a1d5875247413117129e55ab58",
+      "worker_summary_sha256": "dd43c1787709f152561cacf0704392da34d35a98287728055689762ed84bc2da"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o03-reserved_slot-BL-s2005197624",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4fb9e5a22ee6f29388f497c090a71bb809f941881b8d5f49536e0f98db573e4c",
+      "worker_summary_sha256": "4c1fec6272777d0f1e971f7059c5b1a2fc7ecdcef05bcc3cd6e1994bbe08fc60"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o04-hera_preempt-FR-s0097825923",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c3cd060c595f735b49bd5b366271fc3ded1033c4b3635805330422f37cd1bb42",
+      "worker_summary_sha256": "2f4a292d6f15994c43906e634825b52c4725f707271cb5d8b378ee32eb476162"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o05-reserved_slot-BR-s0958696610",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "9e0776a4dc269cffbd6ce0a9db0d64ede11db07de06f3a279f056e7d2d38e736",
+      "worker_summary_sha256": "5e322b25d0cb5c143dffa188b237368af68b1fb8fe111150d30fa0725ce6a7ef"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o06-fifo_single-BR-s0958696610",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "dd03bdd25c5e24c7f4f82b0e968d662f106c3b0ba27bdf4b4b64ac80fb0be94c",
+      "worker_summary_sha256": "0b45bb7747cdd8f2f6956cb5edfed9a38edccbdca785b5932f552d486fca8f11"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o07-hera_preempt-BR-s0958696610",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "774e425c44270a74ae7fb3ea358fd29137cd121bcf8a911e1adad18d828ad078",
+      "worker_summary_sha256": "e7c58f998a4ca3ac64823d459f4550a0edca0858d64555f509aee1c445af52b6"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o08-fifo_single-FR-s0097825923",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "eff6b1c5e86b228c4af725582a424ac0603d8b27ff761945a81764b9ea4c45ea",
+      "worker_summary_sha256": "d8d12f6959b57ee80ec6c459ba8247ae35c846de869996356170c536717ea673"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o09-reserved_slot-FL-s0106891957",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "9e5ab3b47f983b0e836c7173637be28fbe3d359aae50f4231fd67facd12bbdba",
+      "worker_summary_sha256": "738c2df8c3c3d9259ab09336cd34be17b062d0829053e60e5529c137b93ea3c2"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o10-fifo_single-FL-s0106891957",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4ede5683076123b81537b60764ad198b3cdb1429ee313e3c787029cee9856908",
+      "worker_summary_sha256": "db01af0f15bd64c08ce514c7f28dbd6f914ff6be7c1722d6b7f0d98b5263aef7"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o11-hera_preempt-BL-s2005197624",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5d65707d034437ea8401501ad43704585604711d1c3d75d504e1a8aa5ec80267",
+      "worker_summary_sha256": "553490bdfdb2cf70dbd02ae5215995149eda4a672568211e1d06952acfef56c5"
+    },
+    {
+      "trial_id": "scheduler_t256-b007-o12-fifo_single-BL-s2005197624",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b32422a03be939d1faef4ae623d6fbe77ecdff46c256cfdba74cbe663ef1a1af",
+      "worker_summary_sha256": "0a4866d4ea804ff5bef2005f249b35b94ce68665d2e8368b5966845a76227468"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o01-hera_preempt-FR-s0513591453",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "719c273aba93c966ba30b1e7ab6ff4b39eb680fb965ee2a6230303c609139497",
+      "worker_summary_sha256": "1233d4c3bdb44d68b736c7f626c3b00de8cd8035f04aeb99c47d85fbe56be1b8"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o02-reserved_slot-FL-s0113472283",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6a0289e89ced4ec586e5cc3886dade28ab32801e868930ef827d9f2ac2f1877b",
+      "worker_summary_sha256": "3817805b72805b3fab04d51c04800cb32764f5e35ee68d6864f54688cce4c9bd"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o03-hera_preempt-FL-s0113472283",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "677056c8ebe7c049e1fd260f1a49efa285a6733d6f52e1fa94d34dc4959ac442",
+      "worker_summary_sha256": "25104a221fa01b2c30225a57e0f31d3205b75a55136c81d2aab8c4b6198b45be"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o04-reserved_slot-FR-s0513591453",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "bf0368a881ed2c48ab7af524a9755458be54343ec3764977e3714a6813906150",
+      "worker_summary_sha256": "56ea7b69bb4a7dd1702e2bdca9150b041ebfbc9a9753146c12a5903013dedede"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o05-hera_preempt-BR-s0835218300",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b7125039e84811aad4e2409193d5db7adf132fb4629dbe14b11fcf184ae810e6",
+      "worker_summary_sha256": "5a7f10559aef937977ac4ba3a47edfd18259eb2a86d7940754565152d5c83c57"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o06-fifo_single-BL-s1267709774",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "799373777442b044e2140d3e3d66d71a18ea82390babc4ba5e9c7b2abc35589e",
+      "worker_summary_sha256": "fb62481a9b1a19833996a749abf6e76bb950273cecfe8ea3712b7d39ceed4a6c"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o07-reserved_slot-BL-s1267709774",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6d1d0453c6c51f9ed6dfc8460d1a61fbd0b9710253a80012504a95ba5d62b540",
+      "worker_summary_sha256": "7427e2c61528b944ff55c3bc022e55c2a5315bb0441add987fab92475814877a"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o08-fifo_single-BR-s0835218300",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "ddde3c7b08d5cd56ec3bda95dcc5e4e700b5fa86ea576c07e2b52e265cbe418e",
+      "worker_summary_sha256": "9b5426d894b64199b9b866cb9e0396d43d370caf00448dbfa67768829a08d9d1"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o09-reserved_slot-BR-s0835218300",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "287b9878ca703f264af4ac21d0b7d3c07bde0c75b9325f477957143e99d4758c",
+      "worker_summary_sha256": "aef1d04ce930d0e7d8442a6bb51129c7386793fe0549e93e552101438c0dba5b"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o10-fifo_single-FR-s0513591453",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6d4e031351ef6a370babcb57663ae5538dba9eb6ec42a4730c1764a51c24fe41",
+      "worker_summary_sha256": "b134e47756167208c02b4375af7d0feb863c472d0cc9316b9e7e03b6e6b0069b"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o11-hera_preempt-BL-s1267709774",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1bb9aa61448bc2f905ce170f060a267f75a1c03411b144e68049eb15fcdc54fe",
+      "worker_summary_sha256": "41a5d3bc5beb7fbe8af8aa365935ae96d323bd461857d08a79e2400a81b4a4f9"
+    },
+    {
+      "trial_id": "scheduler_t256-b008-o12-fifo_single-FL-s0113472283",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e342ea8b143bb65a61b8a77d05262b2a503b1993e6071b3ea927daa082294537",
+      "worker_summary_sha256": "424f0ea44ccfbe191e728eb2d5f4059e8f7a6ffd9eb95ff5614094ac600ed226"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o01-fifo_single-BR-s0992313356",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3da9a251abc6f05d786349e77a546fe2995909cdd75f9523285847363d1c4e78",
+      "worker_summary_sha256": "857d85dc7435f843c205b9b693d75b15ecc1a8b568a950bcb8f4c163c581a183"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o02-fifo_single-FL-s1113421731",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3500017bbee23aafa9a65f1d4078749be65ec74e3f71a074813d1818bdfd2856",
+      "worker_summary_sha256": "fea52fd79f927436044da73e4e99aea9480fbdc0d8d896889bb961b9aa54e517"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o03-reserved_slot-FR-s1407394435",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "316fe84093738b2543e00da50513c9fe7efa72412a8bed5f6940d5623e7c269d",
+      "worker_summary_sha256": "2d4e0b97fbf57605dce09d930e6227a4854e3028ae183056729cf2426ca0e110"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o04-reserved_slot-BR-s0992313356",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "51dfd7992e2b3487e86a2654c6aa87f305c0c2501eaa4cd5feefb9084d1d5907",
+      "worker_summary_sha256": "3249703b49e026a46d4f4ce6f4e9a9eef1917467ddce5e34adf39c46033d0514"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o05-fifo_single-BL-s1679769672",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e2a907da7aca8631ba6ee8f4c9d4d718dd118882a5c68cfdb194b8c02a828a6a",
+      "worker_summary_sha256": "c201858956c381c5095249b2fb0be8d3289c188d5deaf12c9ee8776b030fceea"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o06-hera_preempt-FL-s1113421731",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b62022bf46493132fab45f9e847ff7d3fe8d3d4c76c18901528bf7a2151b152c",
+      "worker_summary_sha256": "caa1c2ebf7bd87128331ae050be129429a907dafa39a09a749b9ffc718cf7319"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o07-reserved_slot-BL-s1679769672",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "844fceb562f8d427556116e93a0e3729be449ff89e6901e53db940adcfc5e41d",
+      "worker_summary_sha256": "af28848f406bd886c1241a306a93573357d0a4a685524614ba0061e65a6d216c"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o08-hera_preempt-FR-s1407394435",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "369eede548610e393eeb618e6a1d1f4992bc2b79e9a566332adfd024ce266251",
+      "worker_summary_sha256": "9b53f8dc4b29048663f4043cc693ad0d05fa3541d4b019e3db62adc64506fbdb"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o09-hera_preempt-BL-s1679769672",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "ea9111fed1f752d1e5ca1086f2fb740a35dbfe89057bce28f573e4854a792c2e",
+      "worker_summary_sha256": "bb8ecc3937d722b22425d35cde1cfc368c85d47abbef7d06ff3b2a6c239a4a25"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o10-hera_preempt-BR-s0992313356",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3914fdcf2ceace862d049bdf4bee82dd7de6453199ed5f9a6729edb8cdbe6f35",
+      "worker_summary_sha256": "d4882a5e2d21799980bef58b99c91f7e6643e68613d4b8927f4b826c2ebbadce"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o11-reserved_slot-FL-s1113421731",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c7f43764ea4cd6d615d9f2c47880b62855a1211fcc841586038d8aa5052f6637",
+      "worker_summary_sha256": "7ff6ddf872ca040b9e44410c47ac4b99d19bca038fe923c22bb0edb1c02b7d08"
+    },
+    {
+      "trial_id": "scheduler_t1024-b001-o12-fifo_single-FR-s1407394435",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3a9374c110bdcfad3e62ef54d774bfdb9d40877c4ed2f2f3853174be8928e14f",
+      "worker_summary_sha256": "78d90403feef16558c09ab0870e239bd273d5ee0b74d5d4df30f07ee1e0f507d"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o01-fifo_single-BL-s0451953748",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5a15b2727a90c543a6fc0b07e1d7826489f9f0c4af6a266237ca152cc26423e3",
+      "worker_summary_sha256": "3b126fb484537d3a923a14e4ecf97714ef789725ec608f1984937426099f59a0"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o02-hera_preempt-BR-s1270768817",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3ff06e3c1ff871878c62b8023b27312094844fb4e5ba99a09dfe4bb92a54184b",
+      "worker_summary_sha256": "099d9bd3c9366509c04cfdbda2f68ab528244c4eab13cb838e7a6da2e218a4cb"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o03-hera_preempt-BL-s0451953748",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a28024db9418c939e5ca4858dfb888397033cb41c1fff30eec9ff58220793917",
+      "worker_summary_sha256": "2f7f35991be11d9fd34d34bf9e1557a2ae91d993c85b2af3dc851054eb0aa439"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o04-reserved_slot-BL-s0451953748",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a46d0fc3363102176e4f064846c374361c2a5ccbf42c0eedf662d14b9f7b0db7",
+      "worker_summary_sha256": "59edcb133f8af031fdad0e0acad96acb7dcb7e47eb9c77728bdc58112879220a"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o05-fifo_single-FL-s2010499502",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "bb4a54d2dc0a81d522db850d6dbf65c47d8c5b2190fdcaaac04d390feee3d888",
+      "worker_summary_sha256": "0c9ec6dbd2a1fee7a0cdd416462f59c5619e6f709e5fab3318497bdec74f405f"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o06-hera_preempt-FL-s2010499502",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "fd918ec8220d8d06807c0fdb096dda0a1764da2eb6128aabef2ba7e7db821264",
+      "worker_summary_sha256": "89c2d5e78c6fb81e1d0df700efc3517480a833e08984678e644dea2a84881b5d"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o07-reserved_slot-FR-s1311114388",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "864085ffe5921c3604203133fcfbaca16bf6bbcb9d6021955488c698a7b96a25",
+      "worker_summary_sha256": "001b7f3e18cbcd7951fe034ebbaca6bcadec10f472c9de1c17460ecc5dcfd8bf"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o08-hera_preempt-FR-s1311114388",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "56abbf84669c8e825af3232ce07276e3199da45509cff048b816a1b32ebbfc34",
+      "worker_summary_sha256": "2e3d790c60f45028a60a339dc047a4b1ec1eb616141820ab303a46c3cb7dc8fb"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o09-fifo_single-BR-s1270768817",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a9e1b903571b5331bef22e49a8c294041f41c2e28b86e2f1012fa9e3229f9ea8",
+      "worker_summary_sha256": "19d41b142e7ea2b2c69fc8fc7e0dbf895d785392a35d6d65fb0ca48c09caa353"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o10-reserved_slot-FL-s2010499502",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e41a85f4eb57302bd9a7b44fb5ab3a94aea1c38c98702f36781ac8faea94ded8",
+      "worker_summary_sha256": "c5b8093a49c1c0fbf70103941b4b8de016a1f426bd4b6ef553f32b067c65abc8"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o11-fifo_single-FR-s1311114388",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "61f077cad71d0da5600e3d7fd758a0f9a9f9c1ea0fd54c3058cf4ae68470377d",
+      "worker_summary_sha256": "6e84cd857515033972735bad54e4c6e55059b8a235aac90fbcda6d98f6261df4"
+    },
+    {
+      "trial_id": "scheduler_t1024-b002-o12-reserved_slot-BR-s1270768817",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8e629a28627670288f84a94ffed09a71db85227c1414c81bf429df70ceeffb5e",
+      "worker_summary_sha256": "d0ef59ac2a5cd257eb8b881e6d61df50cee062a4559e0dd77fa44d51fff5107f"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o01-hera_preempt-FL-s0545274147",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cfe682735eedad34634825d0f1b5fed76bc5ec532b34c1cf9b864ac180329bef",
+      "worker_summary_sha256": "85363b83f960329c9a5b7cd8d8ec52eb8b0d149967914bbc7f5d074a4c23d066"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o02-fifo_single-FR-s0617747214",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "427017d5c3f6e7d124639d4ca19c1af74bd06337849f82d93c65bc815a4961fd",
+      "worker_summary_sha256": "8f3c76c3a4bbf4823ba5410347b02473e730c02d094a2cf3e2d25dcf3e0471fb"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o03-hera_preempt-BL-s1871136752",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d7ea601af810a2c2b8a66e8152c0fb86c28f5f8e512ecffc2dcea03c58c81d2b",
+      "worker_summary_sha256": "74aea8a3f1914175215454ee07fd0947d9e34dfb92ae4cf950c1d2dbefcbe42b"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o04-reserved_slot-BL-s1871136752",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "44b85b765a9e028e7f5ca5ad409895e1cb269762d92eb589396574666ef5e6a8",
+      "worker_summary_sha256": "4c2f46420a4f9b0d81b6c177f07f5965307e3c6e481ee59318a9ba03f2a17f6b"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o05-fifo_single-BL-s1871136752",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c5da75f82aceac452f24ff86a40880665bb66fad53e9a89884a1d50760da0a99",
+      "worker_summary_sha256": "aecfbefac74097f1f8b0489afaf36eefbde461e3f3808df1a53e777eefb2e8b9"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o06-hera_preempt-BR-s1136986083",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5aa9ae123b4dab127c5d270c6cb027f315d31db506d71f9f3605473fc1394294",
+      "worker_summary_sha256": "fce0ae765b7aecda2b8cd3b0088eb1b99e72816a83b50dc27d462852ae41f45b"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o07-hera_preempt-FR-s0617747214",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5a55f56d984e60a343f26b8265c97aa1c0375e948241bff38f571ff005da66a2",
+      "worker_summary_sha256": "10b8e6af31447cefb421ed4c4443e56524d5d6df78c285f17738b085ec77365d"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o08-fifo_single-FL-s0545274147",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f9486bf5ec8ec1eb64710683c89505bbe634b26599960fe36e597db81379554b",
+      "worker_summary_sha256": "7f29a8e8e69d9d8be6237b2bf05657f539ab95491519521f662d5edad8a088e8"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o09-reserved_slot-FL-s0545274147",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "33ae88e739bce4ae7feafbd0e291092edc587732a5f58b27dfa310a5cd564c9f",
+      "worker_summary_sha256": "f38a9d158131fa818d5a131f77f195e465b57fd280b969a2b61b805d0cf784f8"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o10-reserved_slot-FR-s0617747214",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "60e6cd1d13f0059a5709fdac4cb4461093774a5cb5bca730aba08b0203f37b16",
+      "worker_summary_sha256": "48bd03cfcd7e3ca0b93582f5b4fcf11eea49f28d8ffb7549bc5bd8215be85c8e"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o11-reserved_slot-BR-s1136986083",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "fd0b262396a4c843442b743c32c0053e2d9ced46b7e54d32852034e51f436e66",
+      "worker_summary_sha256": "e6bb5aa4f2f47535e0251830b1e1b3a685d81127bf799b7d1b220bf51f9fc7fe"
+    },
+    {
+      "trial_id": "scheduler_t1024-b003-o12-fifo_single-BR-s1136986083",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f5005839afed5d437ba075809b4428627f3a8c7198fee00828968455b1728d01",
+      "worker_summary_sha256": "53a367f4362d757dee6dd324ee07353ddc64f09e64c7f3c765a51db92b404911"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o01-reserved_slot-BL-s2147213575",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f78a7613b7b8e2faba23a9291b1c82e97fd9c32a1f52bf470f2754015759608d",
+      "worker_summary_sha256": "5e1e806029272e4d13fcffcb3f5710c3f41562d6525b83fc6b8804b037ff59f3"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o02-fifo_single-BL-s2147213575",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "98a9f53fb55116ecd090875cb278571ee38bc044e3f0e67d6e915f8d5aba2b12",
+      "worker_summary_sha256": "909a836a09a94a84bafd31960d5bb2fe9af01c6e4cd7acb175a3e5629ab22c2e"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o03-reserved_slot-FR-s0026145012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "926ab9b471f2f1de4da962d6a1b1d73252a2f03bb3383d55a86eb458d90f4091",
+      "worker_summary_sha256": "e621cbe8532303dbc14fca28146b9e939feca46b701edad81794baedf0ce32d5"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o04-reserved_slot-FL-s0032296784",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "49466cf79ca8d0ed852cff911e2f68ccb3ff099d9a60b43a2e86319151d5c5e7",
+      "worker_summary_sha256": "b6eb125a56e3448aaf54f51dbfd88e09aea1dedf8e5da13008c948f9b076d580"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o05-hera_preempt-BR-s0370112893",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "faf6c83f3622138c9ba4515cd0b333aacf8e4c3d779e364971a24b96372bcf2f",
+      "worker_summary_sha256": "6e7155b3e1c6fae6d8dc8cce991e579dc7e33049209c7dd610bdb848abc98f78"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o06-reserved_slot-BR-s0370112893",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3055dbbae95bd68dde3f302dc69e1098f28541b75fe56d7049295dd2f74b8fc5",
+      "worker_summary_sha256": "3c2445e60fea66536b0fc0515af8d2e7fa7deb8f7a1bf54ed89d9fd756a6edbe"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o07-fifo_single-FR-s0026145012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7fedd87bfed78f8a011c06d6f485867643bd3060cda21086670e0fc4eab3522f",
+      "worker_summary_sha256": "0a21dc6643efc4b91ce476702f7d69ca19898d260f7a729d58dcc802788b604c"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o08-hera_preempt-BL-s2147213575",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8c4b8b239ae331663e8f5be714a8cf7c480657babd1ccbd67b3149ff29ecbea1",
+      "worker_summary_sha256": "ada76871901a420c22a0982e8df1360ee32c82c907bfb8df6404833f103a7d71"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o09-hera_preempt-FR-s0026145012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "bae1969bcaaee9af6aefb964bbefc62171b7be23175bb2ee66e29fab19c30912",
+      "worker_summary_sha256": "c46a537719eab26b63514aef84e87e4a142c6e1eb03a5497e18af3a7e9d56d00"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o10-fifo_single-FL-s0032296784",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5311aa641bf46921f53aac98ff18493b9d12ef9f3352b401adc5e810418a1755",
+      "worker_summary_sha256": "4a97925c0a155442f5008c760ddc1586b45d70e2520b302b953b555c44ea6b03"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o11-fifo_single-BR-s0370112893",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a93999b57d398c4669a2e85b5f33ea9ad75efc7d6becc8576fb613fb895e23cc",
+      "worker_summary_sha256": "9a66820a0a2f8a1db2dd906be2ea9660100952bd34eeb3c7f3a43db00d7fc7a9"
+    },
+    {
+      "trial_id": "scheduler_t1024-b004-o12-hera_preempt-FL-s0032296784",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "69f68ca5e71e9ba1867cfd277bd7cb39323c0cfd2518091dfa58db66286bbe2f",
+      "worker_summary_sha256": "261b24cbc81f78f1098c7fdc86565bfc4f03c40b8ab7b3cc9ef1532b18394423"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o01-reserved_slot-FL-s1343276849",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "953ed42f0afbc3900d3266b9e091cca2b5683e71b3c3c62acf47f56669e9a216",
+      "worker_summary_sha256": "e403829a783709c60d7f905826be0b247499813cf54c261e0908b46fa39929f3"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o02-reserved_slot-BR-s0393374698",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "158f4cefcbcd4b4c0ebf779e92933635fbadd46826aee8f20cde2cfa783553e7",
+      "worker_summary_sha256": "609e2a8aa171291f55a3c6d4c7325181638a37bc9e02de54340beac6f9021804"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o03-fifo_single-BL-s0771146004",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a53be1e87ad23d4ab2d76af87adda75789c3980feccff8a8d8e46df0a44f2700",
+      "worker_summary_sha256": "f3688a7becddef1599f650828318d5ccee65e5128b85723036817996744ad933"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o04-reserved_slot-BL-s0771146004",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c37fe6e227dc64ea98ff56c73dfcec0f06700713c12cbd1ae76592c5de815c5f",
+      "worker_summary_sha256": "ca1a4bf9e13e24d4ff2cef5d958b33c605ae5e8bea9e449de208f28e2dc160ab"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o05-fifo_single-FR-s1273886123",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b46c45c078429a7c98ca581f19013f20bde1610398be9335c01fb6316001c424",
+      "worker_summary_sha256": "011e62e42effdb35a81ffe6e4de26a8cf56e9af4592ffc3916467c8157538634"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o06-fifo_single-FL-s1343276849",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "aac5e6b9f21a1da958489714185bc44eb1bf408a458f4a87542a047ae0d72989",
+      "worker_summary_sha256": "233c332161cf27d4f53385cb1805ae2e31c23c24e4197991cfb6838430295e23"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o07-hera_preempt-FR-s1273886123",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c8a15325464ecd8cf8b5324c344153942ea9db173ec2456e24a572b9c7895f5d",
+      "worker_summary_sha256": "db57538733fe0eddfd80b3bb2bf9e77fd1247910d3afe759b520e5c9d875407c"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o08-hera_preempt-FL-s1343276849",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6c389d221295bed0dbf667cef81cf8f277f9e542d31c9fc7954793eeab504f06",
+      "worker_summary_sha256": "967c21275931a373d8b3073e80642abd92e7b0cc5a6ac0839acb1676b0d287c0"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o09-fifo_single-BR-s0393374698",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7f0b2352c030b2274376c7852d19a32883eba4a40fbf8443b9b4684a19b4d3cb",
+      "worker_summary_sha256": "0c2f9eaf243ca099680690f048d7b1974e0db6cc7fb353a79678551c43e63f09"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o10-reserved_slot-FR-s1273886123",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "40dd16615971c0014796fb4a54e84de6db4c7dadbfebff8f49dc5d43c7aa4068",
+      "worker_summary_sha256": "b40684221c08f8099a9c22b00282b12f4829d12572f6d567d1722d3a1d1df563"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o11-hera_preempt-BR-s0393374698",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e265f208d9639aa5c4e1e81e429621d122ed0df526d89305959a7a532dcd4d8a",
+      "worker_summary_sha256": "d83b66538563e0d605a5b6c513d65eb4e2fd6fb153f961a75f7cb88cf8a3af06"
+    },
+    {
+      "trial_id": "scheduler_t1024-b005-o12-hera_preempt-BL-s0771146004",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4dc2b2e7ee1e0ba964cbe5ec9f005690d31195fadf4ba0c0cf9cf43541981b0c",
+      "worker_summary_sha256": "82356767b9a270f10f5ea94e756ee6ac5f5973eb7f80978a1c9ab224c553843e"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o01-fifo_single-BR-s1225766546",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3fdd33fdd9b6dd10c9ab25d099239ae8b11cc1993b03e81ffb2ba1d36e7f4069",
+      "worker_summary_sha256": "8461aba492d2495f013a389e47cc92eee3a3071a270646ff2fd8fc5cec72a34a"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o02-hera_preempt-BL-s0062947139",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b44172dcdfd4cb527d0f85ad5b24aa602b654db278e56e98dfbb9a891b61df4c",
+      "worker_summary_sha256": "dc66fd4412b8dcf866bf8aa8f7bbd6bbc3d5122c593980d01acde99e3fb9d146"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o03-fifo_single-FL-s1948216606",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d4ce152301ee3f620659590a24e292aac6095e737b165c3f8412c8beae31eaf1",
+      "worker_summary_sha256": "947100b1fc3c10fa255e3f13d3c09cbbb39cfedf09898ff803ab76f125237f8b"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o04-fifo_single-FR-s0176505492",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b4de4355b4eafec19b9c8f47ef9ff160f486d9b29b2358489ec1ae87c7600566",
+      "worker_summary_sha256": "a39f14d1510b1f557e21568f527eb196e14a51d6793ce036297b638c764a1fbe"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o05-fifo_single-BL-s0062947139",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8472e8e96e99224ffabba5cee74ee2d636ffb24036945db5b81b7cf02c5fdcbb",
+      "worker_summary_sha256": "b7a0ee4f4183f118a404204b3b1d8b91fd988180ffe9c78b59c50e0f0949df95"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o06-hera_preempt-FR-s0176505492",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d5838f414c3950aeca65c1c0e92252b32c8d7c84ceffb1e9bf891874802eb4fd",
+      "worker_summary_sha256": "db18653d57e56ea25a406a9d23e5b3260e3e2ab0b09580cf2039f47ad5122d57"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o07-reserved_slot-BR-s1225766546",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4af607eaf82893c2340ce6a686d435431fa22af45e7b1bc81db46831cfd99bf5",
+      "worker_summary_sha256": "3dadbf99a21ccd7aa5ebcd2d03f4ae9d9f85bc2b99c04ce035718769d2e5c6a5"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o08-reserved_slot-BL-s0062947139",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d9c2575674094a64e2a6aa9e03b4100e2aff19106af9af7e6379bd40175811ce",
+      "worker_summary_sha256": "f5baa32cdfa09ff3c61f579e65a1331e1aafe8af5dd679b2c942129aa00838e5"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o09-hera_preempt-BR-s1225766546",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "36ec02621463f9b4c87ce84bb77cacbb476a63f22666100d646f7383179d5dce",
+      "worker_summary_sha256": "0dae47502691d0b24c5c0d15e60948211137cc9e1b1db79143eef1e46648f3c9"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o10-hera_preempt-FL-s1948216606",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a418b17e87d675023241b40b6f339d83696613d69236e2139c9ab6057f4d339e",
+      "worker_summary_sha256": "be09a3835484fe7dd455866bcc7580536e1093b223d7e23fb5759c71bebe715d"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o11-reserved_slot-FR-s0176505492",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "61fe395e0ed04d9e7c2f25e26d7734851293f63368ff17bbdc149c6fdb21d2ba",
+      "worker_summary_sha256": "609c2a35ba886870002780227326684073e8712f469df59485cd709876033fea"
+    },
+    {
+      "trial_id": "scheduler_t1024-b006-o12-reserved_slot-FL-s1948216606",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8a3487c5edd0c6e5b6fa18f071feb7bf48094e3e3b9357930625cc188a5eac37",
+      "worker_summary_sha256": "f10722887a679e712f276562fb94e87af74e3f74637a9761e0da4f7af52063ce"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o01-reserved_slot-BL-s0761859725",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "99611aecf9f411264b8a1b277a5eb2350897f3255917338a053744a86df11f1c",
+      "worker_summary_sha256": "188d6fea203fdb3d3be7b0ae573e3decbaaabd9ca25b577510e702e9afd283ac"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o02-reserved_slot-FR-s0125568725",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "2078e6975ff0bae37ef582fc53ff753f13c7c3f2a0788ba4823cbca399d76cfd",
+      "worker_summary_sha256": "8a0bc59b4e80631f3e7c13a2ae1ebe6a46115638caca1341b5eb9b76492033d5"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o03-hera_preempt-FR-s0125568725",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b227dfcdce5688a2ff7ec4eef808e80cfa22a25fd262f9bb0148794dc123162f",
+      "worker_summary_sha256": "a55da744b738b546860d598bc11d0383c27359b2d6737414e75a67b617ce9978"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o04-hera_preempt-FL-s0363400730",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7060e46f99b19743bee316a9246900270c3c54a5c568e8e2925d53334d85f175",
+      "worker_summary_sha256": "491b490e6b13c83c3c67e7831ee7336d6212f8911aba4c62cbf395d1d8925eff"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o05-hera_preempt-BR-s1718718995",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3f3ce79e49f73117f953be813a2b528975acbc42f056b53891d4fdf019587961",
+      "worker_summary_sha256": "eaa517be06bc9456b4a1faafd70b72049f00d3850e05394042dc62d8c0eed552"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o06-fifo_single-FL-s0363400730",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "052203e8e087b184c73b163f41c61f2b2d313a95f855e58c22271963eb16b986",
+      "worker_summary_sha256": "83e77186effd0d84c93111797d2fe9b95ec5f615e249b83fca90abe1314cbcb8"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o07-reserved_slot-BR-s1718718995",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "ee6905dd6363085aef0fa59cef82c9bfc7e93b4818772e4c640b666a2c537a65",
+      "worker_summary_sha256": "8a4f5b09399592d313843a5af6db1701375839eea36bd966ede14a1d0e025545"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o08-hera_preempt-BL-s0761859725",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7094c83ffe7ce8ae85024e01e0d615b669ca15f9ccd6309ea07aa85728e8edbf",
+      "worker_summary_sha256": "3b3a82168b97cda014d6a99e1842a37751909166320feaa5b2cd4f96d0b4fa7b"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o09-fifo_single-BR-s1718718995",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "ab208bb003315cb93fda2023b700409b0eefd2e500def95de9abb3b950e6bb7a",
+      "worker_summary_sha256": "6d7befd731945468bef3669b1a371dc4a41987bd43fade535c14703d2f79a27f"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o10-fifo_single-BL-s0761859725",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d313b70f8757fd8ca2cfa68dda982c64d6582d845f263831320a1d4f9f977a87",
+      "worker_summary_sha256": "766ddbd4e518e81b1cc2da71f0ec9fe8ccd270067e7afbc1e03bf7e37361b9fe"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o11-reserved_slot-FL-s0363400730",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f6f1c8db8c8b1c17c53509f1036e2052f8cef5f2e1264ab27ff3bcb67bb0787e",
+      "worker_summary_sha256": "501440d5070b64c80537670f0d3ee9bc175ecb10ad7cd03686d59c788063da90"
+    },
+    {
+      "trial_id": "scheduler_t1024-b007-o12-fifo_single-FR-s0125568725",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "16782a2542036c4a1f246be17fe4ae7f61f398639011029a9d8f12c94439c57f",
+      "worker_summary_sha256": "61adeb09a4a579570540790c7937301b3fc3812b8bbcb2ba95626bf6c1d6af3a"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o01-hera_preempt-BR-s1361713703",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1bced981b34a0e3cac980ffdcbea2d506899551b6611784028f4f2c0f28f2c41",
+      "worker_summary_sha256": "70d15c9352abfb8ce581112c3a4a8958013ab6489aede13e1d935f2c4353a81b"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o02-reserved_slot-FR-s0048276518",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8ab6be79f66b0ffdf47d94b1826c1c172ebc27f145e7973c20bd1796c152cb49",
+      "worker_summary_sha256": "3e4b82b4ced6fdb0fe8b6864229a23d06938a0a0f75b4261eab13e3319eb2d35"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o03-hera_preempt-FL-s0439052352",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b7943bd54d51928dc2d4441e82078a8c243c78bf94e6083024189f185708ed7a",
+      "worker_summary_sha256": "487add4cabd42cea31fe48229bda883bf10053f0ad817c76ada5a3e84861871d"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o04-hera_preempt-BL-s1688877231",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4f881c999bb0c3aabf9f5d238eaf04e7f95414aa3bff78d35e29f2a101e1c2a2",
+      "worker_summary_sha256": "8f84767cf931a691e7272c8857179d08bc97f2c2e77ca738b35dba5912509e3a"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o05-hera_preempt-FR-s0048276518",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "26da4db2cce30b08876bf5449dcde8067ff9ad10ab76d9d96a5467e80ffdd3ae",
+      "worker_summary_sha256": "348a0f2dae4f8fd880d24e51d54bf838a852a2f0475334e8ff13ed7fcb158bc6"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o06-reserved_slot-BR-s1361713703",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "0c920a96174eaf29b7251619de3c47ba284b972d5ea9eac4d3f218d435d34745",
+      "worker_summary_sha256": "e677f0b91f1a7fc5cda523aa47a607b6178ccc26d42b6bb676e0e9b20dfb0c21"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o07-fifo_single-BR-s1361713703",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "971f0066122eda34e539665b9990198ae4c489dea295be07ab9e675f8df11cb5",
+      "worker_summary_sha256": "850a1df572d98cca924bb7a6da0693e271ed38546550eea0b3107df3e76f7572"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o08-fifo_single-FR-s0048276518",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c53a5a15d314efe619fff8228e3347d7319d9d66d9f678714dd5833c13ebe467",
+      "worker_summary_sha256": "249b4461a28942aa6f1d6f28607a89c53265fc36c00759c806ebe3e781871d35"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o09-fifo_single-BL-s1688877231",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6872f9aa07595d8166af5afc58906b71ace47149b2dc77b773f8e7aa5108769f",
+      "worker_summary_sha256": "06642f79d734a5763c03c4d98179ddda3f67bf29301d8183fc9d3ca8a77b918c"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o10-reserved_slot-FL-s0439052352",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1b2148d09c090669e2f86937af0ed3988dce0e382a6a9de4888969c65391086b",
+      "worker_summary_sha256": "5be5d8987ada97bab5273a249c063b1f962ceb7d29b1c90cce337513b59be2fa"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o11-reserved_slot-BL-s1688877231",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "16273352f70d8715d764dd798b8d841e68a50ed1fa017f40adf77fdeb65a5ae1",
+      "worker_summary_sha256": "1bf27537b34ec0dccce8c25a6677f7d97f0a429d764afb83c7898cb11563f815"
+    },
+    {
+      "trial_id": "scheduler_t1024-b008-o12-fifo_single-FL-s0439052352",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "23a0c829ee3a505d61bedc87d73f7a8f7e5e625d043f4f780ab99a563b1e1bb4",
+      "worker_summary_sha256": "7e626d6ccb97d74a6858894725fc736fc0b523aac5b28f40fd35a302933174ac"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o01-fifo_single-BL-s1818824496",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f64f4d52a815ae6d4f8025ed3ab2e9e6283434f3b45f0f70c89717da2d48e903",
+      "worker_summary_sha256": "d148f05d3b33ee53c7c1e94633ce57efa6753f23e2cd82e7731fe7e4167990f3"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o02-hera_preempt-FL-s1193467012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "35ebafde86f32d1d008d75b225b3cc0e6589d18748925b9a46c6ece4b52cb4f6",
+      "worker_summary_sha256": "f1267800c2e4e6f3f431d71d86522c8151d9c2f08d4e5b68d4ac5555b7b41ce1"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o03-hera_preempt-FR-s1110117794",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4e84ef18167b2eb75f186d40127219f25368bb7734924421d4132cf3f9fa6631",
+      "worker_summary_sha256": "27867d9a494e2f21df7069d1bf170e3f08f3b0eac62d7473b95c758592ca019d"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o04-reserved_slot-FL-s1193467012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d8928c7d90d7ed6f7ddca098df3bf22e3f86c41b04f3d347ff238675beaaf2d8",
+      "worker_summary_sha256": "069978b85075c90c81d7dbb4333b73cf47b4b0bed080f869626ffddd8d3a1ccf"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o05-reserved_slot-FR-s1110117794",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5bf7243a2eeb377d8a65f03fe8adb8bd776b0dc3f8cfa86832e5e4a9eb780167",
+      "worker_summary_sha256": "3545a1f1836ee50d2438b3b8d883da13ffbcbf51f0722368b323bce739d5638d"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o06-fifo_single-FL-s1193467012",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "17d94cac991136b55919480f6f05e044a7bbdbaff8cee713defa057b89a328f0",
+      "worker_summary_sha256": "6475b26c19a2daf8bb9e1e304ec61d9c20418ecdfa310cf3fca91339d84c7be0"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o07-reserved_slot-BL-s1818824496",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "09d1b6e86404e522d83f42a0774aed43a26a28c9912ba8638207cef77a91cf16",
+      "worker_summary_sha256": "f3a72a943c005ca4cec35572a0182e44ccbd6801c088671da55abab052fe6130"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o08-hera_preempt-BR-s1208398315",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5b2bc8d3fbc73a51c9778f6f9c3ce3536cfd7d761dd625fb5f620effd0ed6b7c",
+      "worker_summary_sha256": "ce4e0b86b5b5331b531044e0d24c0ef518b0f3f53b2e6815c66d6f43b181f9b6"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o09-fifo_single-FR-s1110117794",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f76d9a62bb40f565fdbcc99c3e35f62dd643266683aba6104df454b37b19b130",
+      "worker_summary_sha256": "10d75d4706511868bd66f2d16451cbbe7480cecd5d4a0e4401f09007e22e2355"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o10-fifo_single-BR-s1208398315",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "09e5acf50ed6d071de3a39399849c4bf18c40f72d474bc509afd2e4829145f82",
+      "worker_summary_sha256": "789cbdb6aa4e4e43cb24450c3d22894f334036c8f4c1c9a3cabc3aaeea8e4ed5"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o11-reserved_slot-BR-s1208398315",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "abd904b479d4f813ca7ffbc987d43a48591d8217a346b15f6e7281ff444a18b6",
+      "worker_summary_sha256": "7f33d3e2493874cea0fbf08d73dd89ac7e03e5dbc9918bea41d6d78295203ba1"
+    },
+    {
+      "trial_id": "scheduler_t2048-b001-o12-hera_preempt-BL-s1818824496",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d8900f54a826999bcf86db078595dd2e71576c5fb7822e08b287f65e72db295f",
+      "worker_summary_sha256": "9e5b87add17892e2896c7e8d433eefe5305a670613e468e34da411b179045543"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o01-hera_preempt-FR-s0537172123",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "10635c1ee44152eb5b8b2e75a2f7f76ad8ea5db6f0a80c0125e9b46570a3921d",
+      "worker_summary_sha256": "d766a5ec50b23bb3bf2e65defb7b0184cb52ae737a9d38f6a07bf80e455465d8"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o02-reserved_slot-FL-s1787352861",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7b9a10ffd9a5e63d8101ec42b8a542d2a94a823681bbbc608ec596ed96248aeb",
+      "worker_summary_sha256": "a9f6cf3fc1ef31102c746536d773b4983dd5eb8d662c2475cabdbbfc329a456a"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o03-fifo_single-BR-s0052909390",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7b77b240988cf8d0d0376669487dd54cad6c1037cd52416a99a1ad0a2e857f13",
+      "worker_summary_sha256": "007ed759ce22611c8dbbe932c4bce5b077a72e99b8cb3c64f5dbccea43f21842"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o04-fifo_single-FL-s1787352861",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c40763344aeb806c82a5527c2c1c9d218ae1d7ed60f0151ae1e3aa314a9c905d",
+      "worker_summary_sha256": "bd28dbd2042ce26b3885b8287649923b13d70c24f40243d1b68a270dfe680cc3"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o05-reserved_slot-BR-s0052909390",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d1cd2c4f0e22aa8b0901311a8456457763ac8615d80701697d369dc0d0f27b9b",
+      "worker_summary_sha256": "baf5e26832f5120689d6319a15d025e540f0476f509b45f4d955c079a7aea1a7"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o06-reserved_slot-BL-s1156888803",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "060497db7e4c19f3c1c50b53b05effff5eed93323f025e1a14079842c776b6c9",
+      "worker_summary_sha256": "a535790ff7c911041c1d91d31544a8be65bd6f435a838ac040fcf85ac8b68bf7"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o07-hera_preempt-BL-s1156888803",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "9659d84b49934c5e03ae4262fc7708c4eb29bb5d8c0c71df511d90c7e831b13e",
+      "worker_summary_sha256": "9c7ccf2ab8afcc640c72a984f757d3929c5a70faca1b60ae37ca46759dc668ce"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o08-hera_preempt-FL-s1787352861",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1fb108dd237902c10801b77c2fa312eeeae17b78fe995dc59a721e03fd4cc30d",
+      "worker_summary_sha256": "d4ba5eebe455e8b1a677716035bacc5b37bcd5b352baef56c980b18dcf8ca637"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o09-fifo_single-FR-s0537172123",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "26ea2e315ba47595ed39a82196a3357f6b20d61da693b34b197843c712eeb11b",
+      "worker_summary_sha256": "f2b2d7837c7f09174dd99554fde26fb6cffd5e7e8b1c7b2fff94ca93108f0ea0"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o10-reserved_slot-FR-s0537172123",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "56eddb684d61725c82cc7de3dfecd94a4230f3a1877f600aa9fe80ae2095ed61",
+      "worker_summary_sha256": "0c4bfece96fb04c4b92d43370b039ba0335b24459f0e3be75eb7ca1548b3b5ca"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o11-hera_preempt-BR-s0052909390",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cc023babfff92d681cfd684918e1ea51bd12661f3243212fb960a063c8bd9a64",
+      "worker_summary_sha256": "a76e48a684f6648031bff93ff5cb3f2af1d16498e63ebb23c8d37693011c5c29"
+    },
+    {
+      "trial_id": "scheduler_t2048-b002-o12-fifo_single-BL-s1156888803",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "785411b4969c7831606f3097ffc199fe3ac12202ac1e66f859533ecfe5a7e9d9",
+      "worker_summary_sha256": "cc61345fcad403f77c631262d61758fd8c3a0aa5dd5ccbdfb8e2bfd1bf2f5d4b"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o01-reserved_slot-BR-s0409716457",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "26d415b7e6c7cd3cfe4c0e19341634dbc6b831e7ade517e70121a8cbf4492826",
+      "worker_summary_sha256": "4ef7d928864b4f5a52d5e737830473da92414a6f37087b4594ae522b16c9d04f"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o02-hera_preempt-FR-s0071773318",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4e466ece8bafe2067b99a5c63b7e75643cda5c7130a47b043e139fbed2b8053b",
+      "worker_summary_sha256": "2f9b6ed4ccf12deb0bdfb2d82926043678050d508d0b35c30811a5e7e14a5da1"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o03-reserved_slot-FL-s1179725708",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5b3fd5ecb8c904d11656a1cd267832ea2194f040d95d8eb94945034177fbcda7",
+      "worker_summary_sha256": "613d0023c5fe295ef6cf05c0086617f0e12b295ff5d773d17ff60ba4cda8974b"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o04-fifo_single-FR-s0071773318",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "9dab8973690f7e606db63175557ec43174c4c28ce24b4bf962109abd49011291",
+      "worker_summary_sha256": "7914d5d0a16903bb27c326fc4165dfd2cf72c516e4a374e6bb77dde4f8544268"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o05-hera_preempt-BL-s0999538526",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "0176ef2c8628d590a241c890ef8f1f230c8a7bb97b7c529d9a4848fbfa82f313",
+      "worker_summary_sha256": "5d6e12d8cae42ffad1fd6fda78c63198410bc5b14a16548787ca1f3eb8416a76"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o06-fifo_single-BR-s0409716457",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a0c3aae9fbbcdac5f3fd5182e5b837ab9cb2d50d7d83cec15fcec056e8e1a17c",
+      "worker_summary_sha256": "4b2fa6c272f1d0f4637bb47859744c336c1571b0d59e6756b7f2fab9a271c8dc"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o07-fifo_single-FL-s1179725708",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "bbffdbf7946f3268a3a80324598d69e291a6e3aea411532e2bd8247eed76f100",
+      "worker_summary_sha256": "7f50f8655eed2334342b4855bc993b2f8518734a0bfa1e8897c16f81e64e2372"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o08-reserved_slot-BL-s0999538526",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b6adf927bf19aced1895ababfa6cc6b47e1d7dd7a02fcc9d532ce3e053ab227f",
+      "worker_summary_sha256": "e33c7a52469b0dc074038dea9dc2e854f367b762bf38227999b87c3fdb369453"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o09-fifo_single-BL-s0999538526",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e731e3434b27d9f8b3dbfc780ee79cfe75d6e5347aa50ecd4310b0c119162cee",
+      "worker_summary_sha256": "43960e0bf910072a26d0056cedc5340f4d1d34ee5c7f1ef2e17ca448a9ca4893"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o10-hera_preempt-BR-s0409716457",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6c0c74beadf802970b53d244e2ee1ffb227b005c6f87ad7850eb04f521d8ad5a",
+      "worker_summary_sha256": "beff8c9729d26c4748e68f41232300d8e7fad589604306934af548ff3b57889b"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o11-hera_preempt-FL-s1179725708",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "2cef6ad3f0ee4f1b09f73fcdd5f26be19aa0968f114ad85472696abbc5b25205",
+      "worker_summary_sha256": "10a9294505d5e76e12e7f0aa552d82483c24f0d0d3aa0c984bb34981ba5d0cfa"
+    },
+    {
+      "trial_id": "scheduler_t2048-b003-o12-reserved_slot-FR-s0071773318",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f85b6524d1d1d1920e552dd07bbb1ef9014b400f48b785e020a6f28b59578ebb",
+      "worker_summary_sha256": "6fb3b45873b60b2f816ea6fad284a15d920ab118eeb19177353607232effaebb"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o01-reserved_slot-BL-s1008374959",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b1e91b227c6fe9627a857a781c166271818406b0342eb5086c1ad725fa62a101",
+      "worker_summary_sha256": "bb399abe76f2195d4f8c98644f461536d4ce3869b4a0099ef3f7995ab2cd91d2"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o02-reserved_slot-FR-s1235115998",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "17b549b246cde3ab26c961fcab201287d3cfa88519f57d093622ce1909d3e8f4",
+      "worker_summary_sha256": "92c9bd808f2787fda367cdb68cfdf0f9e6249c8f2451ea14dfb9530ecd8a6489"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o03-reserved_slot-BR-s0704181430",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "0b82bcfd21a06b6fd7a3a0ce72771d5f396b341938b12d481a2c262842008ac8",
+      "worker_summary_sha256": "4660277dd0acf38f90b6d422cbf06ef755b7954c3cab4226c514e054272f74da"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o04-hera_preempt-FR-s1235115998",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6dcda7e7adfb4d1a8bb9786eeb3c7ffe1aae8ca4d4bad37c5bd3e39351bb7248",
+      "worker_summary_sha256": "31df6d8531ac1d2a73ea51c4a7a29848d4f677d237a272b849c2d8bcd7c6cd30"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o05-fifo_single-BL-s1008374959",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1d840719a26bb01e55eaa7e64b5eab67ee1ebb3167e004ab492b4e3db62976dc",
+      "worker_summary_sha256": "09b09c5b42200b3b0ea90e8a9ec9fc4cba61df7b6bad1aa35ee92e46470d3f70"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o06-hera_preempt-BL-s1008374959",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "528cbd93f19986edb28bc1284684384a4bbc23cb57039a34eada54dc8b76f043",
+      "worker_summary_sha256": "6e18cc182f11119df2ac79ee1495aae489f749a6e45b33b3520edafbe6d1643a"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o07-fifo_single-FR-s1235115998",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "5f39fea3a9ca1c7d3126b20bc13ea948264cae44f0d838090ce78e784c0ed71a",
+      "worker_summary_sha256": "54d1f26adbb52ccbc677734059ea5af9081727ae8a180f7ba67dae005fa17483"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o08-reserved_slot-FL-s0484342879",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cd1c57c27c86dd9e2e461b7429a51cda92e42052aac7b29ffab71518c2b890be",
+      "worker_summary_sha256": "be1733cfda99b76c94f45fcee97b52a0a949c90e9c196b15279b3904b570cf91"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o09-fifo_single-BR-s0704181430",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4e4ce0e11c1d17c45def5554e8ec42c2cc2cd401055e57b109c1aa8f76416be9",
+      "worker_summary_sha256": "b24855e652631c73528ddba331e0a4a56b52a68f34d958ed69bbd9103ff2ca78"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o10-hera_preempt-BR-s0704181430",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6c2ddb5ea247c4f0d58cee298923deff71a8bc90848c382a082d0e05bde0ffcb",
+      "worker_summary_sha256": "0b0dbb36198a068338f2bd30a84193181c84199a6dac6d5ec1681a40c95788bb"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o11-hera_preempt-FL-s0484342879",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b180a59187720aeb6c78c995ee5ca57a120fa96eea78023da25b17754bc1948f",
+      "worker_summary_sha256": "75475da93b2ecdd781ccab29488da7a10ea2572cc327fbdc8f2a662f98b17d4e"
+    },
+    {
+      "trial_id": "scheduler_t2048-b004-o12-fifo_single-FL-s0484342879",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f468631c52dfacae94da412e73c651b00a5fc676867b8c829117cc9d3438f951",
+      "worker_summary_sha256": "46c119a0b21fdcd9f5b46e376d28bcee429ca3d2246bb11f00fc69637dcea2fb"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o01-reserved_slot-FR-s0599453626",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "446063f837ac0c91d9787a9a67310c4482499e66edc3eb8e4fa6dfa18811108a",
+      "worker_summary_sha256": "7be5c474f3453c9278c6c4f2b5a4c3024b945c49d9dc3ac0ecb34303f76c0d01"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o02-hera_preempt-FR-s0599453626",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f9bc9e500caf11195e572078bb5a11fbde4b28c0bb7a21cfc50295e53a6a4f6b",
+      "worker_summary_sha256": "5420fcd8f09eab4f4b5b0b2beab4a1d70ba00b76609a3c2585cdccb251c61059"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o03-hera_preempt-BL-s0564832158",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d6bc4b97237d4938cf2da7ae0f685c0dd82be156fa7c4c3cbc5d69a20bf0d7af",
+      "worker_summary_sha256": "72dde2d47047d57561234c2abb6a7de206cd0b5b7322034e5ae4a8f922dbe540"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o04-fifo_single-BR-s1166339532",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "3d0b8e91cccdfe0ca27c283f17800663b43645c3a989a1c52a0b59de49f58356",
+      "worker_summary_sha256": "ae700a9684b95b5763da1be5396a7e32b99b2cbcf54e33ce0239ecf0e0ccae78"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o05-hera_preempt-BR-s1166339532",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "8ae3b17fac46c7381a25537881568c3ff2b827bca05b6964540a111a3fe26197",
+      "worker_summary_sha256": "6ba8167d9f3500a1bc7287c0e4db16a03b3d6699940c137ea38c4fc050c980dc"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o06-reserved_slot-FL-s1925853085",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "af1081b2569dc436b38ad234822bf4911792274c7a49f731f68c4551f07d6f71",
+      "worker_summary_sha256": "17817f4a6baae01f5777bf823221bd9f4c5bfc771c2eb0d0b61ce5bbaacdfbd5"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o07-hera_preempt-FL-s1925853085",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "fa5bbc57d7a71a7cb15d35d3d0d2ce313bc42b9a590bce101433d82607d80666",
+      "worker_summary_sha256": "fc71d51e6dbc94be00cfc27e82d594c3e3b021e09af7f74314f2e7d95830ad70"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o08-fifo_single-FR-s0599453626",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b58ffb3dd8e6e9abf989e45f65db921c20d5c2822b3295be53116982500e4a02",
+      "worker_summary_sha256": "90d5aef762e9daa34d5f500c8091048aae3cd5d3416cbe69ff5867dea6c263f5"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o09-fifo_single-BL-s0564832158",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "46cfd052b14a070e4d07fd8ea0d24dd8cf16e71e9093bc0f4e55993dbe6216f4",
+      "worker_summary_sha256": "ad302af45fa9ba1d8b949a53f7182d9b4e582af576381616e755a7af1a51009e"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o10-reserved_slot-BR-s1166339532",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "181a649d35b717ec3d8fa2e31b078e12735a7b3abd05c7ecb3fe4f401509650f",
+      "worker_summary_sha256": "bbd66071301283527e57f19d46347206bfbb6226ae5fd43074db45b9c2a22cd1"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o11-fifo_single-FL-s1925853085",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cd722ed6e819f21fbb28866e8e7ed6947b6477c2aed65b5082c3ba0af55746f0",
+      "worker_summary_sha256": "e88ea1936cc53f6ba0fb85e7b0cd0f9e1b93220a4adf633b489bba2a6db5a8af"
+    },
+    {
+      "trial_id": "scheduler_t2048-b005-o12-reserved_slot-BL-s0564832158",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4a2ad3def07c8a90858213f03687b3f327ae48f0f749df7d329f7f20e8b05322",
+      "worker_summary_sha256": "75941e290139045dc48db7206c6ede39c181775d564c7fa0659e8ec383fd812b"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o01-hera_preempt-FL-s1250953342",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "dc88cbe87103c0571d55ab39554edd104727cd0498895ae264bb3f451e3a7e17",
+      "worker_summary_sha256": "0c008c88c5996af15979b30484248b82c1a1dec12011f07d6cdac7e2c942823d"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o02-fifo_single-BR-s0126097984",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "4eb45191789a6fbecfa494e7e977cdf17211494a49596d2bf9ca65cc7b8aa377",
+      "worker_summary_sha256": "9973820cb2b51330adfb8f0459278e860460d2efc8375e70ea5488e0a05d2241"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o03-reserved_slot-FR-s1597028647",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "733c5761fe6dce6d24c5738b7becafcabeb0aa17f65a83844fbc1e7a3a4f840a",
+      "worker_summary_sha256": "7f8e1245f8b3d3ebea55ad01c053b81003893de6225ebc04c96ee54be70ada31"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o04-reserved_slot-BR-s0126097984",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "67f54b02f5e2aa98c4a7bb8ef0a4ca0ba34216bb4a9ad34e02c11702bde99a46",
+      "worker_summary_sha256": "47f34ceab8d0f00f132e436a55d68604f16225c13f01bc60bc1dd521403e3a26"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o05-hera_preempt-BR-s0126097984",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b4b95c48cdf2f1ac1aedad21be26f11364611f29497123cb43ac981a99a81ff2",
+      "worker_summary_sha256": "ff6b46cbb1d396cf536baeb08f4299165f6341c683a9f94017db1f71ed1ad8d6"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o06-reserved_slot-FL-s1250953342",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "f67d91209c2c95ed2cd162e46aa9ca97c7532844036a65293ba29b1873a944db",
+      "worker_summary_sha256": "bb83771d510859cd916db418728dcf3f5bdf568fec20e84fc58f2e424d4b7886"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o07-hera_preempt-FR-s1597028647",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e7a0f6d01ef3e69d47ae38fa38143e475be8353bb1ad5367a7936ff775651709",
+      "worker_summary_sha256": "7c2b6e2e0e778bb2497255d4ec324d4b29e8cb574c510e3368535d01faddc3cb"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o08-reserved_slot-BL-s1207064101",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e1c93b8cbb78d54f786648cde4c881d2202a7818468bb86bb81eabb13344f923",
+      "worker_summary_sha256": "ae28ddd71162885fd4dba0e8813fb0934557d7ff2183e09c65531e73bfcde333"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o09-fifo_single-FR-s1597028647",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cc9694b8ffd639ebdde8df8a2e31f585fb652aeea3c1cc8f166820ebb55f6f85",
+      "worker_summary_sha256": "238303b624d1bed4a5586ae8b5c9fd2ad3efba0280529bdd93cd018f71f506e7"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o10-fifo_single-BL-s1207064101",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "e1f1d799cdc6a14102783eb9dbb88c5646f6934dcdc1f87098ad154615c065c5",
+      "worker_summary_sha256": "7833dee1d040faf3ea2c173bfe6e962b7fa183e16d249d07b646d6ce4bcccd0d"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o11-hera_preempt-BL-s1207064101",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "530fcc4edf581a97bf6b05c21b7e619dc32c1e397323de66723f802d4d847440",
+      "worker_summary_sha256": "ad94fd7fa5a95c1490579661be343dc2456449f62c8ab9d01880426010733d3d"
+    },
+    {
+      "trial_id": "scheduler_t2048-b006-o12-fifo_single-FL-s1250953342",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7f6cb05a60c72cc64d47fc2934d5f3aab68bcf87fb599d2ba5542e492630d8c4",
+      "worker_summary_sha256": "9858b4cc78e74ec6b16f81f331eb14ee306c11ba62f7fb720164beb3cc1dda1f"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o01-reserved_slot-BR-s1192663458",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "fcf5beee1ed9cfe5dbcb15883c41f8543e302f0b963d45b01897cddc99fa965f",
+      "worker_summary_sha256": "6f0d5f5d5e4fd6ba9a1819f3303855874465f33680861667e1b2b72903d7c79c"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o02-hera_preempt-BR-s1192663458",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6f7e9ac58b587275aff2ba7ac6c81858335ded6408a17a75deda6784a9b940f6",
+      "worker_summary_sha256": "890795b92962e732e0ba51b6fbe23096b6aae945ac3bcb8342172deef44e98b8"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o03-fifo_single-BL-s1815970191",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "9ac72dca05ced5c6fc1b189013207ec51b829f678c2e66e7eb81e53f85f1df10",
+      "worker_summary_sha256": "9e24ac2a2c35ff0acbd08bdffc148ad00d925ecaac00ac58de1d642aa30cf241"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o04-reserved_slot-FL-s1812421580",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c7b4c90382ae8c940720fe827547adc7739769106df950d52b1a03ff06698e63",
+      "worker_summary_sha256": "296ee99150d62160c42c27a72777285f3b7e833bd8947b53106b449de1a46b45"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o05-hera_preempt-FL-s1812421580",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "a83895b2aab0ac6ed65a6c4815ef37b2dd8fa19dfc76f0ebcc6185471b6bfdb1",
+      "worker_summary_sha256": "940cce92a2a3b85d2a051a354a9287e147919a7bee99d7a3d9330e4c73a7436e"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o06-fifo_single-FL-s1812421580",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cee3419ffc5621f51fa27e048cdd81d6014a54d6c30cbfba586253b665fc2072",
+      "worker_summary_sha256": "29938ea55eabf000afb833220d9b4ae82340da8f91c951430ee8938183a927bd"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o07-reserved_slot-BL-s1815970191",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d38c3abc04d26166c8ae411211e7737a22eb6cdd17c6f636836af8682b764060",
+      "worker_summary_sha256": "9c23081812f541b5b30f33aba4d2085ebb09c56f89e53c6a860daffa9be66ec7"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o08-hera_preempt-BL-s1815970191",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d531437af2d6d56039d042cbf79d95b4801ddcbec4051c0ae6e47f8d504a3df3",
+      "worker_summary_sha256": "6409cff21003a0f599555c3feeb78357a9f7dd3f38a4f6a4e87b33137b455feb"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o09-reserved_slot-FR-s1127536942",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "bf095773527c9a65dfb3b443ba26e17f723ae5420d2b625f5c3656ad7ed3cff9",
+      "worker_summary_sha256": "30f729a57200269b4a7fb79b383711b4ce4786fcb4bff2a63095176cead616f4"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o10-hera_preempt-FR-s1127536942",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "343769dbd1cbf1d6578f0a73b49e811d985741684d6601c65380526314e0700d",
+      "worker_summary_sha256": "5061ae0b39e2af6f8cb2643ab0283fad3ba1a27fb79125ca75db7adf8bcbaaf9"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o11-fifo_single-FR-s1127536942",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c2cadc2f226c87055ea82b7c6a7c27a5ab69ca01f58aa61aa86ea5419ca75f40",
+      "worker_summary_sha256": "bf4cde090a3c74831d8728af47e8fab4646642cf30572c46b43a7da162b1cd24"
+    },
+    {
+      "trial_id": "scheduler_t2048-b007-o12-fifo_single-BR-s1192663458",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "c1e9adb6ffc8d3bcfac3c3e13794b0c13fccb2c36912daba95b6f73a1bb760f9",
+      "worker_summary_sha256": "5b5a8811216a4471f9f9e495ad75edfb3c88bb73722c9e84fb7f02e545539890"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o01-reserved_slot-BR-s2101685301",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "6bdd402fed30d994b8aa473c7d8e7dc39e75bae369add011fcf76cc22484d37c",
+      "worker_summary_sha256": "66049d5b30312c404b1f3225061213b38b74de261646b77368a8ff9df30d1ded"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o02-fifo_single-BR-s2101685301",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "0ffa51f8786e34754ee818627f51057d3ed9a1cfbc17f8c2daa4c4ba46f7ae63",
+      "worker_summary_sha256": "b61eb0489e076be702aeec32cef1f65a9c5046f08f28d81929492af94aa53f8b"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o03-reserved_slot-BL-s1503993216",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "356192c5ca6d30021568a49caf953e878782b2193a345c2aeb75d9059470f53a",
+      "worker_summary_sha256": "7c437fb5de7d897e68e65a427a604381bed26edfbec2be1c49b47d04293c337e"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o04-reserved_slot-FL-s0102971217",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "cad115bb5a87a04afabfadfa0759e99ab3891460f0f614a8bf000c2639ff970a",
+      "worker_summary_sha256": "9b836853722c769954c1158031657c5ded18d3bd2c06dc2fd74b1d4136eae1fe"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o05-reserved_slot-FR-s1559308641",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "bceeb5af7851d95de350696860da3b0cf0ec4a4af5f3ee377b959b6f1df781d0",
+      "worker_summary_sha256": "4704b575a3c993b78e9ed442e34c32c2814832cbe91fe62cc608656cf958e525"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o06-fifo_single-FL-s0102971217",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "83b6d53bcb6a727c60e33913d314dd22ea0efffe6ee025bb8529d9c87006d23b",
+      "worker_summary_sha256": "f98dc35c4e5823e097c364d85d723b7a0bde85d834880d64e2e5f2cc238cb182"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o07-fifo_single-BL-s1503993216",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "2dcfcaf5b611a2882b64c9cb95b2bce0b5a05e2f1094bd3abb4bc8c8293de24f",
+      "worker_summary_sha256": "d27844c390e0914c00d20e82a3f6681719d767ba068b8b9e4006f06417040968"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o08-fifo_single-FR-s1559308641",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "d3a5a879987ec8e7900b86ad4d717ec1f27131f39da36dcc36ee411cce84b8e3",
+      "worker_summary_sha256": "f6094c7179a4dda6727211cf48aaa0dca124e961b9b66b381b58c9015487a1ef"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o09-hera_preempt-FR-s1559308641",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "b567104489afd0c945e3f15ec8912f6e2cac31b7335698d8073317c31a996bed",
+      "worker_summary_sha256": "45e6f079a6564827a532c1b2c1a8f4ad45fc376afa4a987cf5275692698fcf75"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o10-hera_preempt-FL-s0102971217",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "7a2977f660d445e9c0107523ef419867a7c1f096d5441e62d9870f763b88a5be",
+      "worker_summary_sha256": "a6a88675ee523c924589a2284bb7337f44053b4cc7716def420f746312030556"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o11-hera_preempt-BL-s1503993216",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "1d9b27325d47522982e87bad3160c49034bc2c2b98eb82dc16565a5e7d0bae6d",
+      "worker_summary_sha256": "c85e0a98442a19cb4f3d7b06a93d0bee19150eaf4da5216b858943637a3ec8fb"
+    },
+    {
+      "trial_id": "scheduler_t2048-b008-o12-hera_preempt-BR-s2101685301",
+      "adopted_attempt_id": "attempt-0001",
+      "events_sha256": "30463ad4ec083009ae76dbf7a1733bd6e45175a61d40e3dbf41553e05c4128c6",
+      "worker_summary_sha256": "a0153584a590738eded6661154ef24dcd45a58d4e95fc5c517e344eea0476d9f"
+    }
+  ],
+  "paired_contrasts": {
+    "256": {
+      "hera_preempt_minus_fifo_single": {
+        "left": "hera_preempt",
+        "right": "fifo_single",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -0.989853753125,
+            "median_difference": -0.9887168,
+            "batch_cluster_bootstrap_95_ci": [
+              -0.994009515,
+              -0.985588053125
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      },
+      "hera_preempt_minus_reserved_slot": {
+        "left": "hera_preempt",
+        "right": "reserved_slot",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -0.05658498124999999,
+            "median_difference": -0.05627674999999996,
+            "batch_cluster_bootstrap_95_ci": [
+              -0.058839296875,
+              -0.05447554546874999
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      },
+      "reserved_slot_minus_fifo_single": {
+        "left": "reserved_slot",
+        "right": "fifo_single",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -0.933268771875,
+            "median_difference": -0.93370255,
+            "batch_cluster_bootstrap_95_ci": [
+              -0.93863431875,
+              -0.927943916484375
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      }
+    },
+    "1024": {
+      "hera_preempt_minus_fifo_single": {
+        "left": "hera_preempt",
+        "right": "fifo_single",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -4.753739228125,
+            "median_difference": -4.750929899999999,
+            "batch_cluster_bootstrap_95_ci": [
+              -4.762735912343749,
+              -4.744489784375
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      },
+      "hera_preempt_minus_reserved_slot": {
+        "left": "hera_preempt",
+        "right": "reserved_slot",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -0.05830428125,
+            "median_difference": -0.058241050000000016,
+            "batch_cluster_bootstrap_95_ci": [
+              -0.062680259375,
+              -0.0548609
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      },
+      "reserved_slot_minus_fifo_single": {
+        "left": "reserved_slot",
+        "right": "fifo_single",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -4.695434946875,
+            "median_difference": -4.6974896,
+            "batch_cluster_bootstrap_95_ci": [
+              -4.701847446640625,
+              -4.6878418125
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      }
+    },
+    "2048": {
+      "hera_preempt_minus_fifo_single": {
+        "left": "hera_preempt",
+        "right": "fifo_single",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -10.5889564875,
+            "median_difference": -10.695674149999999,
+            "batch_cluster_bootstrap_95_ci": [
+              -10.724926438437501,
+              -10.398480620390625
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      },
+      "hera_preempt_minus_reserved_slot": {
+        "left": "hera_preempt",
+        "right": "reserved_slot",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -0.06304185,
+            "median_difference": -0.06329225,
+            "batch_cluster_bootstrap_95_ci": [
+              -0.06983014570312499,
+              -0.05626461500000001
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      },
+      "reserved_slot_minus_fifo_single": {
+        "left": "reserved_slot",
+        "right": "fifo_single",
+        "difference_definition": "left minus right within block, leg, and paired seed",
+        "n_manifest_pairs": 32,
+        "metrics": {
+          "deadline_penalized_latency_s": {
+            "n_pairs": 32,
+            "mean_difference": -10.5259146375,
+            "median_difference": -10.6302193,
+            "batch_cluster_bootstrap_95_ci": [
+              -10.6574413375,
+              -10.337454053125
+            ],
+            "bootstrap_samples": 5000
+          },
+          "deadline_success": {
+            "n_pairs": 32,
+            "mean_difference": 0.0,
+            "median_difference": 0.0,
+            "batch_cluster_bootstrap_95_ci": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_samples": 5000
+          }
+        }
+      }
+    }
+  },
+  "figure_sha256": {
+    "scheduler_deadline_sensitivity.png": "d4e4deb0c80ac820f5a32cbb8f2321f9e129bd54f5492b911a44445f9bce9c5f",
+    "scheduler_deadline_sensitivity.svg": "0ce44b6fc133174b876bfc1cf6d700eda15632f6d7ae32e8fe24eb8fcdd158dd",
+    "scheduler_latency.png": "b5d4892bda1fe416eb9f6a1bca223301234fff323b59e5da9c1eff3bf56e2a13",
+    "scheduler_latency.svg": "36cbbf4dfdde2e5d236462e2a7bd80d37f2de4d108f5472831f4e92b4cd2cded"
+  },
+  "n_trials": 288,
+  "workloads": {
+    "256": {
+      "hera_preempt": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 0.486391209375,
+        "restricted_mean_to_deadline_s": 0.486391209375,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 0.486391209375,
+        "success_only_sd_s": 0.009799044014081649,
+        "success_only_median_s": 0.4881947,
+        "success_only_q1_s": 0.4819965,
+        "success_only_q3_s": 0.491729925,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 1.1773000062585197,
+        "retrospective_deadline_fraction": {
+          "1": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 0.2357125,
+        "fault_to_dispatch_ms_mean": 2.502615625,
+        "fault_to_server_observed_ms_mean": 61.391728125,
+        "fault_to_first_chunk_ms_mean": 61.68988125,
+        "mission_status_counts": {
+          "cancelled": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      },
+      "fifo_single": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 1.4762449625,
+        "restricted_mean_to_deadline_s": 1.4762449625,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 1.4762449625,
+        "success_only_sd_s": 0.015840802726885306,
+        "success_only_median_s": 1.4776281,
+        "success_only_q1_s": 1.46327505,
+        "success_only_q3_s": 1.4850571750000001,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 2.1598246624962485,
+        "retrospective_deadline_fraction": {
+          "1": 0.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 984.6546125,
+        "fault_to_dispatch_ms_mean": 985.288996875,
+        "fault_to_server_observed_ms_mean": 1051.296415625,
+        "fault_to_first_chunk_ms_mean": 1051.604975,
+        "mission_status_counts": {
+          "complete": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 256,
+          "minimum": 256,
+          "maximum": 256
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 128.40625,
+          "minimum": 128,
+          "maximum": 129
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      },
+      "reserved_slot": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 0.542976190625,
+        "restricted_mean_to_deadline_s": 0.542976190625,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 0.542976190625,
+        "success_only_sd_s": 0.005946020261966459,
+        "success_only_median_s": 0.54365275,
+        "success_only_q1_s": 0.53897515,
+        "success_only_q3_s": 0.54470655,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 1.2486322562454006,
+        "retrospective_deadline_fraction": {
+          "1": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 0.30345,
+        "fault_to_dispatch_ms_mean": 0.9541625,
+        "fault_to_server_observed_ms_mean": 50.357709375,
+        "fault_to_first_chunk_ms_mean": 50.6494125,
+        "mission_status_counts": {
+          "cancelled": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      }
+    },
+    "1024": {
+      "hera_preempt": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 0.485863803125,
+        "restricted_mean_to_deadline_s": 0.485863803125,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 0.485863803125,
+        "success_only_sd_s": 0.008609017785325718,
+        "success_only_median_s": 0.486174,
+        "success_only_q1_s": 0.480511875,
+        "success_only_q3_s": 0.4911773,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 1.1721920937452524,
+        "retrospective_deadline_fraction": {
+          "1": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 0.230096875,
+        "fault_to_dispatch_ms_mean": 2.581371875,
+        "fault_to_server_observed_ms_mean": 58.57875,
+        "fault_to_first_chunk_ms_mean": 58.852784375,
+        "mission_status_counts": {
+          "cancelled": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      },
+      "fifo_single": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 5.23960303125,
+        "restricted_mean_to_deadline_s": 5.23960303125,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 5.23960303125,
+        "success_only_sd_s": 0.015398153250339032,
+        "success_only_median_s": 5.2427647,
+        "success_only_q1_s": 5.2295511249999995,
+        "success_only_q3_s": 5.247140725,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 5.929998668751068,
+        "retrospective_deadline_fraction": {
+          "1": 0.0,
+          "2": 0.0,
+          "5": 0.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 4704.576765625,
+        "fault_to_dispatch_ms_mean": 4705.222946875,
+        "fault_to_server_observed_ms_mean": 4813.071228125,
+        "fault_to_first_chunk_ms_mean": 4813.361834375,
+        "mission_status_counts": {
+          "complete": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 1024,
+          "minimum": 1024,
+          "maximum": 1024
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 128.5,
+          "minimum": 128,
+          "maximum": 129
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      },
+      "reserved_slot": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 0.544168084375,
+        "restricted_mean_to_deadline_s": 0.544168084375,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 0.544168084375,
+        "success_only_sd_s": 0.005448823311985069,
+        "success_only_median_s": 0.5442189,
+        "success_only_q1_s": 0.541650225,
+        "success_only_q3_s": 0.546993225,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 1.2430199124955834,
+        "retrospective_deadline_fraction": {
+          "1": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 0.284171875,
+        "fault_to_dispatch_ms_mean": 0.946421875,
+        "fault_to_server_observed_ms_mean": 51.3305625,
+        "fault_to_first_chunk_ms_mean": 51.622890625,
+        "mission_status_counts": {
+          "cancelled": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      }
+    },
+    "2048": {
+      "hera_preempt": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 0.5120086875,
+        "restricted_mean_to_deadline_s": 0.5120086875,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 0.5120086875,
+        "success_only_sd_s": 0.01659615205735373,
+        "success_only_median_s": 0.51614335,
+        "success_only_q1_s": 0.494522,
+        "success_only_q3_s": 0.5240937750000001,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 1.2080201312455756,
+        "retrospective_deadline_fraction": {
+          "1": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 0.219009375,
+        "fault_to_dispatch_ms_mean": 2.634059375,
+        "fault_to_server_observed_ms_mean": 59.505509375,
+        "fault_to_first_chunk_ms_mean": 59.7638875,
+        "mission_status_counts": {
+          "cancelled": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      },
+      "fifo_single": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 11.100965175,
+        "restricted_mean_to_deadline_s": 11.100965175,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 11.100965175,
+        "success_only_sd_s": 0.2799637370626626,
+        "success_only_median_s": 11.210187699999999,
+        "success_only_q1_s": 11.171648650000002,
+        "success_only_q3_s": 11.241151349999999,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 11.792243587498888,
+        "retrospective_deadline_fraction": {
+          "1": 0.0,
+          "2": 0.0,
+          "5": 0.0,
+          "10": 0.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 10471.7893,
+        "fault_to_dispatch_ms_mean": 10472.444734375,
+        "fault_to_server_observed_ms_mean": 10648.202259375,
+        "fault_to_first_chunk_ms_mean": 10648.486753125,
+        "mission_status_counts": {
+          "complete": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 2048,
+          "minimum": 2048,
+          "maximum": 2048
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 128.65625,
+          "minimum": 128,
+          "maximum": 129
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      },
+      "reserved_slot": {
+        "n_expected": 32,
+        "n_manifested": 32,
+        "n_complete": 32,
+        "n_infrastructure_error": 0,
+        "n_missing": 0,
+        "n_success": 32,
+        "deadline_success_rate": 1.0,
+        "deadline_penalized_mean_s": 0.5750505375,
+        "restricted_mean_to_deadline_s": 0.5750505375,
+        "restricted_mean_label": "deadline-penalized descriptive mean; not a survival-model RMST estimate",
+        "success_only_latency_is_descriptive": true,
+        "success_only_mean_s": 0.5750505375,
+        "success_only_sd_s": 0.013490748754890524,
+        "success_only_median_s": 0.5790905,
+        "success_only_q1_s": 0.570742025,
+        "success_only_q3_s": 0.5836566,
+        "failure_reasons": {},
+        "mean_process_elapsed_s": 1.2742102281263215,
+        "retrospective_deadline_fraction": {
+          "1": 1.0,
+          "2": 1.0,
+          "5": 1.0,
+          "10": 1.0,
+          "30": 1.0
+        },
+        "emergency_queue_ms_mean": 0.287978125,
+        "fault_to_dispatch_ms_mean": 0.945340625,
+        "fault_to_server_observed_ms_mean": 53.130996875,
+        "fault_to_first_chunk_ms_mean": 53.42063125,
+        "mission_status_counts": {
+          "cancelled": 32
+        },
+        "mission_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "mission_prompt_eval_count": {
+          "n_reported": 0,
+          "n_requests": 32,
+          "mean": null,
+          "minimum": null,
+          "maximum": null
+        },
+        "emergency_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 88,
+          "minimum": 88,
+          "maximum": 88
+        },
+        "emergency_prompt_eval_count": {
+          "n_reported": 32,
+          "n_requests": 32,
+          "mean": 283,
+          "minimum": 283,
+          "maximum": 283
+        }
+      }
+    }
+  }
+}

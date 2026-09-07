@@ -1,0 +1,5 @@
+# Install from the repository root using CPython 3.12.
+# Frozen experiment dependencies plus the recorded figure-generation versions.
+-r requirements-core.txt
+matplotlib==3.10.8
+pillow==12.1.1
