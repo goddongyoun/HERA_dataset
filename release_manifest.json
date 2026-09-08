@@ -4,7 +4,7 @@
   "total_trials": 1472,
   "experiment_source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
   "experiment_source_file_count": 30,
-  "release_status": "HERA code and result package; legacy data removed from the current tree but retained in Git history; author metadata and licensing approval pending; no DOI assigned.",
+  "release_status": "HERA code and result package; author metadata confirmed; software MIT and scientific data/figures CC BY 4.0 as scoped in LICENSING.md; raw data prepared separately, not included in Git; no DOI assigned.",
   "repository_url": "https://github.com/goddongyoun/HERA_dataset",
   "path_marker": "SOURCE_WORKSPACE denotes an intentionally removed historical workstation prefix. These report derivatives are previews, not immutable raw-evidence inputs.",
   "raw_evidence_included": false,
@@ -478,9 +478,9 @@
       "path": "results/physics_main/report.json",
       "source_path": "paper/generated/physics_main/report.json",
       "source_sha256": "5fc7790946065bb37bb777e9809c3e783abf92f3d65a1b2c2e599656770c6708",
-      "sha256": "bdffce7cba86dae89e9dcf604ce63b6f7da8b7ce38a122c3c9a18f772ae9ea5b",
-      "bytes": 7514701,
-      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+      "sha256": "e462ccb1e46521dda192c95b0d207e81e0e9a9b37fe6292c1ef617cef6da274f",
+      "bytes": 7514672,
+      "transformation": "JSON public derivative; workspace prefixes and GPU device UUID replaced in strings only; numeric/boolean/null values and array order unchanged"
     },
     {
       "path": "results/physics_main/report.md",
@@ -686,9 +686,9 @@
       "path": "results/provenance/provenance.json",
       "source_path": "runs/main_001/provenance.json",
       "source_sha256": "9006e5f7083090c1f7bd3937346829f991f8f18c30ba1348c0b95950f151b4e2",
-      "sha256": "f7a36ec004737cee2b009a53babd947e0fe103d09750897ebe0131caa8c440a9",
-      "bytes": 6208,
-      "transformation": "JSON public derivative; workspace prefix replaced in strings only; numeric/boolean/null values and array order unchanged"
+      "sha256": "0cfc31deaeac7639314b97afd76cf6e3061e0dd8ef8678961312a5ab7d219f8f",
+      "bytes": 6179,
+      "transformation": "JSON public derivative; workspace prefixes and GPU device UUID replaced in strings only; numeric/boolean/null values and array order unchanged"
     }
   ]
 }

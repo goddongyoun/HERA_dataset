@@ -16,10 +16,10 @@
 
 기존 전체 evidence ZIP은 리뷰 답변과 로컬 경로 등 공개용으로 정리되지 않은 자료를 포함하므로 그대로 업로드하지 마세요. GitHub용 폴더를 공개하는 것과 전체 증거 묶음을 공개하는 것은 별도 결정입니다.
 
-## 2. 공개 전에 확정할 사항
+## 2. 확정한 정보와 남은 확인
 
-- 저자 두 명의 이름·순서·공개 동의와 ORCID를 확인합니다. 원고에서 전달된 정보는 Dongyeon Kim (`0009-0006-8048-2696`), Hyunjun Jung (`0000-0002-6717-1395`)이며, 최종 확인이 필요합니다.
-- 코드 라이선스를 저자들이 선택합니다. **현재 라이선스 선택은 확정되지 않았습니다.** 공개 저장소라는 이유만으로 MIT 등 특정 라이선스가 부여되는 것은 아닙니다. 데이터도 공개한다면 코드와 데이터의 이용 조건을 각각 정합니다.
+- 공개 준비 승인을 받아 저자 정보와 순서를 Dongyeon Kim (`0009-0006-8048-2696`), Hyunjun Jung (`0000-0002-6717-1395`)으로 확정했습니다. Zenodo가 가져온 이름·순서·ORCID도 이 정보와 일치하는지 확인합니다.
+- **코드와 소프트웨어 문서는 MIT, 과학 데이터·결과·그림은 CC BY 4.0**으로 확정했습니다. 모든 스크립트는 폴더 위치와 무관하게 MIT입니다. 자세한 적용 범위는 `LICENSING.md`, 전문은 `LICENSE`와 `LICENSE-DATA`에 있습니다. 포함되지 않은 타사 라이브러리·모델의 라이선스를 변경하는 것은 아닙니다.
 - 파일 목록과 공개 범위를 검토하고 개인정보·인증정보·불필요한 내부 경로가 없는지 확인합니다. `release_manifest.json`의 대상과 실제 업로드 파일도 대조합니다.
 - 저장소 설명에 “신규 main_001, 1,472 trials; 원시 데이터 전체 미포함”을 명시합니다. 원시 데이터가 공개되기 전에는 전체 재현 데이터 공개 완료라고 쓰지 않습니다.
 
@@ -51,9 +51,22 @@ GitHub 저장소 생성이나 커밋만으로 DOI가 생기지는 않습니다. 
 
 ## 5. 원시 데이터 DOI도 필요한 경우
 
-1. 기존 evidence ZIP을 그대로 쓰지 말고, 공개 승인된 raw·필요한 메타데이터·설명서만 담은 **새 정제 데이터 묶음**을 만듭니다. 원고·리뷰 답변·비밀정보·불필요한 로컬 경로는 제외합니다. 코드 버전, trial ID, 해시와 분석 입력의 대응 관계를 보존합니다.
+1. 기존 내부 evidence ZIP이 아니라 별도로 준비한 **`HERA_dataset.zip`**을 사용합니다. 이 묶음은 `docs/DATASET_README.md`의 구조를 따르며 원고·리뷰 답변·불필요한 콘솔 로그를 제외합니다. 메타데이터 경로·장치 식별정보 정제와 원본/공개본 해시는 내부 `PUBLIC_DATA_MANIFEST.json`에 기록합니다. 파일 해시와 별도 위치 재분석 검증이 완료된 묶음만 게시합니다.
 2. Zenodo에서 **New upload**를 선택하고 정제 파일을 올립니다. 제목, 데이터셋 설명, 저자·ORCID, 라이선스, 버전과 관련 소프트웨어 DOI를 입력합니다. 포함한 trial 수와 누락·제외 범위를 정확히 적습니다. [새 업로드 만들기](https://help.zenodo.org/docs/deposit/create-new-upload/)
 3. 문서에 식별자를 미리 넣어야 한다면 DOI를 **예약**할 수 있습니다. 그러나 **예약만 한 DOI는 게시·등록 완료가 아닙니다.** 파일과 메타데이터를 검토하고 Publish를 완료한 뒤 실제 DOI 링크와 공개 접근을 확인합니다. [DOI 예약 안내](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/)
 4. 논문에서 소프트웨어 버전 DOI와 데이터셋 버전 DOI를 각각 역할에 맞게 인용합니다. 공개되지 않은 자료까지 데이터 DOI가 포함한다고 설명하지 않습니다.
+
+### Zenodo 데이터 업로드 입력값
+
+- Resource type: **Dataset**
+- Title: **HERA**
+- Creators: 위에 확정된 두 저자를 동일한 순서로 입력하고 ORCID를 확인합니다.
+- License: 데이터는 **Creative Commons Attribution 4.0 International (CC BY 4.0)**. 설명에는 포함된 소프트웨어가 MIT라는 점과 `LICENSING.md`의 적용 범위도 명시합니다.
+- Files: 최종 검증된 `HERA_dataset.zip`, 동봉된 `HERA_dataset.sha256`. ZIP 안에는 자세한 파일 매니페스트와 재분석 설명서가 포함됩니다. 내부용 ZIP이나 로컬 QA 폴더는 업로드하지 않습니다.
+- Description: 아래 영문 설명을 사용할 수 있습니다. 실제 업로드 파일과 일치하는지 확인하고, 존재하지 않는 DOI나 아직 완료하지 않은 외부 접근 검증을 적지 않습니다.
+
+> Data and reproducibility materials for HERA, covering the fixed main_001 campaign of 1,472 simulated-quadruped trials: 288 scheduling, 960 offline physical, 64 paced physical-audit, and 160 integrated trials. The archive includes trial summaries, 1,472 event logs, 1,184 control traces with 608,000 samples, fixed manifests, frozen execution source, saved analyses, bounded server evidence, and offline verification and reanalysis tools. Scientific data and figures are licensed under CC BY 4.0; bundled software is MIT-licensed as specified in LICENSING.md. Selected path and device metadata are public derivatives documented with original and public SHA-256 values. Earlier pilot/legacy results, manuscripts and reviewer correspondence are excluded. The included software commit is recorded in PUBLIC_DATA_MANIFEST.json. These simulation results do not establish general fault diagnosis, hardware safety, or additional physical benefit from language-model supervision.
+
+Zenodo 게시가 끝난 뒤 로그아웃 상태에서 두 DOI의 파일을 내려받아 확인하고, 원고의 Data Availability와 Reviewer 1 Comment 2 답변에 실제 링크·버전·공개 범위를 반영합니다. 코드 공개 완료와 데이터 공개 완료는 각각 실제 완료 시점에 맞춰 적습니다.
 
 최종 확인 기준은 “번호를 적었다”가 아니라 **승인된 내용이 해당 DOI의 실제 버전 기록에서 접근 가능하고, 논문이 그 공개 범위를 정확히 설명하는가**입니다.

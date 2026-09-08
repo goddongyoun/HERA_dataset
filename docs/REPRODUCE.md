@@ -16,16 +16,22 @@ The first command verifies 30 frozen execution files plus the copied/exported pa
 
 **This step is currently blocked for outside readers: the raw archive has not yet been published.** See [data availability](DATA_AVAILABILITY.md). Do not substitute result exports for raw trial evidence.
 
-Once an approved archive is available, download it and check its published SHA-256. Extract it into a separate `evidence/` directory, not over the repository. The existing internal archive has a top-level `HERA_v3/` folder; with that layout, the campaign is `evidence/HERA_v3/runs/main_001`. If the public archive layout changes, update the following path accordingly. Do not let an archive overwrite this package's README or execution code.
+Once the public `HERA_dataset.zip` archive is available, download it and check its published SHA-256. Extract it into a separate `evidence/` directory, not over the repository. Its top-level folder is `HERA/`, so the campaign is `evidence/HERA/runs/main_001`. Do not substitute an older internal manuscript/evidence ZIP or let an archive overwrite this checkout's files.
 
-The full campaign must include the files listed in `DATA_AVAILABILITY.md`, not just traces. Original provenance may retain historical path strings; retain original bytes and let the analysis tools resolve the campaign at its current location.
+The full campaign must include the files listed in `DATA_AVAILABILITY.md`, not just traces. The public archive retains measurement records, manifested conditions and frozen execution source unchanged; selected path/device metadata are disclosed public derivatives. `PUBLIC_DATA_MANIFEST.json` records original and public hashes. Verify the extracted archive before reanalysis:
+
+```powershell
+python -B evidence/HERA/tools/verify_public_data.py --root evidence/HERA
+```
+
+Original server-prefix byte counts and digests are historical provenance; public derivatives are checked separately by the archive verifier. Do not run the historical server-log collector to recreate old evidence. No live Ollama server is needed for archive verification.
 
 ## 3. Recalculate and audit saved results
 
 No live model server or new experiment campaign is needed for these commands after the full evidence has been restored. In PowerShell:
 
 ```powershell
-$heraCampaign = (Resolve-Path 'evidence/HERA_v3/runs/main_001').Path
+$heraCampaign = (Resolve-Path 'evidence/HERA/runs/main_001').Path
 python -B paper/verify_saved_analysis.py --campaign-dir $heraCampaign --output-dir paper/reproduced/analysis
 python -B paper/build_scheduler_report.py --campaign-dir $heraCampaign --output-dir paper/reproduced/scheduler
 python -B paper/build_physics_report.py --campaign-dir $heraCampaign --output-dir paper/reproduced/physics

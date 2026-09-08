@@ -6,7 +6,7 @@ This package covers the fixed **1,472-trial** `main_001` campaign: 288 scheduler
 
 Repository: [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_dataset).
 
-**Release status:** the HERA code and result package is available in this repository; author metadata and licensing require author approval. No release tag or DOI deposit is claimed. The full raw-data archive for `main_001` is **not included or linked to a published deposit yet**. This checkout supports source inspection, regression tests and viewing result exports; full saved-data reanalysis requires the separate evidence archive.
+**Release status:** the HERA code and result package is available in this repository. The listed authors and release licensing have been confirmed: software is MIT-licensed; scientific data and figures are CC BY 4.0, with precise scope in [LICENSING.md](LICENSING.md). No release tag or DOI deposit is claimed. The full raw-data archive for `main_001` is **not included in Git or linked to a published deposit yet**. This checkout supports source inspection, regression tests and viewing result exports; full saved-data reanalysis requires the separate evidence archive described in the [dataset guide](docs/DATASET_README.md).
 
 The current tree contains the HERA package for `main_001` only. The former 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree to avoid confusing the two studies. They remain recoverable from [earlier Git history](https://github.com/goddongyoun/HERA_dataset/tree/ccf0e78f9b577afbf44bc0fe34be796b86238ef2); no history rewrite was performed. Their historical terminology, tests and claims are not the current conclusions.
 
@@ -16,7 +16,7 @@ The current tree contains the HERA package for `main_001` only. The former 360-t
 - [Data availability and excluded files](docs/DATA_AVAILABILITY.md)
 - [GitHub upload and Zenodo DOI guide — 한국어](docs/GITHUB_ZENODO_KO.md)
 - [Frozen protocol](PROTOCOL.md) and [deviations](docs/DEVIATIONS.md)
-- [Licensing status](LICENSING.md)
+- [Licenses and their scope](LICENSING.md)
 
 ## What the results support
 
@@ -37,6 +37,7 @@ These are descriptive, single-platform simulation results, not hardware safety g
 | `figures/` | PNG/SVG architecture and result figures, including supplementary plots |
 | `tools/verify_package.py` | Local package and execution-source integrity check; no model inference |
 | `release_manifest.json` | Original and public-copy SHA-256 values, transformations and payload inventory |
+| `tools/build_public_data.py`, `tools/verify_public_data.py` | Allowlisted local data packaging and public-archive verification; no experiments or uploads |
 
 ## Lightweight checkout
 
@@ -72,8 +73,8 @@ Git attributes preserve code and manifest bytes. Do not rename `hera_v2`, add ne
 
 ## Report provenance and citation
 
-Report exports under `results/` replace historical workstation prefixes with `SOURCE_WORKSPACE`; numeric/boolean/null values and list ordering are unchanged. These are explicitly identified **public derivatives**, not byte-identical raw evidence or portable inputs for the report generators. Regenerate reports from the immutable evidence at its new location before generating tables. Source and public-copy hashes are recorded separately.
+Report exports under `results/` replace historical workstation prefixes with `SOURCE_WORKSPACE` and GPU device UUIDs with `GPU-REDACTED`; numeric/boolean/null values and list ordering are unchanged. These are explicitly identified **public derivatives**, not byte-identical raw evidence or portable inputs for the report generators. Regenerate reports from the restored evidence at its new location before generating tables. Source and public-copy hashes are recorded separately. Earlier Git commits retain historical metadata; the current-tree cleanup does not rewrite history.
 
 The protocol heading and architecture figure metadata use the public project name HERA; their original and updated hashes are recorded in `release_manifest.json`. These naming-only changes do not alter the protocol's scientific conditions, figure content, execution source or results. Historical module names, archive paths and provenance identifiers are retained for reproducibility.
 
-`CITATION.cff` contains draft creator metadata and the existing repository URL for the HERA software package. No DOI, release version or publication date is invented. After author approval and archival release, link the specific software release and the matching raw-data deposit for `main_001` in this README and in the manuscript. A DOI for the current code and result package must not be described as supplying the absent raw evidence.
+`CITATION.cff` contains the confirmed creator metadata, software license and repository URL for HERA. No DOI, release version or publication date is invented. After archival publication, link the specific software release and the matching raw-data deposit for `main_001` in this README and in the manuscript. A DOI for the current Git code and result package must not be described as supplying raw evidence absent from that record.

@@ -131,7 +131,7 @@
     "adjustable": false,
     "resolution": 1e-07
   },
-  "gpu": "NVIDIA RTX A6000, GPU-15c7d3fb-c6c9-9535-4fc9-87b1ec08836a, 595.95, 49140 MiB",
+  "gpu": "NVIDIA RTX A6000, GPU-REDACTED, 595.95, 49140 MiB",
   "packages": [
     "Farama-Notifications==0.0.4",
     "ImageIO==2.37.2",

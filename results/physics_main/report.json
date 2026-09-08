@@ -103,7 +103,7 @@
     },
     "experiment_provenance": {
       "captured_utc": "2026-09-07T12:11:10.721563Z",
-      "gpu": "NVIDIA RTX A6000, GPU-15c7d3fb-c6c9-9535-4fc9-87b1ec08836a, 595.95, 49140 MiB",
+      "gpu": "NVIDIA RTX A6000, GPU-REDACTED, 595.95, 49140 MiB",
       "latency_clock": {
         "adjustable": false,
         "implementation": "QueryPerformanceCounter()",

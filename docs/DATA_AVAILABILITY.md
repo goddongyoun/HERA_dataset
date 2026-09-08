@@ -4,7 +4,7 @@
 
 The `main_001` campaign completed all 1,472 manifested trials. Its full evidence exists locally, but **no public raw-evidence URL or DOI for this campaign is supplied by this repository**. The HERA package in [HERA_dataset](https://github.com/goddongyoun/HERA_dataset) is code plus result exports, not a complete raw-data deposit. A DOI for this repository alone must not be represented as providing data that are absent from it.
 
-Included: frozen execution code, fixed manifests, report-generation tools, exported descriptive reports, table sources, PNG/SVG figures and hash provenance. Report exports replace workstation prefixes with `SOURCE_WORKSPACE`; their original and derived hashes are in `release_manifest.json`. Identifiers such as trial IDs, model names and hashes are retained. Numerical values are not filtered or recomputed during export.
+Included: frozen execution code, fixed manifests, report-generation tools, exported descriptive reports, table sources, PNG/SVG figures and hash provenance. Report exports replace workstation prefixes with `SOURCE_WORKSPACE` and device UUIDs with `GPU-REDACTED`; their original and derived hashes are in `release_manifest.json`. Scientific identifiers such as trial IDs, model names and source hashes are retained. Numerical values are not filtered or recomputed during export. Earlier Git commits are not rewritten by this metadata cleanup.
 
 Excluded from the **HERA package**: raw trial directories, event/trace JSONL, worker/adopted summaries, server-state/prefix logs, large archive files, model weights, Python environments, earlier campaigns, manuscript/MDPI template bundles and reviewer correspondence.
 
@@ -22,7 +22,11 @@ The future public raw-evidence deposit must preserve these original structures a
 
 The current raw campaign includes 1,184 trace JSONL files with 608,000 samples (898,417,644 bytes), and 1,472 event JSONL files (11,303,175 bytes). These are not the CSV files from the historical 360-trial release. Trace files alone are insufficient: the auditors check summary, event, trace, manifest and source hashes together.
 
-The existing internal full-evidence ZIP also includes internal documents and workstation information. It is **not a publication-ready data deposit** and should not be uploaded wholesale. Prepare a separate allowlisted archive, review its privacy and licensing, and preserve the original scientific records. If redaction changes hash-linked evidence, provide an explicit transformation map and revalidate the public package; never silently replace values while retaining old hashes.
+The existing internal full-evidence ZIP also includes internal documents and workstation information. It is **not a publication-ready data deposit** and should not be uploaded wholesale. The separate public-data workflow builds `HERA_dataset.zip` using an explicit allowlist and omits manuscripts, reviewer correspondence and unrelated logs. See the [dataset guide](DATASET_README.md).
+
+The public data license is CC BY 4.0; bundled software remains MIT under [LICENSING.md](../LICENSING.md). Author names, order and existing ORCIDs have been confirmed. These approvals are not evidence that a Zenodo record has been published.
+
+The archive's `PUBLIC_DATA_MANIFEST.json` identifies every included file with original and public SHA-256 values, sizes and transformation descriptions. Measurement records and frozen execution source are preserved; selected workstation paths and device identifiers in metadata are removed from public derivatives. Historical server hashes and byte counts must not be confused with those of transformed public prefixes. The public verifier checks the archive and retained server evidence offline. Full fresh-location reanalysis is a separate release gate; a completed build alone is not a successful reanalysis.
 
 ## After publication
 
