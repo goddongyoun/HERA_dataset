@@ -10,6 +10,8 @@ Repository: [goddongyoun/HERA_dataset](https://github.com/goddongyoun/HERA_datas
 
 The current tree contains the HERA package for `main_001` only. The former 360-trial `full/` and `summary/` directories and their separate README have been removed from the current tree to avoid confusing the two studies. They remain recoverable from [earlier Git history](https://github.com/goddongyoun/HERA_dataset/tree/ccf0e78f9b577afbf44bc0fe34be796b86238ef2); no history rewrite was performed. Their historical terminology, tests and claims are not the current conclusions.
 
+A separate upload-ready `HERA_dataset.zip` has passed fresh-extraction checks: all 11 saved analyses, 76 regression tests, independent raw-evidence audits and all four table claim/text comparisons. Its checksum, contents and included software commit are recorded in [DATA_RELEASE.json](docs/DATA_RELEASE.json). This is a local preparation result, not a published dataset URL or DOI. The large ZIP is intentionally not committed to Git.
+
 ## Start here
 
 - [Reproduction instructions](docs/REPRODUCE.md)

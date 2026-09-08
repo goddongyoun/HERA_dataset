@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "title": "HERA",
+  "campaign_id": "main_001",
+  "publication_status": "upload_ready_not_published",
+  "dataset_doi": null,
+  "dataset_download_url": null,
+  "unauthenticated_dataset_download_verified": false,
+  "software_repository": "https://github.com/goddongyoun/HERA_dataset",
+  "software_commit_in_archive": "82ae54b209389ef4917b857bdd14f9baf14ca322",
+  "archive": {
+    "filename": "HERA_dataset.zip",
+    "bytes": 243938238,
+    "sha256": "59c9fff6af4e71de9dc4b500d497e3d326df14abdf95b2ef07f93cc7866ec1a5",
+    "root_directory": "HERA",
+    "payload_files": 7466,
+    "zip_members": 7467,
+    "manifest_sha256": "6334e9644c74ddc94e167dcdc612a3833e8423ea939b5fb575ab9fef4581bfd1",
+    "all_members_decompressed_and_hash_verified": true
+  },
+  "licenses": {
+    "software": "MIT",
+    "scientific_data_and_figures": "CC-BY-4.0",
+    "scope_document": "LICENSING.md"
+  },
+  "authors": [
+    {"name": "Dongyeon Kim", "orcid": "0009-0006-8048-2696"},
+    {"name": "Hyunjun Jung", "orcid": "0000-0002-6717-1395"}
+  ],
+  "privacy_and_integrity": {
+    "metadata_files_with_documented_length_preserving_masks": 197,
+    "trial_files_compared_byte_identical_to_originals": 7072,
+    "frozen_execution_source_files": 30,
+    "execution_source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
+    "manuscript_and_reviewer_documents_in_archive": false,
+    "source_data_modified": false,
+    "historical_hashes_relabelled_as_public_hashes": false
+  },
+  "fresh_extraction_reanalysis": {
+    "completed_utc": "2026-09-08T01:46:49.117853+00:00",
+    "passed": true,
+    "new_experiments_run": false,
+    "regression_tests_passed": 76,
+    "saved_analyses_exactly_reproduced": 11,
+    "scheduler_trials_audited": 288,
+    "independent_scheduler_valid": true,
+    "physical_and_integrated_traces_audited": 1184,
+    "trace_samples_audited": 608000,
+    "integrated_trials_audited": 160,
+    "server_batches_audited": 32,
+    "server_log_prefixes_audited": 64,
+    "server_trial_controls_audited": 448,
+    "all_four_table_claim_sets_exact": true,
+    "all_four_table_texts_exact": true,
+    "archive_input_bytes_unchanged_after_reanalysis": true,
+    "errors": []
+  },
+  "notes": [
+    "This is a record of a locally prepared and verified upload, not proof of Zenodo publication or a registered DOI.",
+    "The ZIP contains the exact software snapshot identified above; later repository changes to this release record do not change the archived snapshot.",
+    "Historical metadata hashes remain historical. PUBLIC_DATA_MANIFEST.json supplies separate original/public file identities and server-line bindings.",
+    "After publication, verify anonymous access and cite the actual dataset-version DOI and the matching software snapshot."
+  ]
+}
