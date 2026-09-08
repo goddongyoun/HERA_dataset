@@ -23,7 +23,7 @@ The project-authored scientific data, experimental manifests, result exports, sc
 
 Software files remain MIT-licensed even when bundled with a data archive or located inside one of the directories above. Documentation describing scientific datasets or findings follows CC BY 4.0; instructions for operating the software follow MIT. The text of each licence governs its respective material. A software archive's `MIT` metadata field does not replace the CC BY 4.0 licence for included scientific material, and a dataset archive's `CC-BY-4.0` field does not replace the MIT licence for included scripts.
 
-For attribution, identify **Dongyeon Kim and Hyunjun Jung**, the **HERA** project, the relevant repository or dataset record, and the CC BY 4.0 licence, and indicate changes. The repository is <https://github.com/goddongyoun/HERA_dataset>. Use a registered record DOI once one exists; this notice does not assign a DOI or assert that a raw-data deposit is already public.
+For attribution, identify **Dongyeon Kim and Hyunjun Jung**, the **HERA** project, the relevant repository or dataset record, and the CC BY 4.0 licence, and indicate changes. The repository is <https://github.com/goddongyoun/HERA_dataset>. The published data version is **HERA (2026), Zenodo, <https://doi.org/10.5281/zenodo.22652578>**. This dataset DOI is not a journal article DOI or a separately assigned software DOI. Publication-status wording does not change the licensing scope stated above.
 
 ## Third-party material and exclusions
 

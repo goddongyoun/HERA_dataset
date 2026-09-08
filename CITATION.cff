@@ -2,7 +2,7 @@ cff-version: 1.2.0
 type: software
 repository-code: "https://github.com/goddongyoun/HERA_dataset"
 title: "HERA"
-message: "If you use HERA software, please cite this repository using the metadata in this file. Cite any separately deposited dataset using its own record."
+message: "If you use HERA software, cite this repository and the exact software commit. For the associated raw data, cite HERA (2026), Zenodo, https://doi.org/10.5281/zenodo.22652578. That DOI identifies the dataset version, not a separate software release."
 license: MIT
 authors:
   - family-names: Kim

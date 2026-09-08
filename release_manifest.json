@@ -4,7 +4,7 @@
   "total_trials": 1472,
   "experiment_source_sha256": "73b25c2272adadd37b4cfad44bc5cde3b8e2821d13f886f2b1996f8ca463f1c5",
   "experiment_source_file_count": 30,
-  "release_status": "HERA code and result package; author metadata confirmed; software MIT and scientific data/figures CC BY 4.0 as scoped in LICENSING.md; raw data prepared separately, not included in Git; no DOI assigned.",
+  "release_status": "HERA code and result package; software MIT and scientific data/figures CC BY 4.0 as scoped in LICENSING.md; full main_001 evidence published separately at dataset DOI 10.5281/zenodo.22652578, not included in Git; no separate software DOI claimed.",
   "repository_url": "https://github.com/goddongyoun/HERA_dataset",
   "path_marker": "SOURCE_WORKSPACE denotes an intentionally removed historical workstation prefix. These report derivatives are previews, not immutable raw-evidence inputs.",
   "raw_evidence_included": false,

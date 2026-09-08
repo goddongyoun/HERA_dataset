@@ -14,9 +14,9 @@ The first command verifies 30 frozen execution files plus the copied/exported pa
 
 ## 2. Obtain the full immutable evidence
 
-**This step is currently blocked for outside readers: the raw archive has not yet been published.** See [data availability](DATA_AVAILABILITY.md). Do not substitute result exports for raw trial evidence.
+The full evidence is publicly available in the [HERA dataset, DOI 10.5281/zenodo.22652578](https://doi.org/10.5281/zenodo.22652578). No login is required. See [data availability](DATA_AVAILABILITY.md); do not substitute Git result exports for raw trial evidence.
 
-Once the public `HERA_dataset.zip` archive is available, download it and check its published SHA-256. Extract it into a separate `evidence/` directory, not over the repository. Its top-level folder is `HERA/`, so the campaign is `evidence/HERA/runs/main_001`. Do not substitute an older internal manuscript/evidence ZIP or let an archive overwrite this checkout's files.
+Download [HERA_dataset.zip](https://zenodo.org/api/records/22652578/files/HERA_dataset.zip/content) and its [SHA-256 file](https://zenodo.org/api/records/22652578/files/HERA_dataset.sha256/content). The expected ZIP size is 243,938,238 bytes and SHA-256 is `59c9fff6af4e71de9dc4b500d497e3d326df14abdf95b2ef07f93cc7866ec1a5`. Extract it into a separate `evidence/` directory, not over the repository. Its top-level folder is `HERA/`, so the campaign is `evidence/HERA/runs/main_001`. Do not substitute an older internal manuscript/evidence ZIP or let an archive overwrite this checkout's files.
 
 The full campaign must include the files listed in `DATA_AVAILABILITY.md`, not just traces. The public archive retains measurement records, manifested conditions and frozen execution source unchanged; selected path/device metadata are disclosed public derivatives. `PUBLIC_DATA_MANIFEST.json` records original and public hashes. Verify the extracted archive before reanalysis:
 

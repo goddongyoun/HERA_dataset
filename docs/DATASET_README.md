@@ -8,7 +8,9 @@ Authors, in order: Dongyeon Kim (ORCID 0009-0006-8048-2696), Hyunjun Jung (ORCID
 
 ## Publication and licenses
 
-This guide describes the separately prepared `HERA_dataset.zip`. A local ZIP or a reserved DOI is not a published record. Use only the actual published Zenodo URL and dataset-version DOI after publication; no DOI is invented here. The GitHub source archive alone does not contain these raw data.
+This guide describes the published [HERA dataset](https://doi.org/10.5281/zenodo.22652578), released on 8 September 2026. Download [HERA_dataset.zip](https://zenodo.org/api/records/22652578/files/HERA_dataset.zip/content) and its [SHA-256 file](https://zenodo.org/api/records/22652578/files/HERA_dataset.sha256/content) without a login. The ZIP is 243,938,238 bytes and its SHA-256 is `59c9fff6af4e71de9dc4b500d497e3d326df14abdf95b2ef07f93cc7866ec1a5`. The full public download matches the checked package. The GitHub source archive alone does not contain these raw data.
+
+The dataset includes software commit `82ae54b209389ef4917b857bdd14f9baf14ca322`. Documentation inside the immutable ZIP preserves its packaging-time status; this GitHub guide and [DATA_RELEASE.json](DATA_RELEASE.json) record the subsequent publication. The ZIP has not been repackaged merely to change historical documentation.
 
 Scientific data, reports and figures are licensed under **CC BY 4.0** (`LICENSE-DATA`). Bundled software and its associated software documentation are **MIT** (`LICENSE`). Consult `LICENSING.md` for the file/type boundaries; the data license does not replace the software license. Third-party dependencies and models retain their own licenses and are not bundled.
 
@@ -56,4 +58,4 @@ Alternatively, run `python -B tools/reproduce_public_data.py --root .` in a fres
 
 Preemption improved fully validated supervisory-command acceptance time in the tested configuration, not every latency endpoint. Complete faults were detected but every tested half-strength fault was missed. Fixed-horizon physical safety was at ceiling; local support improved mean upright deficit with adverse cases and reduced motion speed. All five integrated conditions had identical paired physical outcomes. These data do not establish additional LLM physical benefit, general diagnosis, restored locomotion or hardware/hard-real-time safety.
 
-When citing the data, identify the actual dataset-version DOI and the matching software commit/release. Do not use the manuscript's DOI as the dataset DOI or substitute a software-only DOI for this raw-data deposit.
+When citing the data, use dataset-version DOI [10.5281/zenodo.22652578](https://doi.org/10.5281/zenodo.22652578) and the matching included software commit above. This is not the manuscript DOI or a separately registered software DOI.

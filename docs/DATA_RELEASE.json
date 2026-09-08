@@ -2,10 +2,23 @@
   "schema_version": 1,
   "title": "HERA",
   "campaign_id": "main_001",
-  "publication_status": "upload_ready_not_published",
-  "dataset_doi": null,
-  "dataset_download_url": null,
-  "unauthenticated_dataset_download_verified": false,
+  "publication_status": "published",
+  "dataset_doi": "10.5281/zenodo.22652578",
+  "dataset_record_url": "https://zenodo.org/records/22652578",
+  "dataset_download_url": "https://zenodo.org/api/records/22652578/files/HERA_dataset.zip/content",
+  "dataset_checksum_url": "https://zenodo.org/api/records/22652578/files/HERA_dataset.sha256/content",
+  "publication_date": "2026-09-08",
+  "resource_type": "dataset",
+  "unauthenticated_dataset_download_verified": true,
+  "publication_verification": {
+    "full_download_checked_at_utc": "2026-09-08T08:09:51.1258576Z",
+    "authentication_used": false,
+    "complete_zip_downloaded_and_sha256_verified": true,
+    "published_sidecar_matches_downloaded_zip": true,
+    "latest_metadata_recheck_at_utc": "2026-09-08T12:15:18Z",
+    "latest_recheck_scope": "Anonymous DOI/API/GitHub access, published ZIP size and SHA-256 sidecar; not another full ZIP download.",
+    "zenodo_record_updated_utc": "2026-09-08T08:03:44.262108+00:00"
+  },
   "software_repository": "https://github.com/goddongyoun/HERA_dataset",
   "software_commit_in_archive": "82ae54b209389ef4917b857bdd14f9baf14ca322",
   "archive": {
@@ -56,9 +69,10 @@
     "errors": []
   },
   "notes": [
-    "This is a record of a locally prepared and verified upload, not proof of Zenodo publication or a registered DOI.",
+    "The HERA dataset is published at the specific-version DOI 10.5281/zenodo.22652578. Anonymous full-download verification and the later metadata-only recheck are recorded separately above.",
     "The ZIP contains the exact software snapshot identified above; later repository changes to this release record do not change the archived snapshot.",
     "Historical metadata hashes remain historical. PUBLIC_DATA_MANIFEST.json supplies separate original/public file identities and server-line bindings.",
-    "After publication, verify anonymous access and cite the actual dataset-version DOI and the matching software snapshot."
+    "The dataset DOI is not the journal article DOI or a separate software DOI. Cite it with the matching included software snapshot.",
+    "The published ZIP and frozen execution/raw data are unchanged. Its bundled documentation retains packaging-time wording; this record reflects subsequent publication."
   ]
 }
